@@ -2,53 +2,52 @@
 <html lang="en">
  
 
-  <head>
+<head>
 
 
-    <meta charset="utf-8">
+  <meta charset="utf-8">
 
-    <title>P01 Week2</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400%7cTitillium+Web:400,200,700' rel='stylesheet' type='text/css'>
+  <title>Juu Furniture</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400%7cTitillium+Web:400,200,700' rel='stylesheet' type='text/css'>
 
-  </head>
+</head>
 
 
-  <body>
-<header>
-    <div class="nav-bar">
-      <a class="menu-nav" ></a>
-        
-        <div id="logo">
-          <img src="img/logo-blue.png" alt="logo">
-        </div>
-        
-        <nav id="menu">
-          <ul id="menu-nav">
+<body>
+  <header>
+      <div class="nav-bar">
+        <a class="menu-nav" ></a>
+          
+          <div id="logo">
+            <img src="img/logo-blue.png" alt="logo">
+          </div>
+          
+          <nav id="menu">
+            <ul id="menu-nav">
               <li><a href="#top">Home</a></li>
-                <li><a href="#interactive">Interactive Elements</a></li>
-                <li><a href="#text">Text Styling</a></li>
-                <li><a href="#combined">Combined Elements</a></li>
+              <li><a href="#interactive">Interactive Elements</a></li>
+              <li><a href="#text">Text Styling</a></li>
+              <li><a href="#combined">Combined Elements</a></li>
             </ul>
-        </nav>
-        
-    </div>
-</header>
+          </nav>
+          
+      </div>
+  </header>
 
 
-    
-<div id="top" class="container">
-  <img src="img/banner.jpg" alt="banner">
-</div>
+  
+  <div id="top" class="container">
+    <img src="img/banner.jpg" alt="banner">
+  </div>
 
 
-<div id="interactive">
-  <h2>Interactive Elements</h2>
-  <h4>links, buttons, labels, and text input fields</h4>
+  <div id="interactive">
+    <h2>Interactive Elements</h2>
+    <h4>links, buttons, labels, and text input fields</h4>
 
-
-<div class="grid">
+  <div class="grid">
     <div class="col-2of6">
       <div class="example">
             <h3>In-text Link</h3>
@@ -56,334 +55,336 @@
       </div>      
     </div>
 
-    <div class="code">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;a href="#" &gt; read more &lt;/a&gt;</p>
-      </div>
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>a{<br />
-          color:#a1caca;<br />
-          text-decoration: none;<br />
-          font-weight: 700;<br />
-          }<br />
-          <br />
-          a:hover, a:active, a:focus{<br />
-          color:#7F8289;<br />
-          text-decoration:none;<br />
-          }
-        </p>
-      </div>
+  <div class="code">
+    <div class="col-2of6">
+      <h3>html code</h3>
+      <p>&lt;a href="#" &gt; read more &lt;/a&gt;</p>
+    </div>
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>a{<br />
+        color:#a1caca;<br />
+        text-decoration: none;<br />
+        font-weight: 700;<br />
+        }<br />
+        <br />
+        a:hover, a:active, a:focus{<br />
+        color:#7F8289;<br />
+        text-decoration:none;<br />
+        }
+      </p>
     </div>
   </div>
+</div>
+
+<div class="grid">
+  <div class="col-2of6">
+    <div class="example">
+          <h3>Navigation Buttons</h3>
+          <a href="#" class="blue-button">&lt; Previous</a>
+          <a href="#" class="blue-button">Next &gt;</a>
+    </div>      
+  </div>
+
+  <div class="code">
+    <div class="col-2of6">
+      <h3>html code</h3>
+      <p>&lt;a href="#" class="blue-button"&gt;&amp;lt; Previous&lt;/a&gt;<br />
+          &lt;a href="#" class="blue-button"&gt;Next &amp;gt;&lt;/a&gt;</p>
+    </div>
+
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>.blue-button, .blue-button:visited {<br />
+      font-family: 'Lato', sans-serif;<br />
+      font-weight: 300;<br />
+      font-size: 1.5rem;<br />
+      display: inline-block;<br />
+      background-color: #a1caca;<br />
+      color: white;<br />
+      width: 9rem;<br />
+      padding: 0.75rem 0;<br />
+      text-align: center;<br />
+      text-decoration: none;<br />
+      border-bottom: 0.2rem solid #a2a4a9;<br />
+      -webkit-transition: background-color 0.5s;<br />
+      transition: background-color 0.5s;<br />
+      -webkit-transition: border 0.5s;<br />
+      transition: border 0.5s;<br />
+      }<br />
+      <br />
+      .blue-button:hover{<br />
+      background-color: #7dbdbd;<br />
+      border-bottom: 0.2rem solid #7F8289;<br />
+      font-weight: 400;<br />
+      }
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col-2of6">
+    <div class="example">
+          <h3>Submit and Reset Button</h3>
+          <a href="#" class="blue-button">Submit</a>
+          <a href="#" class="white-button">Reset</a>
+    </div>      
+  </div>
+
+  <div class="code">
+    <div class="col-2of6">
+      <h3>html code</h3>
+      <p>&lt;a href="#" class="blue-button"&gt;Submit&lt;/a&gt;<br />
+          &lt;a href="#" class="white-button"&gt;Reset&lt;/a&gt;</p>
+    </div>
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>&lt;!-- blue button code mentioned above --&gt;<br />
+      <br />
+      .white-button, .white-button:visited {<br />
+      font-family: 'Lato', sans-serif;<br />
+      font-weight: 300;<br />
+      font-size: 1.5rem;<br />
+      display: inline-block;<br />
+      background-color: white;<br />
+      color: #a1caca;<br />
+      width: 9rem;<br />
+      padding: 0.75rem 0;<br />
+      text-align: center;<br />
+      text-decoration: none;<br />
+      border: 0.1rem solid #a1caca;<br />
+      -webkit-transition: background-color 0.5s;<br />
+      transition: background-color 0.5s;<br />
+      }<br />
+      <br />
+      .white-button:hover{<br />
+      background-color: #a1caca;<br />
+      color: white;<br />
+      font-weight: 400;<br />
+      }
+      </p>
+    </div>
+  </div>
+</div>
 
 <div class="grid">
     <div class="col-2of6">
       <div class="example">
-            <h3>Navigation Buttons</h3>
-            <a href="#" class="blue-button">&lt; Previous</a>
-            <a href="#" class="blue-button">Next &gt;</a>
-      </div>      
-    </div>
-
-    <div class="code">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;a href="#" class="blue-button"&gt;&amp;lt; Previous&lt;/a&gt;<br />
-            &lt;a href="#" class="blue-button"&gt;Next &amp;gt;&lt;/a&gt;</p>
-      </div>
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>.blue-button, .blue-button:visited {<br />
-  font-family: 'Lato', sans-serif;<br />
-  font-weight: 300;<br />
-  font-size: 1.5rem;<br />
-  display: inline-block;<br />
-  background-color: #a1caca;<br />
-  color: white;<br />
-  width: 9rem;<br />
-  padding: 0.75rem 0;<br />
-  text-align: center;<br />
-  text-decoration: none;<br />
-  border-bottom: 0.2rem solid #a2a4a9;<br />
-  -webkit-transition: background-color 0.5s;<br />
-  transition: background-color 0.5s;<br />
-  -webkit-transition: border 0.5s;<br />
-  transition: border 0.5s;<br />
-}<br />
-<br />
-.blue-button:hover{<br />
-  background-color: #7dbdbd;<br />
-  border-bottom: 0.2rem solid #7F8289;<br />
-  font-weight: 400;<br />
-}
-        </p>
-      </div>
-    </div>
-    </div>
-
-<div class="grid">
-    <div class="col-2of6">
-      <div class="example">
-            <h3>Submit and Reset Button</h3>
-            <a href="#" class="blue-button">Submit</a>
-            <a href="#" class="white-button">Reset</a>
-      </div>      
-    </div>
-
-    <div class="code">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;a href="#" class="blue-button"&gt;Submit&lt;/a&gt;<br />
-            &lt;a href="#" class="white-button"&gt;Reset&lt;/a&gt;</p>
-      </div>
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>&lt;!-- blue button code mentioned above --&gt;<br />
-<br />
-.white-button, .white-button:visited {<br />
-  font-family: 'Lato', sans-serif;<br />
-  font-weight: 300;<br />
-  font-size: 1.5rem;<br />
-  display: inline-block;<br />
-  background-color: white;<br />
-  color: #a1caca;<br />
-  width: 9rem;<br />
-  padding: 0.75rem 0;<br />
-  text-align: center;<br />
-  text-decoration: none;<br />
-  border: 0.1rem solid #a1caca;<br />
-  -webkit-transition: background-color 0.5s;<br />
-  transition: background-color 0.5s;<br />
-}<br />
-<br />
-.white-button:hover{<br />
-  background-color: #a1caca;<br />
-  color: white;<br />
-  font-weight: 400;<br />
-}
-        </p>
-      </div>
-    </div>
-  </div>
-
-<div class="grid">
-      <div class="col-2of6">
-      <div class="example">
-            <h3>Text Input Field with a Label</h3>
-            <form method="post" action="#">
+        <h3>Text Input Field with a Label</h3>
+        <form method="post" action="#">
         <label for="form-name">Name:</label>
         <input type="text" id="form-name">
-      </form>
-      </div>      
-    </div>
-
-    <div class="code">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;form method="post" action="#"&gt;<br />
-        &lt;label for="form-name"&gt;Name:&lt;/label&gt;<br />
-        &lt;input type="text" id="form-name"&gt;<br />
-      &lt;/form&gt;</p>
-      </div>
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>form{<br />
-  display: inline-block;<br />
-  padding: 1rem;<br />
-  width:100%;<br />
-  font-size: 1.5rem;<br />
-}<br />
-<br />
-label{<br />
-  display: block;<br />
-}<br />
-<br />
-input{<br />
-  width: 100%;<br />
-  padding:0.5rem ;<br />
-  font-size: 1.2rem;<br />
-}
-        </p>
-      </div>
-    </div>
+        </form>
+    </div>      
   </div>
 
-  </div> <!-- end of #interactive -->
+  <div class="code">
+    <div class="col-2of6">
+      <h3>html code</h3>
+      <p>&lt;form method="post" action="#"&gt;<br />
+      &lt;label for="form-name"&gt;Name:&lt;/label&gt;<br />
+      &lt;input type="text" id="form-name"&gt;<br />
+      &lt;/form&gt;</p>
+    </div>
+
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>form{<br />
+      display: inline-block;<br />
+      padding: 1rem;<br />
+      width:100%;<br />
+      font-size: 1.5rem;<br />
+      }<br />
+      <br />
+      label{<br />
+      display: block;<br />
+      }<br />
+      <br />
+      input{<br />
+      width: 100%;<br />
+      padding:0.5rem ;<br />
+      font-size: 1.2rem;<br />
+      }
+      </p>
+    </div>
+  </div>
+</div>
+
+</div> <!-- end of #interactive -->
 
 <div id="text">
   <h2>Text Styling</h2>
   <h4>headings, paragraphs, and lists</h4>
 
 <div class="grid">
-    <div class="col-2of6">
-      <div class="example">
-        
-            <h3>3 levels of headings</h3>
-            <p>h2</p>
-            <p class="h2">heading</p>
-            <p>h3</p>
-            <p class="h3">heading</p>
-            <p>h4</p>
-            <p class="h4">heading</p>
-      </div>      
-    </div>
-
-    <div class="code">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;p&gt;h2&lt;/p&gt;<br />
-&lt;h2&gt;heading&lt;/h2&gt;<br />
-&lt;p&gt;h3&lt;/p&gt;<br />
-&lt;h3&gt;heading&lt;/h3&gt;<br />
-&lt;p&gt;h4&lt;/p&gt;<br />
-&lt;h4&gt;heading&lt;/h4&gt;</p>
-      </div>
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>h2{<br />
-  font-family: 'Titillium Web', sans-serif;<br />
-  font-weight: 700;<br />
-  font-size: 2.5rem;<br />
-  margin: 0;<br />
-  color:#a1caca;<br />
-}<br />
-<br />
-h3{<br />
-  font-family: 'Titillium Web', sans-serif;<br />
-  font-weight: 400;<br />
-  font-size:1.5rem;<br />
-  color:#a1caca;<br />
-  margin: 0;<br />
-}<br />
-<br />
-h4{<br />
-  font-family: 'Lato', sans-serif;<br />
-  font-weight: 100;<br />
-  font-size: 1.3rem;<br />
-  margin: 0;<br />
-}
-        </p>
-      </div>
-    </div>
+  <div class="col-2of6">
+    <div class="example">
+      
+          <h3>3 levels of headings</h3>
+          <p>h2</p>
+          <p class="h2">heading</p>
+          <p>h3</p>
+          <p class="h3">heading</p>
+          <p>h4</p>
+          <p class="h4">heading</p>
+    </div>      
   </div>
 
-  <div class="grid">
+  <div class="code">
     <div class="col-2of6">
-      <div class="example">
-        
-            <h3>Paragraph</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. Curabitur a enim nibh. Etiam ornare, tellus nec congue fermentum, tortor est posuere nulla, vitae iaculis dui sem et ante. Maecenas varius ultricies dolor, eget congue nisi imperdiet quis. </p>
-      </div>      
+      <h3>html code</h3>
+      <p>&lt;p&gt;h2&lt;/p&gt;<br />
+      &lt;h2&gt;heading&lt;/h2&gt;<br />
+      &lt;p&gt;h3&lt;/p&gt;<br />
+      &lt;h3&gt;heading&lt;/h3&gt;<br />
+      &lt;p&gt;h4&lt;/p&gt;<br />
+      &lt;h4&gt;heading&lt;/h4&gt;</p>
     </div>
 
-    <div class="code">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. Curabitur a enim nibh. Etiam ornare, tellus nec congue fermentum, tortor est posuere nulla, vitae iaculis dui sem et ante. Maecenas varius ultricies dolor, eget congue nisi imperdiet quis. &lt;/p&gt;</p>
-      </div>
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>p{<br />
-  font-family: 'Lato', sans-serif;<br />
-  font-size: 1rem;<br />
-  font-weight: 300;<br />
-  color:#7F8289;<br />
-  line-height:1.5rem;<br />
-}
-        </p>
-      </div>
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>h2{<br />
+      font-family: 'Titillium Web', sans-serif;<br />
+      font-weight: 700;<br />
+      font-size: 2.5rem;<br />
+      margin: 0;<br />
+      color:#a1caca;<br />
+      }<br />
+      <br />
+      h3{<br />
+      font-family: 'Titillium Web', sans-serif;<br />
+      font-weight: 400;<br />
+      font-size:1.5rem;<br />
+      color:#a1caca;<br />
+      margin: 0;<br />
+      }<br />
+      <br />
+      h4{<br />
+      font-family: 'Lato', sans-serif;<br />
+      font-weight: 100;<br />
+      font-size: 1.3rem;<br />
+      margin: 0;<br />
+      }
+      </p>
     </div>
   </div>
+</div>
 
-  <div class="grid">
+<div class="grid">
+  <div class="col-2of6">
+    <div class="example">
+      
+          <h3>Paragraph</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. Curabitur a enim nibh. Etiam ornare, tellus nec congue fermentum, tortor est posuere nulla, vitae iaculis dui sem et ante. Maecenas varius ultricies dolor, eget congue nisi imperdiet quis. </p>
+    </div>      
+  </div>
+
+  <div class="code">
     <div class="col-2of6">
-      <div class="example">
-        
-            <h3>Bulletted List</h3>
-            <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Duis eu dolor a nibh</li>
-            <li>Ut eu tortor et nisl</li>
-            </ul>
-      </div>      
+      <h3>html code</h3>
+      <p>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. Curabitur a enim nibh. Etiam ornare, tellus nec congue fermentum, tortor est posuere nulla, vitae iaculis dui sem et ante. Maecenas varius ultricies dolor, eget congue nisi imperdiet quis. &lt;/p&gt;</p>
     </div>
-
-    <div class="code">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;ul&gt;<br />
-            &lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;<br />
-            &lt;li&gt;Duis eu dolor a nibh&lt;/li&gt;<br />
-            &lt;li&gt;Ut eu tortor et nisl&lt;/li&gt;<br />
-            &lt;/ul&gt;</p>
-      </div>
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>ul{<br />
-  font-family: 'Lato', sans-serif;<br />
-  font-size: 1rem;<br />
-  font-weight: 300;<br />
-  color:#7F8289;<br />
-  line-height:1.5rem;<br />
-  list-style-type: none;<br />
-  padding-left: 1rem;<br />
-}<br />
-<br />
-li:before {<br />
-    content: "• ";<br />
-    color: #a1caca; <br />
-}
-        </p>
-      </div>
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>p{<br />
+      font-family: 'Lato', sans-serif;<br />
+      font-size: 1rem;<br />
+      font-weight: 300;<br />
+      color:#7F8289;<br />
+      line-height:1.5rem;<br />
+      }
+      </p>
     </div>
   </div>
+</div>
+
+<div class="grid">
+  <div class="col-2of6">
+    <div class="example">
+          <h3>Bulletted List</h3>
+          <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Duis eu dolor a nibh</li>
+          <li>Ut eu tortor et nisl</li>
+          </ul>
+    </div>      
+  </div>
+
+  <div class="code">
+    <div class="col-2of6">
+      <h3>html code</h3>
+      <p>&lt;ul&gt;<br />
+          &lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;<br />
+          &lt;li&gt;Duis eu dolor a nibh&lt;/li&gt;<br />
+          &lt;li&gt;Ut eu tortor et nisl&lt;/li&gt;<br />
+          &lt;/ul&gt;</p>
+    </div>
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>ul{<br />
+        font-family: 'Lato', sans-serif;<br />
+        font-size: 1rem;<br />
+        font-weight: 300;<br />
+        color:#7F8289;<br />
+        line-height:1.5rem;<br />
+        list-style-type: none;<br />
+        padding-left: 1rem;<br />
+        }<br />
+        <br />
+        li:before {<br />
+          content: "• ";<br />
+          color: #a1caca; <br />
+        }
+      </p>
+    </div>
+  </div>
+</div>
 
 
 <div class="grid">
-    <div class="col-2of6">
-      <div class="example">
-        <div class="container2">
-            <h3>Numbered List</h3>
-            <ol>
-              <li>Vestibulum id condimentum mi</li>
-              <li>Quisque tempus interdum massa</li>
-              <li>Phasellus accumsan interdum dui</li>
-            </ol>
-      </div>      
-    </div>
+  <div class="col-2of6">
+    <div class="example">
+      <div class="container2">
+          <h3>Numbered List</h3>
+          <ol>
+            <li>Vestibulum id condimentum mi</li>
+            <li>Quisque tempus interdum massa</li>
+            <li>Phasellus accumsan interdum dui</li>
+          </ol>
+    </div>      
   </div>
+</div>
 
-    <div class="code">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;ol&gt;<br />
-              &lt;li&gt;Vestibulum id condimentum mi&lt;/li&gt;<br />
-              &lt;li&gt;Quisque tempus interdum massa&lt;/li&gt;<br />
-              &lt;li&gt;Phasellus accumsan interdum dui&lt;/li&gt;<br />
-            &lt;/ol&gt;</p>
-      </div>
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>ol { <br />
-  counter-reset: item;<br />
-  font-family: 'Lato', sans-serif;<br />
-  font-size: 1rem;<br />
-  font-weight: 300;<br />
-  color:#7F8289;<br />
-  line-height:1.5rem;<br />
-  list-style-type: none;<br />
-  padding-left: 1rem; <br />
-}<br />
-ol li:before { <br />
-  content: counter(item) ". "; <br />
-  counter-increment: item; <br />
-  color: #a1caca; <br />
-}</p>
-      </div>
+  <div class="code">
+    <div class="col-2of6">
+      <h3>html code</h3>
+      <p>&lt;ol&gt;<br />
+          &lt;li&gt;Vestibulum id condimentum mi&lt;/li&gt;<br />
+          &lt;li&gt;Quisque tempus interdum massa&lt;/li&gt;<br />
+          &lt;li&gt;Phasellus accumsan interdum dui&lt;/li&gt;<br />
+          &lt;/ol&gt;</p>
+    </div>
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>ol { <br />
+      counter-reset: item;<br />
+      font-family: 'Lato', sans-serif;<br />
+      font-size: 1rem;<br />
+      font-weight: 300;<br />
+      color:#7F8289;<br />
+      line-height:1.5rem;<br />
+      list-style-type: none;<br />
+      padding-left: 1rem; <br />
+      }<br />
+      ol li:before { <br />
+      content: counter(item) ". "; <br />
+      counter-increment: item; <br />
+      color: #a1caca; <br />
+      }</p>
     </div>
   </div>
+</div>
 
 </div><!-- end of #text -->
 
@@ -392,243 +393,243 @@ ol li:before { <br />
   <h4>main navigation and product listing</h4>
 
 <div class="grid">
-    <div class="col-2of6">
-      <div class="example">
-        
-    <h3>Main Navigation</h3>
-    <p>Example: navigation bar at the top of this page</p>
-  </div>
+  <div class="col-2of6">
+    <div class="example">
+      
+  <h3>Main Navigation</h3>
+  <p>Example: navigation bar at the top of this page</p>
+</div>
 </div>
 
 <div class="code">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;header&gt;<br />&lt;div class="nav-bar"&gt;<br />
+    <div class="col-2of6">
+      <h3>html code</h3>
+      <p>&lt;header&gt;<br />&lt;div class="nav-bar"&gt;<br />
       &lt;a class="menu-nav" &gt;&lt;/a&gt;<br />
-        <br />
-        &lt;div id="logo"&gt;<br />
-          &lt;img src="img/logo-blue.png" alt="logo"&gt;<br />
-        &lt;/div&gt;<br />
-        <br />
-        &lt;nav id="menu"&gt;<br />
-          &lt;ul id="menu-nav"&gt;<br />
-              &lt;li&gt;&lt;a href="#top"&gt;Home&lt;/a&gt;&lt;/li&gt;<br />
-                &lt;li&gt;&lt;a href="#interactive"&gt;Interactive Elements&lt;/a&gt;&lt;/li&gt;<br />
-                &lt;li&gt;&lt;a href="#text"&gt;Text Styling&lt;/a&gt;&lt;/li&gt;<br />
-                &lt;li&gt;&lt;a href="#combined"&gt;Combined Elements&lt;/a&gt;&lt;/li&gt;<br />
-            &lt;/ul&gt;<br />
-        &lt;/nav&gt;<br />
-        <br />
-    &lt;/div&gt;<br />
-    &lt;/header&gt;</p>
-      </div>
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>header {<br />
-  width: 100%;<br />
-}<br />
-<br />
-header .nav-bar {<br />
-  position: fixed;<br />
-  top: 0;<br />
-  left: 0;<br />
-  width: 100%;<br />
-  height: 4rem;<br />
-  background: #ffffff;<br />
-  <br />
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);<br />
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);<br />
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);<br />
-}<br />
-<br />
-header #logo {<br />
-  color: #FFFFFF;<br />
-  float: left;<br />
-  padding: 1rem 0;<br />
-  margin-left: 3rem;<br />
-}<br />
-<br />
-header #logo img{<br />
-  width:8rem;<br />
-  height:4rem;<br />
-  position: fixed;<br />
-  top:0;<br />
-  left:0;<br />
-}<br />
-<br />
-header #logo a {<br />
-  background: url(.../img/logo.png) no-repeat;<br />
-  width: 8rem;<br />
-  height: 4rem;<br />
-  text-indent: -9999px;<br />
-  display: block;<br />
-  opacity: 1;<br />
-  <br />
-  -webkit-transition: opacity 0.25s ease-in-out 0s; <br />
+      <br />
+      &lt;div id="logo"&gt;<br />
+      &lt;img src="img/logo-blue.png" alt="logo"&gt;<br />
+      &lt;/div&gt;<br />
+      <br />
+      &lt;nav id="menu"&gt;<br />
+      &lt;ul id="menu-nav"&gt;<br />
+      &lt;li&gt;&lt;a href="#top"&gt;Home&lt;/a&gt;&lt;/li&gt;<br />
+      &lt;li&gt;&lt;a href="#interactive"&gt;Interactive Elements&lt;/a&gt;&lt;/li&gt;<br />
+      &lt;li&gt;&lt;a href="#text"&gt;Text Styling&lt;/a&gt;&lt;/li&gt;<br />
+      &lt;li&gt;&lt;a href="#combined"&gt;Combined Elements&lt;/a&gt;&lt;/li&gt;<br />
+      &lt;/ul&gt;<br />
+      &lt;/nav&gt;<br />
+      <br />
+      &lt;/div&gt;<br />
+      &lt;/header&gt;</p>
+    </div>
+
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>header {<br />
+      width: 100%;<br />
+      }<br />
+      <br />
+      header .nav-bar {<br />
+      position: fixed;<br />
+      top: 0;<br />
+      left: 0;<br />
+      width: 100%;<br />
+      height: 4rem;<br />
+      background: #ffffff;<br />
+      <br />
+      -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);<br />
+      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);<br />
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);<br />
+      }<br />
+      <br />
+      header #logo {<br />
+      color: #FFFFFF;<br />
+      float: left;<br />
+      padding: 1rem 0;<br />
+      margin-left: 3rem;<br />
+      }<br />
+      <br />
+      header #logo img{<br />
+      width:8rem;<br />
+      height:4rem;<br />
+      position: fixed;<br />
+      top:0;<br />
+      left:0;<br />
+      }<br />
+      <br />
+      header #logo a {<br />
+      background: url(.../img/logo.png) no-repeat;<br />
+      width: 8rem;<br />
+      height: 4rem;<br />
+      text-indent: -9999px;<br />
+      display: block;<br />
+      opacity: 1;<br />
+      <br />
+      -webkit-transition: opacity 0.25s ease-in-out 0s; <br />
      -moz-transition: opacity 0.25s ease-in-out 0s;<br />
      -o-transition: opacity 0.25s ease-in-out 0s;<br />
-        transition: opacity 0.25s ease-in-out 0s; <br />
-}<br />
-<br />
-header #logo a:hover {<br />
-  opacity: 0.65;<br />
-  filter: alpha(opacity=65);  <br />
-}<br />
-<br />
-nav#menu {<br />
-  float: right;<br />
-  margin-right: 2rem;<br />
-}<br />
-<br />
-nav#menu #menu-nav {<br />
-  margin: 0;<br />
-  padding: 0; <br />
-}<br />
-<br />
-nav#menu #menu-nav li {<br />
-  list-style: none;<br />
-  display: inline-block;<br />
-  margin-left: 3rem;  <br />
-}<br />
-<br />
-nav#menu #menu-nav li:first-child {<br />
-  margin-left: 0; <br />
-}<br />
-<br />
-nav#menu #menu-nav li a {<br />
-  color: #7F8289;<br />
-  font-size: 0.8rem;<br />
-  font-weight: 300;<br />
-  line-height: 4rem;<br />
-  display: block;<br />
-  text-transform: uppercase;<br />
-}<br />
-<br />
-nav#menu #menu-nav li.current a,<br />
-nav#menu #menu-nav li a:hover {<br />
-  color: #a1caca;<br />
-}</p>
-      </div>
+      transition: opacity 0.25s ease-in-out 0s; <br />
+      }<br />
+      <br />
+      header #logo a:hover {<br />
+      opacity: 0.65;<br />
+      filter: alpha(opacity=65);  <br />
+      }<br />
+      <br />
+      nav#menu {<br />
+      float: right;<br />
+      margin-right: 2rem;<br />
+      }<br />
+      <br />
+      nav#menu #menu-nav {<br />
+      margin: 0;<br />
+      padding: 0; <br />
+      }<br />
+      <br />
+      nav#menu #menu-nav li {<br />
+      list-style: none;<br />
+      display: inline-block;<br />
+      margin-left: 3rem;  <br />
+      }<br />
+      <br />
+      nav#menu #menu-nav li:first-child {<br />
+      margin-left: 0; <br />
+      }<br />
+      <br />
+      nav#menu #menu-nav li a {<br />
+      color: #7F8289;<br />
+      font-size: 0.8rem;<br />
+      font-weight: 300;<br />
+      line-height: 4rem;<br />
+      display: block;<br />
+      text-transform: uppercase;<br />
+      }<br />
+      <br />
+      nav#menu #menu-nav li.current a,<br />
+      nav#menu #menu-nav li a:hover {<br />
+      color: #a1caca;<br />
+      }</p>
     </div>
   </div>
+</div>
 
 
-      <div class="example">
-        
-    <h3>Product Listing</h3>
-    <p>Following is a sample product listing</p>
-  </div>
+<div class="example"> 
+  <h3>Product Listing</h3>
+  <p>Following is a sample product listing</p>
+</div>
 
 
 <div class="filter">
-<p><a href="#">What's New</a> | <a href="#">Chairs</a> | <a href="#">Tables</a> | <a href="#">Storage</a></p>
+  <p><a href="#">What's New</a> | <a href="#">Chairs</a> | <a href="#">Tables</a> | <a href="#">Storage</a></p>
 </div>
- 
-  <div class="grid">
 
-    <div class="col-2of6">
-      <a href="#"><img src="img/product1.jpg" alt="product1"></a>
-    </div>
-    <div class="col-4of6">
-      <a href="#"><img src="img/product2.jpg" alt="product2"></a>
-    </div>
+<div class="grid">
 
-    <div class="col-3of6">
-      <a href="#"><img src="img/product3.jpg" alt="product3"></a>
-    </div>
-    <div class="col-3of6">
-      <a href="#"><img src="img/product4.jpg" alt="product4"></a>
-    </div>
-
-    <div class="col-2of6">
-      <a href="#"><img src="img/product5.jpg" alt="product5"></a>
-    </div>
-    <div class="col-2of6">
-      <a href="#"><img src="img/product6.jpg" alt="product6"></a>
-    </div>
-    <div class="col-2of6">
-      <a href="#"><img src="img/product7.jpg" alt="product7"></a>
-    </div>
+  <div class="col-2of6">
+    <a href="#"><img src="img/product1.jpg" alt="product1"></a>
   </div>
+  <div class="col-4of6">
+    <a href="#"><img src="img/product2.jpg" alt="product2"></a>
+  </div>
+
+  <div class="col-3of6">
+    <a href="#"><img src="img/product3.jpg" alt="product3"></a>
+  </div>
+  <div class="col-3of6">
+    <a href="#"><img src="img/product4.jpg" alt="product4"></a>
+  </div>
+
+  <div class="col-2of6">
+    <a href="#"><img src="img/product5.jpg" alt="product5"></a>
+  </div>
+  <div class="col-2of6">
+    <a href="#"><img src="img/product6.jpg" alt="product6"></a>
+  </div>
+  <div class="col-2of6">
+    <a href="#"><img src="img/product7.jpg" alt="product7"></a>
+  </div>
+</div>
 
 
 <div class="grid">
 
 <div class="code2">
-      <div class="col-2of6">
-        <h3>html code</h3>
-        <p>&lt;div class="filter"&gt;<br />
-&lt;p&gt;&lt;a href="#"&gt;What's New&lt;/a&gt; | &lt;a href="#"&gt;Chairs&lt;/a&gt; | &lt;a href="#"&gt;Tables&lt;/a&gt; | &lt;a href="#"&gt;Storage&lt;/a&gt;&lt;/p&gt;<br />
-&lt;/div&gt;<br />
-<br />
-  &lt;div class="grid"&gt;<br />
-  &lt;div class="product"&gt;<br />
-<br />
-    &lt;div class="col-2of6"&gt;<br />
+    <div class="col-2of6">
+      <h3>html code</h3>
+      <p>&lt;div class="filter"&gt;<br />
+      &lt;p&gt;&lt;a href="#"&gt;What's New&lt;/a&gt; | &lt;a href="#"&gt;Chairs&lt;/a&gt; | &lt;a href="#"&gt;Tables&lt;/a&gt; | &lt;a href="#"&gt;Storage&lt;/a&gt;&lt;/p&gt;<br />
+      &lt;/div&gt;<br />
+      <br />
+      &lt;div class="grid"&gt;<br />
+      &lt;div class="product"&gt;<br />
+      <br />
+      &lt;div class="col-2of6"&gt;<br />
       &lt;a href="#"&gt;&lt;img src="img/product1.jpg" alt="product1"&gt;&lt;/a&gt;<br />
-    &lt;/div&gt;<br />
-    &lt;div class="col-4of6"&gt;<br />
+      &lt;/div&gt;<br />
+      &lt;div class="col-4of6"&gt;<br />
       &lt;a href="#"&gt;&lt;img src="img/product2.jpg" alt="product2"&gt;&lt;/a&gt;<br />
-    &lt;/div&gt;<br />
-<br />
-    &lt;div class="col-3of6"&gt;<br />
+      &lt;/div&gt;<br />
+      <br />
+      &lt;div class="col-3of6"&gt;<br />
       &lt;a href="#"&gt;&lt;img src="img/product3.jpg" alt="product3"&gt;&lt;/a&gt;<br />
-    &lt;/div&gt;<br />
-    </p>
+      &lt;/div&gt;<br />
+      </p>
       </div>
 
-      <div class="col-2of6">
-        <p>&lt;div class="col-3of6"&gt;<br />
+    <div class="col-2of6">
+      <p>&lt;div class="col-3of6"&gt;<br />
       &lt;a href="#"&gt;&lt;img src="img/product4.jpg" alt="product4"&gt;&lt;/a&gt;<br />
-    &lt;/div&gt;<br />
-<br />
-    &lt;div class="col-2of6"&gt;<br />
+      &lt;/div&gt;<br />
+      <br />
+      &lt;div class="col-2of6"&gt;<br />
       &lt;a href="#"&gt;&lt;img src="img/product5.jpg" alt="product5"&gt;&lt;/a&gt;<br />
-    &lt;/div&gt;<br />
-    &lt;div class="col-2of6"&gt;<br />
+      &lt;/div&gt;<br />
+      &lt;div class="col-2of6"&gt;<br />
       &lt;a href="#"&gt;&lt;img src="img/product6.jpg" alt="product6"&gt;&lt;/a&gt;<br />
-    &lt;/div&gt;<br />
-    &lt;div class="col-2of6"&gt;<br />
+      &lt;/div&gt;<br />
+      &lt;div class="col-2of6"&gt;<br />
       &lt;a href="#"&gt;&lt;img src="img/product7.jpg" alt="product7"&gt;&lt;/a&gt;<br />
-    &lt;/div&gt;<br />
-    &lt;/div&gt;<br />
-  &lt;/div&gt;</p>
-      </div>
-
-      <div class="col-2of6">
-        <h3>css code</h3>
-        <p>.filter{<br />
-  text-align: right;<br />
-  padding-right: 1rem;<br />
-}<br />
-<br />
-.product img{<br />
-  margin-left: 1rem;<br />
-  margin-top: 1rem;<br />
-  padding-right: 1rem;<br />
-  position: relative;<br />
-  opacity: .7;<br />
-}<br />
-<br />
-.product img:hover{<br />
-  opacity: 1;<br />
-  -webkit-transition: opacity 0.5s;<br />
-  transition: opacity 0.5s;<br />
-}<br />
-</p>
-      </div>
-
-      
+      &lt;/div&gt;<br />
+      &lt;/div&gt;<br />
+      &lt;/div&gt;</p>
     </div>
 
+    <div class="col-2of6">
+      <h3>css code</h3>
+      <p>.filter{<br />
+      text-align: right;<br />
+      padding-right: 1rem;<br />
+      }<br />
+      <br />
+      .product img{<br />
+      margin-left: 1rem;<br />
+      margin-top: 1rem;<br />
+      padding-right: 1rem;<br />
+      position: relative;<br />
+      opacity: .7;<br />
+      }<br />
+      <br />
+      .product img:hover{<br />
+      opacity: 1;<br />
+      -webkit-transition: opacity 0.5s;<br />
+      transition: opacity 0.5s;<br />
+      }<br />
+      </p>
+    </div>
 
-
-
+    
   </div>
+
+
+
+
+</div>
 
 </div>
 <!-- end of #combined -->
 
 
-  </body>
+</body>
 </html>
