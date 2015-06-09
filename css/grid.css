@@ -56,6 +56,9 @@
 	display: block;
 	clear: both;
 }
-.container2{
-	padding-left: 3rem	
+
+@media(max-width:650px){
+	.col-4{
+		width:100%;
+	}
 }
