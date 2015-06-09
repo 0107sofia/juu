@@ -175,14 +175,17 @@ nav#menu #menu-nav li a:hover {
   border-left: 2px solid #a1caca;
   margin-left: 0.5rem;
   padding-right: 1rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .example h3{
   font-size:1.8rem;
 }
 
-
+.code{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
 
 .code h3{
