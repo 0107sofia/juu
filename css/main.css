@@ -156,16 +156,19 @@ nav#menu #menu-nav li a:hover {
 }
 
 
-.container{
+.container-wide{
   margin-top: 4rem;
   position: relative;
 }
 
-.container img{
+.container-wide img{
   width: 100%;
 }
 
-
+.container{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
 
 .example{

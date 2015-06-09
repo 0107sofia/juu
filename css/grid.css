@@ -61,4 +61,9 @@
 	.col-4{
 		width:100%;
 	}
+
+	.container{
+	padding-left:1rem;
+	padding-right:1rem;
+}
 }
