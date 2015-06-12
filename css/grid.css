@@ -107,3 +107,7 @@ $pad: 20px;
 .clear-padding{
   padding:0rem;
 }
+
+img{
+	margin-left: 0rem;
+}
