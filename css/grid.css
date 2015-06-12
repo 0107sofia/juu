@@ -111,3 +111,6 @@ $pad: 20px;
 img{
 	margin-left: 0rem;
 }
+.sitemap img{
+  width: 100rem;
+}
