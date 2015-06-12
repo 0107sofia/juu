@@ -118,7 +118,7 @@ header #logo img{
 }
 
 header #logo a {
-  background: url(.../img/logo.png) no-repeat;
+  background: url(../img/logo.png) no-repeat;
   width: 8rem;
   height: 4rem;
   text-indent: -9999px;
@@ -331,14 +331,21 @@ ol li:before {
   counter-increment: item; 
   color: #a1caca; 
 }
-.product1{
-  background: url(../img/product1.jpg) no-repeat;
-  background-size:100%;
-  min-height:80rem;
+
+a img {
+  width:100%;
+  padding:0rem;
 }
 
-.product2{
-  background: url(../img/product2.jpg) no-repeat;
-  background-size:100%;
-  min-height:80rem;
+.grid img{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  position: relative;
+  opacity: .7;
+}
+
+.grid img:hover{
+  opacity: 1;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
 }
