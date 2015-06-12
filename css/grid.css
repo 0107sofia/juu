@@ -62,6 +62,7 @@ $pad: 20px;
 
 [class^='col-'] {
   padding-right: 1.5rem;
+  /*background-color: red;*/
 }
 
 [class^='col-']:last-of-type {
@@ -86,11 +87,10 @@ $pad: 20px;
   }
   [class^='col-'] {
   padding-right: 0.5rem;
+/*  padding-left: 0.5rem;
+  background-color: red;*/
 }
 
-[class^='col-']:last-of-type {
-  padding-right: 0;
-}
 }
 
 @media (max-width: 60em) {
