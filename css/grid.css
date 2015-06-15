@@ -9,7 +9,8 @@ $pad: 20px;
 .grid:after {
   content: "";
   display: block;
-  clear: both;
+  /*clear: both;*/
+
 }
 
 
@@ -62,6 +63,7 @@ $pad: 20px;
 
 [class^='col-'] {
   padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
   /*background-color: red;*/
 }
 
@@ -69,7 +71,7 @@ $pad: 20px;
   padding-right: 0;
 }
 
-@media (max-width: 30em) {
+@media (max-width: 40rem) {
   .col-6{
   width:100%;
   }
@@ -86,27 +88,21 @@ $pad: 20px;
   	width:100%;
   }
   [class^='col-'] {
-  padding-right: 0.5rem;
-/*  padding-left: 0.5rem;
-  background-color: red;*/
-}
+    padding-right:0;
+    /*background-color: red;*/
+  }
 
 }
 
-@media (max-width: 100rem) {
-
+@media (max-width: 60rem) {
   #menu-nav{
     display: none;
   }
   .hamburger{
     display:block;
-
   }
 }
 
-.clear-padding{
-  padding:0rem;
-}
 
 img{
 	margin-left: 0rem;
