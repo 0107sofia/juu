@@ -9,7 +9,7 @@ $pad: 20px;
 .grid:after {
   content: "";
   display: block;
-  /*clear: both;*/
+  clear: both;
 
 }
 
@@ -103,7 +103,3 @@ $pad: 20px;
   }
 }
 
-
-img{
-	margin-left: 0rem;
-}

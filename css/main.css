@@ -210,7 +210,7 @@ nav#menu #menu-nav li a:hover {
   background-image: url(../img/banner2.jpg);
   background-size:cover;
   min-height:700px;
-  margin-bottom:1.5rem;
+  margin-bottom:2rem;
   background-position: 0% 50%;
 }
 .jumbotron h1{
@@ -224,8 +224,9 @@ nav#menu #menu-nav li a:hover {
   margin-bottom: 2rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  display:block;
+  /*display:block;*/
   /*background-color:red;*/
+  clear:both;
 }
 
 .container{
@@ -233,6 +234,7 @@ nav#menu #menu-nav li a:hover {
   margin-right: auto;
   margin-left: auto;
   padding:0;
+  clear:both;
   /*background-color: green;*/
 }
 
@@ -355,13 +357,9 @@ ol li:before {
 
 a img {
   width:100%;
-  padding:0rem;
 }
 
 .grid img{
-  margin-left: 1rem;
-  margin-top: 1rem;
-  position: relative;
   opacity: .7;
 }
 
