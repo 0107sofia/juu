@@ -1,5 +1,5 @@
 $(document).ready(function () {
-$('.icon').click(function () {
+$('.account').click(function () {
     //Conditional states allow the dropdown box appear and disappear 
     if ($('#signin-dropdown').is(":visible")) {
         $('#signin-dropdown').hide()

@@ -476,4 +476,7 @@ a img {
   float:right;
 }
 
+#signin-dropdown{
+  display:none;
+}
 
