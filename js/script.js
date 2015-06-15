@@ -20,4 +20,4 @@ $('#session').removeClass('active');
 });
 });   
 
-//js code from: http://www.alessioatzeni.com/blog/css3-text-shadow-effects/
+//js code from: http://www.alessioatzeni.com/blog/signin-dropdown-box-like-twitter-with-jquery/
