@@ -97,10 +97,13 @@
 }
 
 @media (max-width: 60rem) {
-  #menu-nav{
+  .menu-firstrow{
     display: none;
   }
-  .hamburger{
+/*  .hamburger{
+    display:block;
+  }*/
+  header .second-nav{
     display:block;
   }
 }
