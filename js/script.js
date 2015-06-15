@@ -10,7 +10,7 @@ $('.icon').click(function () {
     }
     return false;
 });
-Allow to hide the dropdown box if you click anywhere on the document.
+// Allow to hide the dropdown box if you click anywhere on the document.
 $('#signin-dropdown').click(function(e) {
 e.stopPropagation();
 });
@@ -19,3 +19,5 @@ $(document).click(function() {
 $('#session').removeClass('active');
 });
 });   
+
+//js code from: http://www.alessioatzeni.com/blog/css3-text-shadow-effects/
