@@ -18,13 +18,10 @@ body{
   margin:0;
 }
 
-
-
 .why-juu h2{
   text-align: center;
   padding-bottom: 1.5rem;
 }
-
 
 h1, h2{
   font-family: 'Titillium Web', sans-serif;
@@ -122,7 +119,6 @@ header #logo img{
   left:0;
 }
 
-
 header #logo a {
   background: url(../img/logo.png) no-repeat;
   width: 8rem;
@@ -130,8 +126,6 @@ header #logo a {
   text-indent: -9999px;
   display: block;
   opacity: 1;
-  
-  
 }
 
 
@@ -209,7 +203,7 @@ nav#menu #menu-nav li a:hover {
   background-size:cover;
   min-height:700px;
   margin-bottom:4rem;
-  /*background-position: 0% 50%;*/
+  background-position: 0% 50%;
 }
 
 .section{
@@ -363,7 +357,4 @@ a img {
   opacity: 1;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
-}
-.productlist{
-  margin-top: 10rem;
 }
