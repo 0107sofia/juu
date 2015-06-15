@@ -67,6 +67,7 @@ $pad: 20px;
   /*background-color: red;*/
 }
 
+
 [class^='col-']:last-of-type {
   padding-right: 0;
 }
@@ -92,6 +93,11 @@ $pad: 20px;
     /*background-color: red;*/
   }
 
+}
+.productlist [class^='col-'] {
+  padding-right: 0;
+  padding-bottom: 0;
+  /*background-color: red;*/
 }
 
 @media (max-width: 60rem) {
