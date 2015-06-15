@@ -7,6 +7,7 @@
   padding: 0;
   margin:0;
 }
+
 body{
   background:white;
   color:#7F8289;
@@ -21,6 +22,7 @@ body{
 
 .why-juu h2{
   text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 
@@ -72,7 +74,6 @@ p{
   margin-top: 0px;
 }
 
-
 a{
   color:#a1caca;
   text-decoration: none;
@@ -85,8 +86,6 @@ a:focus{
   color:#7F8289;
   text-decoration:none;
 }
-
-
 
 header {
   width: 100%;
@@ -102,7 +101,6 @@ header .nav-bar {
   min-height: 4rem;
   background: #ffffff;
   z-index: 1001;
-  
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -210,15 +208,10 @@ nav#menu #menu-nav li a:hover {
   background-image: url(../img/banner2.jpg);
   background-size:cover;
   min-height:700px;
-  margin-bottom:2rem;
-  background-position: 0% 50%;
+  margin-bottom:4rem;
+  /*background-position: 0% 50%;*/
 }
-.jumbotron h1{
-    color:white;
-    font-family: 'Lato', sans-serif;
-    font-size: 1rem;
 
-}
 .section{
   width:100%;
   margin-bottom: 2rem;
@@ -234,7 +227,8 @@ nav#menu #menu-nav li a:hover {
   margin-right: auto;
   margin-left: auto;
   padding:0;
-  clear:both;
+  /*clear:both;*/
+  /*margin-bottom: 10rem;*/
   /*background-color: green;*/
 }
 
@@ -357,6 +351,8 @@ ol li:before {
 
 a img {
   width:100%;
+  padding: 0;
+  margin:0;
 }
 
 .grid img{
@@ -367,4 +363,7 @@ a img {
   opacity: 1;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
+}
+.productlist{
+  margin-top: 10rem;
 }
