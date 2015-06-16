@@ -68,7 +68,7 @@
   width:100%;
   }
   .jumbotron{
-    background-position: 20% 50%;
+    background-position:65% 0%;
   }
   .col-4 {
   	width:100%;
@@ -91,7 +91,7 @@
     }
     .textbox{
       width:100%;
-    }
+    }    
 }
 .productlist [class^='col-'] {
   padding: 0rem;
@@ -115,6 +115,36 @@
   header .second-nav{
     display:block;
     z-index: 999;
+  }
+
+  .jumbotron-title{
+      
+      left:45%;
+    }    
+
+}
+@media (max-width: 50rem) {
+   .jumbotron-title{
+      left:40%;
+    }    
+}
+@media (max-width: 40rem) {
+    .jumbotron-title{
+      left:35%;
+    } 
+}
+@media (max-width: 30rem) {
+  .jumbotron-title{
+      left:20%;
+      top:26.5%;
+    } 
+  .jumbotron-title h3{
+      font-size: 1.5rem;
+  }
+}
+@media (max-width: 100rem) {
+  .jumbotron{
+    background-position: 65% -5%;
   }
 }
 

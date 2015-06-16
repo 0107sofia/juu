@@ -255,11 +255,13 @@ header #logo a {
 }
 
 .jumbotron{
-  background-image: url(../img/banner2.jpg);
+  margin-top: 4rem;
+  background-image: url(../img/newbanner.jpg);
   background-size:cover;
-  min-height:700px;
+  min-height:30rem;
   margin-bottom:4rem;
-  background-position: 0% 50%;
+  position: relative;
+  /*background-position: 0%, 50%;*/
 }
 
 .section{
@@ -435,6 +437,10 @@ a img {
     min-height: 200px;
     min-width: 100%;
     right: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+
 }
 
 #signin-dropdown form {
@@ -487,5 +493,22 @@ a img {
 
 .second-nav{
   z-index: 999;
+}
+
+.jumbotron-title{
+  left:50%;
+  top:25%;
+  position: absolute;
+}
+.jumbotron-title h2{
+  color:white;
+  font-size: 10rem;
+  padding-bottom: 0;
+}
+.jumbotron-title h3{
+  font-weight: 300; 
+  padding-left: 0;
+  color:white;
+  margin-top: -2rem;
 }
 
