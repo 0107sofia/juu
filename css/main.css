@@ -131,8 +131,8 @@ header .second-nav{
 header #logo {
   color: #FFFFFF;
   float: left;
-  padding: 1rem 0;
-  margin-left: 3rem;
+  padding: 0;
+  margin-left: 0;
 }
 
 header #logo img{
