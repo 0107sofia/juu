@@ -303,7 +303,9 @@ header #logo a {
 }
 
 
-
+.posters img{
+   width: 100%;
+}
 
 
 .line{
