@@ -58,6 +58,9 @@
   /*background-color: red;*/
 }
 
+.posters div .col-4 {
+  padding:0;
+}
 
 [class^='col-']:last-of-type {
   padding-right: 0;
