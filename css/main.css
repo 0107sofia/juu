@@ -575,3 +575,32 @@ a img {
 }
 
 
+.about-banner{
+  margin-top: 4rem;
+  background-image: url(../img/aboutus1.jpg);
+  background-size:cover;
+  max-width: 100%;
+  min-height:35rem;
+  margin-bottom:4rem;
+  position: relative;
+  /*background-position: 0%, 50%;*/
+}
+
+.banner-title{
+  left:5%;
+  top:5%;
+  position: absolute;
+  width: 60%;
+}
+.banner-title h2{
+  color:white;
+  font-size: 7rem;
+  padding-bottom: 0;
+}
+.banner-title p{
+  font-weight: 200; 
+  font-size: 1.5rem;
+  padding-left: 0;
+  color:white;
+  margin-top: -1rem;
+}
