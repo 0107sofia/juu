@@ -279,14 +279,15 @@ header #logo a {
   margin-right: auto;
   margin-left: auto;
   padding:0;
-  /*clear:both;*/
+  clear:both;
   /*margin-bottom: 10rem;*/
   /*background-color: green;*/
 }
 
 
 .why-juu p{
-  display: block;
+  ??
+  display: table;
   padding-left: 1.5rem;
   padding-right: 0.5rem;
   font-size: 0.9rem;
@@ -297,7 +298,7 @@ header #logo a {
   width: 150px;
   padding-bottom: 0.8rem;
   padding-top: 1.2rem;
-  display: block;
+  display: table;
     margin-left: auto;
     margin-right: auto;
 }
@@ -541,17 +542,34 @@ a img {
    padding: 0;
 }
 
+.posters{
+  margin: 0;
+}
 .posters img{
   width: 100%;
+  padding: 0.5rem;
+}
+
+.posters h2{
+  text-align: center;
 }
 
 .footer{
-  margin: 0;
-}
-.footer div{
- background-color: #a1caca;
+  background-color:#a1caca;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 3rem 4rem;
+  margin-top: 5rem;
 }
 
 .footer p{
   color: white;
+}
+.footer a{
+  color:rgba(255, 255, 255, 0.8);
+}
+
+.footer{
+  margin-top: 20rem;
 }
