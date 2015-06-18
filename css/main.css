@@ -604,3 +604,27 @@ a img {
   color:white;
   margin-top: -1rem;
 }
+
+.designers h2{
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+.designers p{
+  display: table;
+  padding-left: 1.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 150%;
+}
+.designers h4{
+  padding-left: 1.5rem;
+}
+
+.designers img{
+  width: 150px;
+  padding-bottom: 0.8rem;
+  padding-top: 1.2rem;
+  display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
