@@ -544,3 +544,14 @@ a img {
 .posters img{
   width: 100%;
 }
+
+.footer{
+  margin: 0;
+}
+.footer div{
+ background-color: #a1caca;
+}
+
+.footer p{
+  color: white;
+}
