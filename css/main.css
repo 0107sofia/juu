@@ -570,7 +570,8 @@ a img {
 }
 
 .footer{
-  margin-top: 20rem;
+  display: inline-block;
+
 }
 
 
