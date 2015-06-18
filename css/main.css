@@ -605,6 +605,10 @@ a img {
   margin-top: -1rem;
 }
 
+
+.designers{
+  display: inline-block;
+}
 .designers h2{
   text-align: center;
   padding-bottom: 1.5rem;
@@ -627,4 +631,73 @@ a img {
   display: table;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.bamboo{
+  display: block;
+  margin-top: 4rem;
+  background-image: url(../img/bamboo.jpg);
+  background-size:cover;
+  max-width: 100%;
+  min-height:35rem;
+  margin-bottom:4rem;
+  position: relative;
+  /*background-position: 0%, 50%;*/
+}
+
+.bamboo-text{
+  left:5%;
+  top:40%;
+  position: absolute;
+  width: 60%;
+}
+.bamboo-text h2{
+  color:white;
+  font-size: 7rem;
+  padding-bottom: 0;
+}
+.bamboo-text p{
+  font-weight: 200; 
+  font-size: 1.5rem;
+  padding-left: 0;
+  color:white;
+  margin-top: -1rem;
+}
+
+.about-info{
+  display: inline-block;
+}
+
+.visitus{
+  margin-top: 4rem;
+  background-image: url(../img/store.jpg);
+  background-size:cover;
+  max-width: 100%;
+  min-height:35rem;
+  margin-bottom:4rem;
+  position: relative;
+  /*background-position: 0%, 50%;*/
+}
+.visitus h2{
+  font-size: 2rem;
+}
+
+.visit-text{
+  left:5%;
+  top:40%;
+  position: absolute;
+  width: 60%;
+}
+.visit-text h2{
+  color:white;
+  font-size: 7rem;
+  padding-bottom: 0;
+}
+.visit-text p{
+  font-weight: 200; 
+  font-size: 1.5rem;
+  padding-left: 0;
+  color:white;
+  margin-top: -1rem;
 }
