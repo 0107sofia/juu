@@ -574,7 +574,9 @@ a img {
 
 }
 
-
+/* ==================================================
+   ABOUT US PAGE
+================================================== */
 .about-banner{
   margin-top: 4rem;
   background-image: url(../img/aboutus1.jpg);
@@ -701,3 +703,101 @@ a img {
   color:white;
   margin-top: -1rem;
 }
+
+
+.contact-details h3 {
+  color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  line-height: 1em;
+    text-transform: uppercase;
+}
+
+.contact-details ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+
+.contact-details ul li {
+  margin: 0 0 20px;
+  line-height: 28px;
+  padding: 0; 
+}
+
+#contact-form {
+  margin-bottom: 0; 
+}
+
+#contact-form p {
+  margin-bottom: 1px; 
+}
+
+#contact-form input,
+#contact-form textarea {
+    border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+    border-radius: 0;
+  
+    -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  
+  background: #26292E;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: auto;
+    padding: 15px;
+  margin: 0;
+  
+    resize: none;
+}
+
+#contact-form input {
+    width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#contact-form textarea {
+    width: 100%;
+  resize: vertical;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#contact-form .submit {
+    background: #3C3F45;
+    color: #23262C;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+  margin-top: 30px;
+  
+  -webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;  
+     -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+     -o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+        transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+#contact-form .submit:hover {
+    background: #DE5E60;
+    color: #FFFFFF;
+}
+
+#response {
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+/* ==================================================
+   END OF ABOUT US PAGE
+================================================== */
