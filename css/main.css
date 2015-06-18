@@ -705,22 +705,21 @@ a img {
 }
 
 
-.contact-details h3 {
-  color: #FFFFFF;
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 30px;
-  line-height: 1em;
-    text-transform: uppercase;
+.contact h2{
+  text-align: center;
+  padding: 0;
 }
-
-.contact-details ul {
+.contact h4{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.contact ul {
   margin: 0;
   padding: 0;
   list-style: none; 
 }
 
-.contact-details ul li {
+.contact ul li {
   margin: 0 0 20px;
   line-height: 28px;
   padding: 0; 
@@ -736,7 +735,7 @@ a img {
 
 #contact-form input,
 #contact-form textarea {
-    border: none;
+    border: 1px solid #a1caca;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
     border-radius: 0;
@@ -745,14 +744,18 @@ a img {
   -moz-box-shadow: none;
   box-shadow: none;
   
-  background: #26292E;
-    color: #FFFFFF;
-    font-size: 16px;
+  background:white;
+    color: #7F8289;
+    font-size: 1rem;
     height: auto;
-    padding: 15px;
+    padding: 1rem;
   margin: 0;
   
     resize: none;
+}
+
+#contact-form p{
+  margin: 0;
 }
 
 #contact-form input {
@@ -764,40 +767,29 @@ a img {
 
 #contact-form textarea {
     width: 100%;
-  resize: vertical;
+  resize: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-#contact-form .submit {
-    background: #3C3F45;
-    color: #23262C;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 16px 40px;
+#contact-form .blue-button{
+  width: 15rem;
+  font-size: 1.2rem;
+}
+
+.contact-details{
+  padding-left: 2rem;
+}
+@media (max-width: 40rem) {
+  .contact-details{
+    padding-left: 0;
     text-align: center;
-    vertical-align: middle;
-    width: auto;
-  margin-top: 30px;
-  
-  -webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;  
-     -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
-     -o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
-        transition: background 0.1s linear 0s, color 0.1s linear 0s;
-}
-
-#contact-form .submit:hover {
-    background: #DE5E60;
-    color: #FFFFFF;
-}
-
-#response {
-  margin-top: 20px;
-  color: #FFFFFF;
-}
+  }
+  #contact-form .contact-submit{
+    text-align: center;
+  }
+  }
 /* ==================================================
    END OF ABOUT US PAGE
 ================================================== */
