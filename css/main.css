@@ -560,7 +560,7 @@ a img {
   text-align: left;
   font: normal 16px sans-serif;
   padding: 3rem 4rem;
-  margin-top: 5rem;
+  margin-top: 0rem;
 }
 
 .footer p{
@@ -705,7 +705,9 @@ a img {
   margin-top: -1rem;
 }
 
-
+.contact{
+  margin-bottom: 2rem;
+}
 .contact h2{
   text-align: center;
   padding: 0;
@@ -777,6 +779,7 @@ a img {
 #contact-form .blue-button{
   width: 15rem;
   font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .contact-details{
