@@ -794,3 +794,93 @@ a img {
 /* ==================================================
    END OF ABOUT US PAGE
 ================================================== */
+
+
+
+
+/* ==================================================
+   STORES PAGE
+================================================== */
+.store-selector{
+  padding-top: 5rem;
+}
+
+.selector p{
+  font-size: 0.8rem;
+  line-height: 130%;
+}
+.selector h3{
+  color: #a1caca;
+}
+
+.selector, .selector:visited{
+  border: 0.1rem solid #a1caca;
+  margin-top:0.5rem;
+  display: inline-block;
+  background-color:white;
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  /*border-bottom: 0.2rem solid #a2a4a9;*/
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.selector:hover{
+  background-color: #a1caca;
+}
+
+.selector:hover p{
+  color:white;
+}
+.selector:hover h3{
+  color:white;
+}
+
+
+.active-selector, .active-selector:visited{
+  border: 0.1rem solid #a1caca;
+  margin-top:0.5rem;
+  display: inline-block;
+  background-color:#a1caca;
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.active-selector p{
+  font-size: 0.8rem;
+  line-height: 130%;
+  color: white;
+}
+.active-selector h3{
+  color: white;
+}
+.active-selector:hover{
+  background-color: white;
+}
+
+.active-selector:hover p{
+  color:#7F8289;
+}
+.active-selector:hover h3{
+  color:#a1caca;
+}
+
+iframe{
+  padding-top: 4rem;
+  border: 0;
+  width: 100%;
+  height: 30rem;
+}
+
+
+/* ==================================================
+   END OF STORES PAGE
+================================================== */
