@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/products-itempage.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400%7cTitillium+Web:400,200,700' rel='stylesheet' type='text/css'>
 </head>
 
@@ -38,89 +39,77 @@
           <li><a href="about.html">About</a></li>
         </ul>
       </div>
-    
+
     </div> <!-- end of first nav bar -->
 
 
-  <div class="login">
-        <div id="signin-dropdown">
-    
+    <div class="login">
+      <div id="signin-dropdown">
+
         <form method="post" class="signin" action="#">
-        <div class="textbox">
-        <label class="username">
-        <span>Username</span>
-        <input id="username" name="username" value="" type="text" autocomplete="on">
-        </label>
-        
-        <label class="password">
-        <span>Password</span>
-        <input id="password" name="password" value="" type="password">
-        </label>
-        </div>
-        
-        <div class="login_register">
-        <button class="blue-button login-button" type="button">log in</button>
-        <a class="register" href="#">register</a>
-        </div>
+          <div class="textbox">
+            <label class="username">
+              <span>Username</span>
+              <input id="username" name="username" value="" type="text" autocomplete="on">
+            </label>
+
+            <label class="password">
+              <span>Password</span>
+              <input id="password" name="password" value="" type="password">
+            </label>
+          </div>
+
+          <div class="login_register">
+            <button class="blue-button login-button" type="button">log in</button>
+            <a class="register" href="#">register</a>
+          </div>
 
         </form>
+      </div>
+    </div>
+
+
+    <div class="second-nav">
+
+     <ul class="menu-nav">
+      <li><a href="products.html">Products</a></li>
+      <li><a href="stores.html">Stores</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+
+  </div> <!-- end of second nav bar -->
+</header>
+
+
+  <div class="container">
+    <div class="second-nav filter">
+       <ul class="menu-nav">
+        <li><a href="#products">All</a></li>
+        <li><a href="#products">Chair</a></li>
+        <li><a href="#stores">Table</a></li>
+        <li><a href="#about">Storage</a></li>
+      </ul>
     </div>
   </div>
 
 
-    <div class="second-nav">
-      
-       <ul class="menu-nav">
-          <li><a href="products.html">Products</a></li>
-          <li><a href="stores.html">Stores</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      
-    </div> <!-- end of second nav bar -->
-  </header>
+<div class="section product-banner">
+  <div class="textcontainer">
+    <h2>Kaustby</h2><h2 class="light-font"> $198</h2>
+    <p>Cras varius erat at enim ultricies, vitae feugiat mi interdum.</p>
+    <a href="" class="blue-button">add to cart</a>
+  </div>
+</div>
 
-
-    
-
-  <div class="section productlist">
-    <div class="container">
-      <div class="second-nav filter">
-       <ul class="menu-nav">
-          <li class="activated"><a href="#products">All</a></li>
-          <li><a href="#products">Chair</a></li>
-          <li><a href="#stores">Table</a></li>
-          <li><a href="#about">Storage</a></li>
-        </ul>
-      </div>
-      <div class="flex-container">
-        <div class="product1">
-          <img src="img/product1.jpg" alt="product1">
-        </div>
-        <div class="product2">
-          <img src="img/product2.jpg" alt="product2">
-        </div>
-      </div>
-      <div class="flex-container">
-        <div class="product3">
-          <img src="img/product3.jpg" alt="product3">
-        </div>
-        <div class="product4">
-          <img src="img/product4.jpg" alt="product4">
-        </div>
-      </div>
-      <div class="flex-container">
-        <div class="product5">
-          <img src="img/product5.jpg" alt="product5">
-        </div>
-        <div class="product6">
-          <img src="img/product6.jpg" alt="product6">
-        </div>
-        <div class="product7">
-          <img src="img/product7.jpg" alt="product7">
-        </div>
-      </div>
+  <div class="section product-details">
+    <div class="textcontainer">
+      <h3>Some Text</h3>
+      <p>Nam eget rutrum neque. Suspendisse eu aliquam dolor. Nulla facilisi. Nullam suscipit tristique consequat. Fusce sit amet imperdiet erat. Phasellus elementum molestie suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin id consectetur arcu. Vivamus venenatis lorem id nisl aliquet eleifend. Proin feugiat, erat eu fermentum eleifend, tortor mi porttitor arcu, sit amet lacinia dolor nulla non risus. Morbi ultricies aliquet elit, in bibendum turpis commodo sit amet. </p>
     </div>
-  </div> <!-- end of product list -->
+  </div>
+
+
+
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>

@@ -1,0 +1,109 @@
+
+
+.product-banner {
+	padding:0;
+	position: relative;
+	background-image:url(../img/chair-banner.jpg);
+	background-size: cover;
+	height:30rem;
+	background-position: 20% 80%;
+	background-repeat: no-repeat;
+}
+
+.product-banner h2{
+	padding-bottom: 0;
+}
+
+.product-details{
+	padding:0;
+	position: relative;
+	background-image:url(../img/chair-view1.png);
+	background-size: auto 50rem;
+	height:70rem;
+	background-position: 130% 30%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.filter{
+	margin-top: 5rem;
+}
+
+.product-banner .textcontainer{
+	position:absolute;
+	top:40%;
+	right:10%;
+	width: 20rem;
+}
+
+.product-details .textcontainer{
+	position:absolute;
+	top:5%;
+	left:15%;
+	width: 40rem;
+
+}
+
+.light-font{
+	font-weight: 100;
+	display:inline;
+}
+.product-banner .textcontainer h2{
+	display: inline;
+}
+@media (max-width: 70rem) {
+	.product-banner .textcontainer{
+ 		right:4%;
+	}
+	.product-details .textcontainer{
+		width:30rem;
+	}
+}
+@media (max-width: 60rem) {
+	.product-details{
+		background-position: 160% 30%;
+		height: 60rem
+	}
+	.product-banner .textcontainer{
+ 		right:4%;
+	}
+	.product-banner {
+ 		background-position: 50% 80%;
+ 	}
+ 	.filter{
+    margin-top:7rem;
+	}
+  	.filter ul{
+	float:none;
+	margin-right: 0rem;
+	}
+}
+@media (max-width: 50rem) {
+	.product-details{
+		background-position: 240% 30%;
+		height:40rem;
+	}
+	.product-banner .textcontainer{
+ 		right:4%;
+	}
+	.product-banner {
+ 		background-position: 65% 80%;
+ 	}
+}
+
+@media (max-width: 40rem) {
+
+}
+ @media (max-width: 30rem) {
+ 	.product-details{
+		background-position: 10% 30%;
+	}
+ 	.product-banner {
+ 		background-position: 60% 80%;
+ 	}
+ 	.product-banner .textcontainer{
+ 		right:4%;
+ 		width:15rem;
+ 	}
+
+ }
