@@ -721,11 +721,12 @@ a img {
 }
 .visitus h2{
   font-size: 2rem;
+  line-height: 100%;
 }
 
 .visit-text{
   left:5%;
-  top:40%;
+  top:20%;
   position: absolute;
   width: 60%;
 }
@@ -739,7 +740,6 @@ a img {
   font-size: 1.5rem;
   padding-left: 0;
   color:white;
-  margin-top: -1rem;
 }
 
 .contact{

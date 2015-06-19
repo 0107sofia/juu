@@ -522,6 +522,21 @@
     width: 30%;
   }
 }
+
+
+@media (max-width: 40rem) {
+.banner-title p{
+font-size: 1.2rem;
+}
+.banner-title h2{
+  font-size: 4rem;
+}
+.banner-title{
+  top:10%;
+}
+  }
+
+
 @media (max-width: 35rem) {
 .shipping, .billing{
   width: 100%;
@@ -531,6 +546,46 @@
 
 /* ==================================================
    END OF CHECKOUT PAGE GRID
-   http://www.venque.com/products/hamptons-grey
+================================================== */
+
+/* ==================================================
+   ABOUT PAGE GRID
+================================================== */
+@media (max-width: 53rem) {
+.visitus h2{
+  font-size: 4rem;
+}
+.visitus p{
+  font-size: 1rem;
+}
+.bamboo h2{
+  font-size: 4rem;
+}
+.bamboo p{
+  font-size: 1rem;
+}
+.banner-title{
+  width: 80%;
+}
+
+}
+
+@media (max-width: 30rem) {
+.visitus h2{
+  font-size: 3rem;
+}
+.visit-text{
+  width: 90%;
+}
+.bamboo h2{
+  font-size: 3rem;
+}
+.bamboo-text{
+  width: 90%;
+}
+}
+
+/* ==================================================
+   END OF ABOUT PAGE GRID
 ================================================== */
 
