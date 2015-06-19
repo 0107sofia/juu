@@ -450,7 +450,10 @@
   }
 }
 @media (max-width: 70rem) {
-  .selector
+  .selector-detail{
+    float: none;
+    display: block;
+  }
 }
 /* ==================================================
    END OF STORES PAGE GRID
