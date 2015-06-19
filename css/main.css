@@ -897,3 +897,32 @@ iframe{
 /* ==================================================
    END OF STORES PAGE
 ================================================== */
+
+
+/* ==================================================
+   CHECKOUT PAGE
+================================================== */
+.checkout{
+  padding-top: 6rem;
+}
+.label{
+  width: 30%;
+  padding:0.5rem ;
+  font-size: 1.2rem;
+  border: 0.1rem solid #a1caca;
+  display: inline-block;
+  float: left;
+}
+.type{
+  width: 70%;
+  padding:0.5rem ;
+  font-size: 1.2rem;
+  border: 0.1rem solid #a1caca;
+  display: inline-block;
+  float: left;
+}
+
+
+/* ==================================================
+   END OF CHECKOUT PAGE
+================================================== */
