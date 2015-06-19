@@ -612,6 +612,11 @@ a img {
 
 }
 
+.loading{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
 /* ==================================================
    ABOUT US PAGE
 ================================================== */
@@ -1187,5 +1192,45 @@ width: 18rem;
    END OF SHOPPING CART
 ================================================== */
 
+/* ==================================================
+   CHAIR
+================================================== */
+#reviewbutton{
+  float: right;
+  width: 12rem;
+  font-size: 1.2rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+#post-button{
+  float: right;
+  font-size: 1.2rem;
+  border: none;
+  width: 7rem;
+}
+#review-name{
+  border:0.1rem solid #7F8289;
+  color: #7F8289;
+    font-size: 1rem;
+    padding: 1rem;
+  margin: 0;
+}
+#review-area{
+  border:0.1rem solid #7F8289;
+  color: #7F8289;
+    font-size: 1rem;
+    height: 10rem;
+    padding: 1rem;
+  margin: 0;
+}
+.review-pages{
+  margin-top: 2rem;
+  text-align: center;
+}
 
+
+
+/* ==================================================
+   END OF CHAIR
+================================================== */
 

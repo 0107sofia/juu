@@ -80,9 +80,10 @@
 }
 .review .grid .col-12 .review-content{
 	display:block;
-	color: #121212;
-	font-weight: 400;
-	padding-left: 2rem;
+	color: #7F8289;
+	font-weight: 300;
+	font-size: 1rem;
+	padding-left: 5rem;
 }
 .name{
 	color:#878787;
