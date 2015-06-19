@@ -513,7 +513,9 @@ a img {
   display:none;
   z-index: 1000;
 }
-
+#cart-dropdown{
+  display:none;
+}
 .second-nav{
   z-index: 999;
 }
@@ -1117,6 +1119,14 @@ width: 18rem;
 #cart-dropdown{
   /*display:none;*/
   z-index: 1000;
+}
+.order .grid .col-6{
+  padding:0.5rem;
+  margin-top: 1rem;
+}
+.order{
+  margin-top: 2rem;
+  margin-left: 0.8rem;
 }
 /* ==================================================
    END OF SHOPPING CART

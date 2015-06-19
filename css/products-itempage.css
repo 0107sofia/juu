@@ -20,7 +20,7 @@
 	background-image:url(../img/chair-view1.png);
 	background-size: auto 50rem;
 	height:70rem;
-	background-position: 130% 30%;
+	background-position: 100% 40%;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -61,8 +61,8 @@
 }
 @media (max-width: 60rem) {
 	.product-details{
-		background-position: 160% 30%;
-		height: 60rem
+		/*background-position: 160% 30%;*/
+		height: 40rem
 	}
 	.product-banner .textcontainer{
  		right:4%;
@@ -80,8 +80,11 @@
 }
 @media (max-width: 50rem) {
 	.product-details{
-		background-position: 240% 30%;
+		/*background-position: 240% 30%;*/
 		height:40rem;
+	}
+	.product-details .textcontainer{
+		width:30rem;
 	}
 	.product-banner .textcontainer{
  		right:4%;
@@ -92,11 +95,14 @@
 }
 
 @media (max-width: 40rem) {
-
+	.product-details .textcontainer{
+		width:20rem;
+	}
 }
  @media (max-width: 30rem) {
  	.product-details{
-		background-position: 10% 30%;
+		background-position: 140% 60%;
+		height:30rem;
 	}
  	.product-banner {
  		background-position: 60% 80%;
@@ -104,6 +110,13 @@
  	.product-banner .textcontainer{
  		right:4%;
  		width:15rem;
+ 	}
+ 	.product-details .textcontainer{
+ 		width:12rem;
+ 		left:2rem;
+ 	}
+ 	.product-details .textcontainer p{
+ 		
  	}
 
  }
