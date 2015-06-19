@@ -501,6 +501,9 @@
   .col-7{
     width: 100%;
   }
+  .total{
+    width: 100%;
+  }
   .checkout h2{
     font-size: 2rem;
   }
@@ -512,6 +515,12 @@
     display: none;
   }
   .review2{
+    display: inline-block;
+  }
+  .cancel1{
+    display: none;
+  }
+  .cancel2{
     display: inline-block;
   }
   .fake-form{

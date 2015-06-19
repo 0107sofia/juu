@@ -370,8 +370,7 @@ header #logo a {
 }
 
 .white-button:hover{
-  background-color: #a1caca;
-  color: white;
+  background-color: #F0F0F0;
   font-weight: 400;
 }
 
@@ -973,13 +972,22 @@ iframe{
 
 .checkout .blue-button{
   margin-top: 2rem;
-width: 18rem;
+width: 60%;
+}
+.checkout .white-button{
+  width: 30%;
 }
 
 .review1{
   display: inline-block;
 }
 .review2{
+  display: none;
+}
+.cancel1{
+  display: inline-block;
+}
+.cancel2{
   display: none;
 }
 
