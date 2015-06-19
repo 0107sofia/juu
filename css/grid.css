@@ -519,6 +519,12 @@
     width: 30%;
   }
 }
+@media (max-width: 35rem) {
+.shipping, .billing{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+  }
 
 /* ==================================================
    END OF CHECKOUT PAGE GRID

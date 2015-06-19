@@ -292,6 +292,7 @@ header #logo a {
   padding-right: 0.5rem;
   font-size: 0.9rem;
   line-height: 150%;
+  margin-bottom: 2rem;
 }
 
 .why-juu img{
@@ -302,7 +303,6 @@ header #logo a {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 
 
@@ -420,7 +420,7 @@ a img {
   margin:0;
 }
 
-.grid img{
+/*.grid img{
   opacity: .7;
 }
 
@@ -428,7 +428,7 @@ a img {
   opacity: 1;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
-}
+}*/
 
 
 
@@ -546,10 +546,12 @@ a img {
 
 .posters{
   margin: 0;
+  padding-top: 2rem;
 }
 .posters img{
   width: 100%;
-  padding: 0.5rem;
+  padding: 0rem;
+
 }
 
 .posters h2{
@@ -962,19 +964,39 @@ width: 18rem;
   float: left;
   width: 100%;
 }
+.summary .cart-item{
+  padding-top: 0;
+}
+.
 .login span{
   font-size: 0.8rem;
 }
-
+.confirm p{
+  font-size: 1.2rem;
+}
 .textbox {
   border: 0;
+}
+.edit{
+  font-size: 1rem;
+  padding-left: 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+.shipping, .billing{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 2rem;
 }
 
 .order{
   width: 100%;
   margin-top: -0.5rem;
 }
-
+.payment{
+  width: 100%;
+}
 .summary .total {
   margin: 1rem;
   margin-top: 0.3rem;
