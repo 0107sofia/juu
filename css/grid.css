@@ -351,6 +351,9 @@
     .login{
     width:100%;
     }
+    .cart{
+      width:100%;
+    }
     .textbox{
       width:100%;
     }
@@ -407,12 +410,12 @@
 }
 @media (max-width: 50rem) {
    .jumbotron-title{
-      left:40%;
+      left:35%;
     }    
 }
 @media (max-width: 40rem) {
     .jumbotron-title{
-      left:35%;
+      left:20%;
     } 
 }
 @media (max-width: 30rem) {
