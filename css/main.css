@@ -546,7 +546,8 @@ a img {
 
 .posters{
   margin: 0;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
 }
 .posters img{
   width: 100%;
@@ -555,6 +556,12 @@ a img {
 }
 
 .posters h2{
+  text-align: center;
+  padding-bottom: 0;
+}
+.posters h4{
+  font-weight: 200;
+  font-size: 1.2rem;
   text-align: center;
 }
 
