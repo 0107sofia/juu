@@ -492,9 +492,36 @@
 .field input{
   width: 70%
 }
-
+@media (max-width: 50rem) {
+  .col-5{
+    width: 100%;
+  }
+  .col-7{
+    width: 100%;
+  }
+  .checkout h2{
+    font-size: 2rem;
+  }
+  .summary{
+    position: static;
+  top:auto;
+  }
+  .review1{
+    display: none;
+  }
+  .review2{
+    display: inline-block;
+  }
+  .fake-form{
+    width: 100%;
+  }
+  .label{
+    width: 30%;
+  }
+}
 
 /* ==================================================
    END OF CHECKOUT PAGE GRID
    http://www.venque.com/products/hamptons-grey
 ================================================== */
+

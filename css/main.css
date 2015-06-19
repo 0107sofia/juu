@@ -908,7 +908,6 @@ iframe{
 .label{
   width: 20%;
   padding:0.5rem ;
-
   font-size: 1.2rem;
   border: 0.1rem solid #a1caca;
   border-right: 0 solid white;
@@ -934,6 +933,94 @@ iframe{
   margin-top: 2rem;
 width: 18rem;
 }
+
+.review1{
+  display: inline-block;
+}
+.review2{
+  display: none;
+}
+
+.fake-form{
+  width: 90%;
+  height: 10rem;
+  border: 1px solid #a1caca;
+}
+
+.summary{
+  position: fixed;
+  top:6rem;  
+  background-color: white;
+  display: inline-block;
+  float: left;
+
+}
+.cart-item{
+  display: block;
+  float: left;
+  width: 100%;
+}
+.login span{
+  font-size: 0.8rem;
+}
+
+.textbox {
+  border: 0;
+}
+
+.order{
+  width: 100%;
+  margin-top: -0.5rem;
+}
+
+.summary .total {
+  margin: 1rem;
+  margin-top: 0.3rem;
+  margin-left: 0;
+  display: inline-block;
+  float: left;
+}
+
+.total h3{
+  font-size: 2rem;
+}
+.order-button a{
+  display: inline-block;
+  float: left;
+}
+/*#fixed-summary {
+    background-color: white;
+    min-height: 20rem;
+    min-width: 100%;
+    right: 0;
+}*/
+
+.summary .cart-img{
+  display: inline-block;
+  float: left;
+  margin-left: 0;
+}
+.cart-description{
+  display: inline-block;
+  float: left;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.list-title {
+  font-size: 1.5rem;
+}
+
+.cart-item{
+  padding-top: 1rem;
+}
+.summary input{
+  width: 2rem;
+  padding: 0.2rem;
+  margin-left: 0.2rem;
+  margin-top: 0.5rem;
+}
+
 
 /* ==================================================
    END OF CHECKOUT PAGE
@@ -967,7 +1054,6 @@ width: 18rem;
 
 .order{
   width: 100%;
-  border-top: 1px solid #a1caca;
 }
 
 .total {
@@ -1035,3 +1121,6 @@ width: 18rem;
 /* ==================================================
    END OF SHOPPING CART
 ================================================== */
+
+
+
