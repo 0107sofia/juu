@@ -23,7 +23,13 @@ $('.account').click(function () {
 
         $('#signin-dropdown').hide();
         // $('#session').removeClass('active'); // When the dropdown is not visible removes the class "active"
-    } else {
+    } else if ($('#cart-dropdown').is(":visible")){
+        $('#cart-dropdown').hide();
+        $('#signin-dropdown').show();
+        $('#account img').attr('src','img/account-blue.png');
+        $('#car img').attr('src','img/cart-gray.png');
+    } 
+    else {
         $('#signin-dropdown').show();
         $('#account img').attr('src','img/account-blue.png');
         // $('#session').addClass('active'); // When the dropdown is visible add class "active"
@@ -38,7 +44,13 @@ $('.car').click(function () {
 
 
         $('#cart-dropdown').hide();
-    } else {
+    } else if ($('#signin-dropdown').is(":visible")){
+        $('#signin-dropdown').hide();
+        $('#cart-dropdown').show();
+        $('#car img').attr('src','img/cart-blue.png');
+        $('#account img').attr('src','img/account-gray.png');
+    } 
+    else {
         $('#cart-dropdown').show();
         $('#car img').attr('src','img/cart-blue.png');
         // $('#session').addClass('active'); // When the dropdown is visible add class "active"
