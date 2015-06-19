@@ -375,6 +375,32 @@ header #logo a {
   font-weight: 400;
 }
 
+.ghost-button, .ghost-button:visited {
+  margin-top:1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  display: inline-block;
+  background-color: none;
+  border:0.1rem solid white;
+  color: white;
+  width: 9rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  /*border-bottom: 0.2rem solid #a2a4a9;*/
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  
+}
+
+.ghost-button:hover{
+  background-color: white;
+  /*border-bottom: 0.2rem solid #7F8289;*/
+  font-weight: 300;
+  color:#a1caca;
+  -webkit-transition: background-color 0.5s;
+}
 form{
   display: inline-block;
   padding: 0rem;
