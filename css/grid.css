@@ -118,10 +118,7 @@
   /*background-color: red;*/
 }
 
-.productlist{
-  padding: 0 0 2rem 0;
-  margin: 0;
-}
+
 
 @media (max-width: 60rem) {
   .menu-firstrow{
@@ -346,9 +343,7 @@
   [class^='col-'] {
     padding-right:0;
   }
-  [class^='product']{
-    margin-right:0;
-  }
+  
 
 }
 
@@ -359,6 +354,9 @@
     .textbox{
       width:100%;
     }
+    [class^='product']{
+    margin-right:0;
+  }
 }
 
 @media (max-width: 40rem) {
@@ -382,10 +380,6 @@
   }
 }
 
-.productlist{
-  padding: 0 0 2rem 0;
-  margin: 0;
-}
 
 @media (max-width: 60rem) {
   .menu-firstrow{
