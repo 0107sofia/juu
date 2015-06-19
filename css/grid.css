@@ -396,7 +396,13 @@
   .jumbotron-title{
       
       left:45%;
-    }    
+    }
+  header .nav-bar{
+  border-bottom: 1px solid #eff0f0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
 
 }
 @media (max-width: 50rem) {

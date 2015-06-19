@@ -32,8 +32,8 @@ e.stopPropagation();
 $(document).click(function() {
     $('#signin-dropdown').hide();
     $('#account img').attr('src','img/account-gray.png');
-$('#session').removeClass('active');
-});
+    $('#session').removeClass('active');
+    });
 });   
 
 //js code from: http://www.alessioatzeni.com/blog/signin-dropdown-box-like-twitter-with-jquery/
