@@ -935,9 +935,93 @@ iframe{
 width: 18rem;
 }
 
-
-
-
 /* ==================================================
    END OF CHECKOUT PAGE
+================================================== */
+
+/* ==================================================
+   SHOPPING CART
+================================================== */
+.cart{
+  z-index: 1000;
+  position: fixed;
+  top:4rem;
+  right: 0;
+  background-color: white;
+  display: inline-block;
+
+}
+
+.login span{
+  font-size: 0.8rem;
+}
+
+.textbox {
+  border: 0;
+}
+
+.login_register{
+  width: 100%;
+}
+
+#signin-dropdown {
+    background-color: white;
+    min-height: 200px;
+    min-width: 100%;
+    right: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+#signin-dropdown form {
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    border: 
+}
+
+#signin-dropdown .textbox span {
+    color: #7F8289;
+}
+
+#signin-dropdown .textbox input {
+    width: 100%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-style: solid;
+    border-width: 0.07rem;
+    border-color: #7F8289;
+}
+
+#signin-dropdown button {
+    font-size: 1rem;
+    /*width: 6rem;*/
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border: 0;
+    margin-top: 1rem;
+}
+
+.login-button,
+.register{
+  width:50%;
+  display:inline-block;
+  float:left;
+}
+.register{
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  text-align: center;
+}
+
+#signin-dropdown{
+  display:none;
+  z-index: 1000;
+}
+/* ==================================================
+   END OF SHOPPING CART
 ================================================== */
