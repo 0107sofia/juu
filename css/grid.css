@@ -429,3 +429,32 @@
     background-position: 65% -5%;
   }
 }
+
+
+
+/* ==================================================
+   STORES PAGE GRID
+================================================== */
+.selector-grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.selector1of3{
+  width:33.33%;
+  float: left;
+}
+@media (max-width: 60rem) {
+  .store-selector{
+    padding-top: 5.5rem;
+  }
+}
+@media (max-width: 70rem) {
+  .selector
+}
+/* ==================================================
+   END OF STORES PAGE GRID
+   http://files.hay.dk/files/folders/133000/thumbnails/14248964634821f74c51569/
+================================================== */
+
+
