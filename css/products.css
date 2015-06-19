@@ -1,6 +1,10 @@
 
-.activated{
-	border-bottom: 1px solid black;
+.second-nav .menu-nav .activated a{
+	font-weight: 400;
+}
+
+.second-nav .menu-nav .activated{
+	border-bottom: 2px solid #a1caca;
 }
 .productlist{
 	margin-top: 5rem;
@@ -36,6 +40,17 @@
 	}
 	.productlist{
 	margin-top: 7rem;
-}
+	}
+	header .nav-bar{
+	border-bottom: 1px solid #eff0f0;
+  	-webkit-box-shadow: none;
+  	-moz-box-shadow: none;
+  	box-shadow: none;
+	}
 	
  }
+ @media (max-width: 40rem) {
+    .productlist{
+    	padding:0;
+    }   
+}
