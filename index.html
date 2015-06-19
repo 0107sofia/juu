@@ -67,27 +67,33 @@
         </form>
     </div>
   </div>
+
   <div class="cart">
         <div id="cart-dropdown">
-    
-        <form method="post" class="signin" action="#">
-        <div class="textbox">
-        <label class="username">
-        <span>Username</span>
-        <input id="username" name="username" value="" type="text" autocomplete="on">
-        </label>
-        
-        <label class="password">
-        <span>Password</span>
-        <input id="password" name="password" value="" type="password">
-        </label>
+    <div class="cart-item">
+        <img class="cart-img" src="img/buy1.jpg" alt="list1" height="100" width="100">
+        <div class="cart-description">
+        <p class="list-title">Copenhague Chair</p>
+        <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
         </div>
-        
-        <div class="login_register">
-        <button class="blue-button login-button" type="button">Order</button>
-        </div>
+      </div>
 
-        </form>
+      <div class="cart-item">
+        <img class="cart-img"src="img/buy2.jpg" alt="list2" height="100" width="100">
+        <div class="cart-description">
+        <p class="list-title">Tray Table</p>
+        <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
+        </div>
+      </div>
+
+      <div class="order">
+      <div class="total">
+        <h3>Total: $348</h3>
+      </div>
+        
+        <div class="order-button">
+        <a class="blue-button" href="checkout.html">Order</a>
+        </div></div>
     </div>
   </div>
 
