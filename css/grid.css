@@ -451,8 +451,33 @@
 }
 @media (max-width: 70rem) {
   .selector-detail{
-    float: none;
-    display: block;
+   width: 100%;
+   padding-left: 0;
+  }
+}
+@media (max-width: 45rem) {
+  .selector-detail{
+   display: none;
+  }
+  .selector-title{
+    font-weight: 200;
+  }
+}
+@media (max-width: 30rem) {
+  .store-selector h3{
+    font-size: 1.3rem;
+  }
+  .store-selector p{
+    font-size: 0.7rem;
+  }
+  .selector-detail{
+    padding-left: 0;
+  }
+  .selector, .selector:visited{
+  padding: 0.5rem;
+  }
+  .active-selector, .active-selector:visited{
+  padding: 0.5rem;
   }
 }
 /* ==================================================
