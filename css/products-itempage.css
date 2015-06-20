@@ -1,4 +1,14 @@
+input:focus, textarea:focus {
+    outline: none;
+    /*border:0.1rem solid #a1caca !important;*/
+    background-color: #F0F5F5;
 
+}
+
+input, textarea{
+	/*border:0.1rem solid # !important;*/
+	
+}
 
 .product-banner {
 	padding:0;
