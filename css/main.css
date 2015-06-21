@@ -154,21 +154,6 @@ header #logo a {
   opacity: 1;
 }
 
-.numberCircle {
-    border-radius: 50%;
-    behavior: url(PIE.htc); 
-    
-    width: 36px;
-    height: 36px;
-    padding: 8px;
-    
-    background: red;
-    
-    color: white;
-    text-align: center;
-    
-    font: 32px;
-}
 
 .menu-firstrow .menu-nav .activated{
   border-bottom:0.2rem solid #a1caca;
@@ -204,7 +189,24 @@ header #logo a {
   padding-left: 1.5rem; 
   padding-right: 1.5rem; 
 }
-
+.menu-icon .menu-nav .circle-li {
+  padding:0;
+  position:relative;
+}
+.circle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); 
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.08rem;
+    background: #FF5E5E;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    position: fixed;
+    top:0.4rem;
+    right:1.6rem;
+}
 /*nav#menu #menu-nav li:first-child {
   margin-left: 0; 
 }
