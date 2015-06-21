@@ -217,6 +217,7 @@ header #logo a {
     position: fixed;
     top:0.4rem;
     right:1.6rem;
+    display:none;
 }
 
 
