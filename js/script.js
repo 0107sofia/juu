@@ -123,4 +123,3 @@ $('.selector3').click(function () {
 
 });   
 
-//js code from: http://www.alessioatzeni.com/blog/signin-dropdown-box-like-twitter-with-jquery/

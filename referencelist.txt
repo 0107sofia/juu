@@ -1,0 +1,4 @@
+click and show dropdown box with jquery : http://www.alessioatzeni.com/blog/signin-dropdown-box-like-twitter-with-jquery/
+
+how to draw: circle in css3: http://stackoverflow.com/questions/4861224/how-to-use-css-to-surround-a-number-with-a-circle/4861306#4861306
+
