@@ -166,11 +166,15 @@ header #logo a {
 }
 
 
-.menu-firstrow .menu-nav .activated{
+.menu-nav .activated{
   border-bottom:0.2rem solid #a1caca;
 }
 
 .menu-firstrow .menu-nav .activated a{
+  color:#a1caca;
+}
+
+.second-nav .menu-nav .activated a{
   color:#a1caca;
 }
 .menu {
@@ -222,8 +226,8 @@ header #logo a {
 
 
 .animation-target {
-  -webkit-animation: animation 500ms linear both;
-  animation: animation 500ms linear both;
+  -webkit-animation: animation 0.5s linear both;
+  animation: animation 0.5s linear both;
 }
 
 /* Generated with Bounce.js. Edit at http://goo.gl/glQihH */

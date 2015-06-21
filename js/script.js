@@ -1,16 +1,26 @@
 $(document).ready(function() {
   $('.add-to-car').click(function() {
+    //if no item is in cart show red circle
     if ($('.circle').is(":hidden")) {
       $('.circle').show();
+      
+      //add the animation and remove after 0.5s
       $('.circle').addClass('animation-target');
       setTimeout(function() {
         $('.circle').removeClass('animation-target');
       }, 500);
+      //plus 1 if user click the button
     }else{
-        
-        var countitems=$('.circle').text();
+        var countitems=parseInt($('.circle').text());
+        countitems++;
+        $('.circle').text(countitems);
         console.log(countitems);
-        $('.circle').text(parseInt(countitems)+1);
+
+        //add the animation and remove after 0.5s
+        $('.circle').addClass('animation-target');
+        setTimeout(function() {
+        $('.circle').removeClass('animation-target');
+        }, 500);
     }
 
   });
