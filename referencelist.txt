@@ -2,3 +2,6 @@ click and show dropdown box with jquery : http://www.alessioatzeni.com/blog/sign
 
 how to draw: circle in css3: http://stackoverflow.com/questions/4861224/how-to-use-css-to-surround-a-number-with-a-circle/4861306#4861306
 
+css animation generator: http://bouncejs.com/#{s:[{T:"c",e:"b",d:1000,D:0,f:{x:0.5,y:0.5},t:{x:1,y:1},s:4,b:4}]}
+
+

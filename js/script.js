@@ -1,11 +1,16 @@
 $(document).ready(function () {
+$('.add-to-car').click(function () {
+        console.log("clicked");
+        $('.circle').addClass('animation-target');
+        //remove the class after 1 second
+        setTimeout(function(){
+        $('.circle').removeClass('animation-target');
+        }, 500);
+});
+
 
 $('#submit-button').click(function () {
-
         $('#reviewbox').hide();
-    
-
-    
 });
 
 $('#reviewbutton').click(function () {
