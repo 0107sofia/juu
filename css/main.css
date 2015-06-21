@@ -154,6 +154,9 @@ header #logo a {
   opacity: 1;
 }
 
+.menu-firstrow .menu-nav .activated{
+  border-bottom:0.2rem solid #a1caca;
+}
 
 .menu {
   float: right;
