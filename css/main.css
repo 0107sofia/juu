@@ -6,6 +6,7 @@
 *{
   padding: 0;
   margin:0;
+  /*border:1px solid black;*/
 }
 
 body{
@@ -1277,13 +1278,6 @@ width: 60%;
 /* ==================================================
    CHAIR
 ================================================== */
-#reviewbutton{
-  float: right;
-  width: 12rem;
-  font-size: 1.2rem;
-  border: none;
-  margin-bottom: 1rem;
-}
 #post-button{
   float: right;
   font-size: 1.2rem;
@@ -1295,7 +1289,7 @@ width: 60%;
   color: #7F8289;
     font-size: 1rem;
     padding: 1rem;
-  margin: 0;
+  /*margin: 0;*/
 }
 #review-area{
   border:0.1rem solid #7F8289;
