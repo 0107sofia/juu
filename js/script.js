@@ -1,4 +1,25 @@
 $(document).ready(function() {
+
+  $(window).scroll(function() {
+    //if user scroll to the button
+    if($(window).scrollTop() == $(document).height() - $(window).height()) {
+           console.log("load more")
+           //play loading aniamtion
+           $('.loading').css('visibility', 'visible');
+           $('.loading').addClass('loading-animation');
+           //after 1 sec, remove the aniamtion
+           setTimeout(function() {
+              $('.loading').removeClass('loading-animation');
+              $('.loading').css('visibility', 'hidden');
+              $('.clone').clone().insertBefore($('.marker')).removeClass('clone').addClass('new');
+            }, 1000);
+           //insert some reviews
+           
+
+
+    }
+});
+
   $('.add-to-car').click(function() {
     //if no item is in cart show red circle
     if ($('.circle').is(":hidden")) {

@@ -7,9 +7,35 @@ input:focus, textarea:focus {
 
 input, textarea{
 	border:0.1rem solid #C9C9C9 !important;
-	
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+.marker{
+	display:none;
+}
+.clone{
+	display: none;
+}
+.loading-animation {
+	-webkit-animation: loading 1s ease-in-out infinite;
+	transition:loading 1s ease-in-out infinite;
 }
 
+@-webkit-keyframes loading
+{
+0%   {opacity:100;}
+50% {opacity:0;}
+100% {opacity:100;}
+}
+.fadein-animation {
+	-webkit-animation: fadein 1s ease-in-out ;
+	transition:fadein 1s ease-in-out ;
+}
+@-webkit-keyframes fadein
+{
+0%   {opacity:0;}
+100% {opacity:100;}
+}
 .product-banner {
 	padding:0;
 	position: relative;
@@ -23,10 +49,11 @@ input, textarea{
 .product-banner h2{
 	padding-bottom: 0;
 }
-.review .container .clone{
+.review .container #reviewbox{
 	display:none;
+
 }
-.review .container .clone .col-12{
+.review .container #reviewbox .col-12{
 	border-bottom: none;
 }
 .product-details{
@@ -59,7 +86,7 @@ input, textarea{
 
 }
 
-.clone textarea{
+#reviewbox textarea{
 	width:100%;
 	height:10rem;
 }
