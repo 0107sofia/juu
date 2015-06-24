@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $(window).scroll(function() {
-    //if user scroll to the button
+    //if user scroll to the bot
     if($(window).scrollTop() == $(document).height() - $(window).height()) {
            console.log("load more")
            //play loading aniamtion
