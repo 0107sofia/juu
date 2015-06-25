@@ -1280,11 +1280,16 @@ width: 60%;
 /* ==================================================
    CHAIR
 ================================================== */
-#post-button{
+#post-button, #cancel-button{
   float: right;
+  margin-left: 1rem;
   font-size: 1.2rem;
   border: none;
   width: 7rem;
+  
+}
+.button-container{
+  float:right;
 }
 #review-name{
   border:0.1rem solid #7F8289;

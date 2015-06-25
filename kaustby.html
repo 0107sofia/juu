@@ -160,16 +160,24 @@
       <button class="blue-button" id="reviewbutton" type="button">Write a Review</button>
 
       <h4>Reviews (11)</h4>
-      <div class="grid clone" id="reviewbox">
+      <div class="grid" id="reviewbox">
         <div class="col-12">
-          <span class="icon-star-empty"></span>
+          <img class="star first"src='img/star-outline.png' width='30' height='30'/>
+          <img class="star sec"src='img/star-outline.png' width='30' height='30'/>
+          <img class="star third"src='img/star-outline.png' width='30' height='30'/>
+          <img class="star fourth"src='img/star-outline.png' width='30' height='30'/>
+          <img class="star fifth"src='img/star-outline.png' width='30' height='30'/>
+      
           <input type="text" id="review-name" name="name" placeholder="Your Name">
           <textarea id="review-area" placeholder="Write your review here" name="reivewbox"></textarea>
-          <button class="blue-button login-button" id="post-button" type="button">Post</button>
+          <div class"button-container">
+            <button class="blue-button login-button" id="post-button" type="button">Post</button>
+            <button class="blue-button login-button" id="cancel-button" type="button">Cancel</button>
+          </div>
         </div>
       </div>
       <div class="grid">
-        <div class="col-12 first">
+        <div class="col-12 first-review">
           <p class="name">Sofia T.</p>
           <p class="buryer">Verified Buyer</p>
           <p class="time">05/06/15</p>

@@ -1,5 +1,26 @@
 $(document).ready(function() {
+//cancel button hide the review box
+  $('#cancel-button').click(function() {
+    $('#reviewbox').hide();
+    $('#reviewbutton').show();
+  });
 
+//rating
+ $(".star").mouseover(function() {
+    $(this).attr('src','img/blue-star.png');
+    $(this).prevAll().attr('src','img/blue-star.png');
+    $(this).nextAll().attr('src','img/star-outline.png');
+  });
+
+//in case the mouseover doesn't work on phone, apply click method for it
+ $(".star").click(function() {
+    $(this).attr('src','img/blue-star.png');
+    $(this).prevAll().attr('src','img/blue-star.png');
+    $(this).nextAll().attr('src','img/star-outline.png');
+  });
+
+
+//auto loading 
   $(window).scroll(function() {
     //if user scroll to the bot
     if($(window).scrollTop() == $(document).height() - $(window).height()) {
@@ -14,9 +35,6 @@ $(document).ready(function() {
               $('.clone').clone().insertBefore($('.marker')).removeClass('clone').addClass('new');
             }, 1000);
            //insert some reviews
-           
-
-
     }
 });
 
@@ -55,6 +73,7 @@ $(document).ready(function() {
       $('#reviewbox').hide();
     } else {
       $('#reviewbox').show();
+      $(this).hide();
     }
   });
   $('.account').click(function() {
