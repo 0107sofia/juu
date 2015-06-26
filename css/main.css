@@ -937,6 +937,19 @@ a img {
     text-align: center;
   }
   }
+
+  input:focus, textarea:focus {
+    outline: none;
+    border:0.1rem solid #a1caca !important;
+    background-color: #F0F5F5 !important;
+
+}
+
+input, textarea{
+  border:0.1rem solid #C9C9C9 !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
 /* ==================================================
    END OF ABOUT US PAGE
 ================================================== */
