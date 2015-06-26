@@ -1331,7 +1331,7 @@ width: 60%;
    CHAIR
 ================================================== */
 #post-button, #cancel-button{
-  float: right;
+  /*float: right;*/
   margin-left: 1rem;
   font-size: 1.2rem;
   border: none;
@@ -1361,7 +1361,9 @@ width: 60%;
   text-align: center;
 }
 
-
+.why-juu .container .grid .col-3 p{
+  width:100%;
+}
 
 /* ==================================================
    END OF CHAIR

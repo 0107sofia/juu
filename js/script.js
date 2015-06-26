@@ -23,7 +23,9 @@ $(document).ready(function() {
 //auto loading 
   $(window).scroll(function() {
     //if user scroll to the bot
-    if($(window).scrollTop() == $(document).height() - $(window).height()) {
+    //console.log($(".review .col-12").length);
+    var reviewscount = $(".review .col-12").length;
+    if($(window).scrollTop() == $(document).height() - $(window).height()&reviewscount<=11) {
            console.log("load more")
            //play loading aniamtion
            $('.loading').css('visibility', 'visible');
