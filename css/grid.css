@@ -574,17 +574,7 @@
 }
 
 
-@media (max-width: 40rem) {
-.banner-title p{
-font-size: 1.2rem;
-}
-.banner-title h2{
-  font-size: 4rem;
-}
-.banner-title{
-  top:10%;
-}
-  }
+
 
 
 @media (max-width: 35rem) {
@@ -601,6 +591,18 @@ font-size: 1.2rem;
 /* ==================================================
    ABOUT PAGE GRID
 ================================================== */
+.banner-title{
+  width: 80%;
+}
+
+@media (max-width: 80rem) {
+  .banner-title{
+  width: 90%;
+}
+  .banner-title h2{
+  line-height: 120%;
+}
+  }
 @media (max-width: 53rem) {
 .visitus h2{
   font-size: 4rem;
@@ -615,12 +617,31 @@ font-size: 1.2rem;
   font-size: 1rem;
 }
 .banner-title{
-  width: 80%;
+  width:90%;
 }
 
 }
+
+@media (max-width: 43rem) {
+.banner-title p{
+font-size: 1.2rem;
+}
+.banner-title h2{
+  font-size: 4rem;
+  line-height: 150%;
+}
+.banner-title{
+  top:10%;
+}
+  }
 
 @media (max-width: 30rem) {
+  .banner-title h2{
+    font-size: 3rem;
+  }
+  .banner-title p{
+    font-size: 1rem;
+  }
 .visitus h2{
   font-size: 3rem;
 }
@@ -634,6 +655,7 @@ font-size: 1.2rem;
   width: 90%;
 }
 }
+
 
 /* ==================================================
    END OF ABOUT PAGE GRID
