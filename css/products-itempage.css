@@ -79,6 +79,7 @@ padding-top: 5rem;
 }
 
 .product-banner .textcontainer{
+	background-color: rgba(255, 255, 255, 0.7);
 	position:absolute;
 	top:40%;
 	right:10%;
@@ -181,7 +182,7 @@ padding-top: 5rem;
 		height: 30rem
 	}
 	.product-banner .textcontainer{
- 		right:4%;
+ 		right:0%;
 	}
 	.product-banner {
  		background-position: 50% 80%;
@@ -207,10 +208,10 @@ padding-top: 5rem;
 		width:30rem;
 	}
 	.product-banner .textcontainer{
- 		right:4%;
+ 		right:0%;
 	}
 	.product-banner {
- 		background-position: 65% 80%;
+ 		background-position: 50% 80%;
  	}
 }
 
@@ -236,10 +237,10 @@ padding-top: 5rem;
  		font-size: 1.5rem;
  	}
  	.product-banner {
- 		background-position: 60% 80%;
+ 		background-position:50% 80%;
  	}
  	.product-banner .textcontainer{
- 		right:4%;
+ 		right:0%;
  		width:20rem;
  	}
  	.product-details .textcontainer{
