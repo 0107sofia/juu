@@ -44,8 +44,14 @@ input, textarea{
 	height:30rem;
 	background-position: 20% 80%;
 	background-repeat: no-repeat;
+	margin-bottom: 0;
 }
-
+.product-details .textcontainer{
+padding-top: 5rem;
+}
+.product-details .textcontainer p{
+	padding-bottom: 3rem;
+}
 .product-banner h2{
 	padding-bottom: 0;
 }
@@ -61,10 +67,11 @@ input, textarea{
 	position: relative;
 	background-image:url(../img/chair-view1.png);
 	background-size: auto 50rem;
-	height:70rem;
+	height:40rem;
 	background-position: 100% 40%;
 	background-repeat: no-repeat;
 	background-size: contain;
+	margin-bottom: 3rem;
 }
 
 .filter{
@@ -155,9 +162,21 @@ input, textarea{
 	}
 }
 @media (max-width: 60rem) {
+	.product-details .textcontainer{
+		padding-top: 0;
+	}
+	.product-banner.textcontainer{
+		padding-top: 1rem;
+	}
+	.textcontainer p{
+	padding-bottom: 1rem;
+}
+.product-details .textcontainer{
+		width:30rem;
+	}
 	.product-details{
 		/*background-position: 160% 30%;*/
-		height: 40rem
+		height: 30rem
 	}
 	.product-banner .textcontainer{
  		right:4%;
@@ -176,8 +195,12 @@ input, textarea{
 @media (max-width: 50rem) {
 	.product-details{
 		/*background-position: 240% 30%;*/
-		height:40rem;
+		height:28rem;
 	}
+	.product-details .textcontainer{
+ 		width:12rem;
+ 		left:2rem;
+ 	}
 	.product-details .textcontainer{
 		width:30rem;
 	}
@@ -194,20 +217,31 @@ input, textarea{
 		width:20rem;
 	}
 }
- @media (max-width: 30rem) {
- 	.product-details{
-		background-position: 140% 60%;
-		height:30rem;
-	}
+
+ @media (max-width: 35rem) {
+ 	.product-details .textcontainer{
+ 		padding-top: 0;
+ 		background-color: rgba(255, 255, 255, 0.7);
+
+ 	}
+ 	.textcontainer p{
+ 		font-size: 0.9rem;
+ 		line-height: 150%;
+ 		padding-bottom: 1rem;
+
+ 	}
+ 	.textcontainer h3{
+ 		font-size: 1.5rem;
+ 	}
  	.product-banner {
  		background-position: 60% 80%;
  	}
  	.product-banner .textcontainer{
  		right:4%;
- 		width:15rem;
+ 		width:20rem;
  	}
  	.product-details .textcontainer{
- 		width:12rem;
+ 		width:18rem;
  		left:2rem;
  	}
  	.product-details .textcontainer p{
