@@ -23,7 +23,7 @@ $(document).ready(function() {
 //auto loading 
   $(window).scroll(function() {
     //if user scroll to the bot
-    //console.log($(".review .col-12").length);
+    console.log($(".review .col-12").length);
     var reviewscount = $(".review .col-12").length;
     if($(window).scrollTop() == $(document).height() - $(window).height()&reviewscount<=11) {
            console.log("load more")
