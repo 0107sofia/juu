@@ -434,6 +434,48 @@
 
 
 
+@media (max-width: 75rem) {
+   figcaption h2{
+    font-size: 2rem;
+   }  
+}
+@media (max-width: 60rem) {
+   figcaption h2{
+    font-size: 1.5rem;
+   }  
+   figcaption p{
+    font-size: 0.8rem;
+   } 
+   .poster-text1, .poster-text2, .poster-text3{
+     top: 0.7rem;
+}
+}
+@media (max-width: 55rem) {
+   .poster1, .poster2, .poster3{
+    width: 100%;
+   }
+   figcaption h2{
+    font-size: 3rem;
+   }  
+   figcaption p{
+    font-size: 1.3rem;
+   } 
+   .poster-text1, .poster-text2, .poster-text3{
+     top: 2rem;
+}
+}
+@media (max-width: 32rem) {
+   figcaption h2{
+    font-size: 2rem;
+   }  
+   figcaption p{
+    font-size: 1rem;
+   } 
+   .poster-text1, .poster-text2, .poster-text3{
+     top: 1rem;
+}
+}
+
 /* ==================================================
    STORES PAGE GRID
 ================================================== */

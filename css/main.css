@@ -380,6 +380,23 @@ header #logo a {
     margin-right: auto;
 }
 
+.poster1, .poster2, .poster3{
+  position: relative;
+}
+
+.poster1 p, .poster2 p, .poster3 p{
+  color: white;
+}
+
+.poster1 h2, .poster2 h2, .poster3 h2{
+  color: white;
+}
+
+.poster-text1, .poster-text2, .poster-text3{
+ position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
 
 
 
