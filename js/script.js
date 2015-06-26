@@ -95,7 +95,10 @@ $(document).ready(function() {
     }
     return false;
   });
-
+  $('.close').click(function() {
+    $('#cart-dropdown').hide();
+    $('#signin-dropdown').hide();
+  });
   $('.car').click(function() {
     //Conditional states allow the dropdown box appear and disappear 
     if ($('#cart-dropdown').is(":visible")) {

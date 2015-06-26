@@ -633,6 +633,7 @@ a img {
 }
 #cart-dropdown{
   display:none;
+
 }
 .second-nav{
   z-index: 999;
@@ -1197,7 +1198,7 @@ width: 60%;
 .cart{
   z-index: 1000;
   position: fixed;
-  top:4rem;
+  top:3rem;
   right: 0;
   background-color: white;
   display: inline-block;
@@ -1235,7 +1236,19 @@ width: 60%;
     min-height: 20rem;
     min-width: 100%;
     right: 0;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    /*-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);*/
+}
+.close{
+  float:right;
+  margin-right:2rem;
+}
+#signin-dropdown .close{
+  margin-right:0rem;
+}
+.cart{
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }

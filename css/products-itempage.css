@@ -98,7 +98,9 @@ padding-top: 5rem;
 	height:10rem;
 }
 
-
+.star:hover{
+	cursor:hand;
+}
 
 .light-font{
 	font-weight: 100;

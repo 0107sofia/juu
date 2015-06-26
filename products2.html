@@ -12,7 +12,7 @@
   <title>Juu Furniture</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="icomoon/style.css">
+  <link rel="stylesheet" href="css/products.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400%7cTitillium+Web:400,200,700' rel='stylesheet' type='text/css'>
 
 </head>
@@ -27,14 +27,15 @@
 
       <div class="menu menu-icon">
         <ul class="menu-nav">
-          <li class="icon account" id="account"><img src='img/account-gray.png' width='17.6' height='16'></li>
+          <li class="icon account" id="account"><img src='img/account-gray.png' width='17.6' height='16'/></li>
           <li class="icon car" id="car"><img src='img/cart-gray.png' width='18.6' height='16'/></li>
+          <li class="circle-li"><div class="circle">1</div></li>
         </ul>
       </div>
 
       <div class="menu menu-firstrow">
         <ul class="menu-nav">
-          <li><a href="products.html">Products</a></li>
+          <li class="activated"><a href="products.html">Products</a></li>
           <li><a href="stores.html">Stores</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
@@ -45,11 +46,11 @@
 
   <div class="login">
         <div id="signin-dropdown">
-        <!-- <img class="close" src="img/close.png" alt="close" height="15" width="15"> -->
+    
         <form method="post" class="signin" action="#">
         <div class="textbox">
         <label class="username">
-        <span>Username</span><img class="close" src="img/close.png" alt="close" height="15" width="15">
+        <span>Username</span>
         <input id="username" name="username" value="" type="text" autocomplete="on">
         </label>
         
@@ -68,10 +69,10 @@
     </div>
   </div>
 
+
   <div class="cart">
-    <div id="cart-dropdown">
-      <img class="close" src="img/close.png" alt="close" height="15" width="15">
-      <div class="cart-item">
+        <div id="cart-dropdown">
+    <div class="cart-item">
         <img class="cart-img" src="img/buy1.jpg" alt="list1" height="100" width="100">
         <div class="cart-description">
         <p class="list-title">Copenhague Chair</p>
@@ -96,85 +97,50 @@
           </div>
         </div>
       </div>
+        
       </div>
     </div>
-
-
-
     <div class="second-nav">
        <ul class="menu-nav">
-          <li><a href="products.html">Products</a></li>
+          <li class="activated"><a href="products.html">Products</a></li>
           <li><a href="stores.html">Stores</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
-      
     </div> <!-- end of second nav bar -->
   </header>
-  
-  <div class="jumbotron">
-    <div class="jumbotron-title">
-      <h2>JUU</h2>
-      <h3>bring more colors to your life</h3>
-      <a class="ghost-button" href="products.html">shop now</a>
-    </div>
-  </div>
 
-  <div class="section why-juu">
+
+    
+
+  <div class="section productlist">
     <div class="container">
-      <h2>Why JUU?</h2>
-      <div class="grid">
-        <div class="col-3">
-          <p>
-            <img src="img/shipping-icon.png" alt="shipping">
-            Free delivery on all orders
-          </p>
+      <div class="second-nav filter">
+       <ul class="menu-nav">
+          <li class="activated"><a href="#products">All</a></li>
+          <li><a href="#products">Chair</a></li>
+          <li><a href="#stores">Table</a></li>
+          <li><a href="#about">Storage</a></li>
+        </ul>
+      </div>
+      <div class="flex-container">
+        <div class="product1">
+          <a href="kaustby.html"><img src="img/productlist/all/product01.jpg" alt="product1"></a>
         </div>
-        <div class="col-3">
-          <p>
-            <img src="img/install-icon.png" alt="install">
-            Free assembly &amp; installation
-          </p>
+        <div class="product2">
+          <img src="img/productlist/all/product02.jpg" alt="product2">
         </div>
-        <div class="col-3">
-          <p>
-            <img src="img/return-icon.png" alt="return">
-            Free return within 1 month
-          </p>
+        <div class="product3">
+          <img src="img/productlist/all/product03.jpg" alt="product3">
         </div>
-        <div class="col-3">
-          <p>
-            <img src="img/consault-icon.png" alt="consult">
-           Free consultation &amp; planing
-          </p>
+        <div class="product4">
+          <img src="img/productlist/all/product04.jpg" alt="product4">
         </div>
       </div>
+      
+      
+      <p class="loading"> loading...</p>
     </div>
-  </div><!--  end of section -->
-
-
-
-<div class="section posters">
-
-      <h2>JUU News</h2>
-      <h4>new collections and events</h4>
-    </div>
-<div class="posters">
-      <div class="grid">
-        <div class="col-4 poster1" >
-          <a href="products.html"><img  src="img/event1.jpg" alt="event1"></a>
-          <figcaption class="poster-text1"><h2>JUU Bedroom Event</h2><p>Take 15% Off All Bedroom Items Through July 25</p></figcaption>
-        </div>
-        <div class="col-4 poster2">
-          <a href="products.html"><img src="img/event2.jpg" alt="event2"></a>
-          <figcaption class="poster-text2"><h2>Eco Box Collection</h2><p>Just arrived!</p></figcaption>
-        </div>
-        <div class="col-4 poster3">
-          <a href="products.html"><img src="img/event3.jpg" alt="event3"></a>
-          <figcaption class="poster-text3"><h2>Colorful Workspace</h2><p>New desk &amp; chair collection</p></figcaption>
-      </div>
-    </div>
-  </div>
-
+  </div> <!-- end of product list -->
 <footer class="footer">
 
       
@@ -199,10 +165,9 @@
       </div>
 
     </footer>
-
-
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 </body>
 </html>
+
