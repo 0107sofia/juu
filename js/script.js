@@ -1,6 +1,17 @@
 $(document).ready(function() {
-//cancel button hide the review box
+
+$(window).resize(function() {
+
+console.log($(window).width());
+
+});
+//cancel and post button hide the review box
   $('#cancel-button').click(function() {
+    $('#reviewbox').hide();
+    $('#reviewbutton').show();
+  });
+
+  $('#post-button').click(function() {
     $('#reviewbox').hide();
     $('#reviewbutton').show();
   });

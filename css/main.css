@@ -2,7 +2,9 @@
    font-family: bannerfont;
    src: url(../fonts/SouthernAire_Personal_Use_Only.ttf);
 }
-
+* a img{
+  display:block;
+}
 *{
   padding: 0;
   margin:0;
