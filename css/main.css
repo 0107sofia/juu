@@ -345,19 +345,29 @@ header #logo a {
   margin-bottom: 2rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  /*display:block;*/
-  /*background-color:red;*/
+  display:block;
+  content:"";
+  clear:both;
+
+}
+.section:after{
+  display:block;
+  content:"";
   clear:both;
 }
-
+.container:after{
+  display:block;
+  content:"";
+  clear:both;
+}
 .container{
   max-width: 60rem;
   margin-right: auto;
   margin-left: auto;
   padding:0;
+  display:block;
+  content:"";
   clear:both;
-  /*margin-bottom: 10rem;*/
-  /*background-color: green;*/
 }
 
 
