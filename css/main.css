@@ -403,6 +403,7 @@ header #logo a {
 
 .poster1, .poster2, .poster3{
   position: relative;
+  padding: 0;
 }
 
 .poster1 p, .poster2 p, .poster3 p{
@@ -485,7 +486,7 @@ header #logo a {
 
 .white-button:hover{
   background-color: #F0F0F0;
-  font-weight: 400;
+  border: 0.1rem solid #a1caca;
 }
 
 .ghost-button, .ghost-button:visited {
@@ -686,8 +687,7 @@ a img {
 
 .posters{
   margin: 0;
-  padding-top: 1rem;
-  padding-bottom: 0;
+  padding: 0;
 }
 .posters img{
   width: 100%;
