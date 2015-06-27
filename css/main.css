@@ -372,13 +372,15 @@ header #logo a {
 }
 
 .why-juu img{
-  width: 150px;
+  width: 5rem;
   padding-bottom: 0.8rem;
   padding-top: 1.2rem;
   display: table;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 .poster1, .poster2, .poster3{
   position: relative;
