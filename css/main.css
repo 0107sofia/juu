@@ -369,7 +369,16 @@ header #logo a {
   content:"";
   clear:both;
 }
-
+@media (max-width: 130rem) {
+  .container{
+    max-width:63%;
+  }
+}
+@media (max-width: 100rem) {
+  .container{
+    max-width:60rem;
+  }
+}
 
 .why-juu p{
   display: table;
@@ -1354,8 +1363,8 @@ width: 60%;
   font-size: 1.2rem;
   border: none;
   width: 7rem;
-  
 }
+
 .button-container{
   float:right;
 }
