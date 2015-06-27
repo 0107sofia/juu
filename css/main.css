@@ -693,6 +693,12 @@ a img {
   margin-top: 0rem;
 }
 
+.storespage{
+  position: fixed;
+  bottom:0;
+}
+
+
 .footer p{
   color: white;
 }
@@ -1046,7 +1052,7 @@ iframe{
   margin-bottom: -0.4rem;
   border: 0;
   width: 100%;
-  height: 30rem;
+  height: 75vh;
 }
 
 
