@@ -380,6 +380,9 @@ header #logo a {
   }
 }
 
+.why-juu h2{
+  display: block;
+}
 .why-juu p{
   display: table;
   padding-left: 1.5rem;
@@ -398,12 +401,15 @@ header #logo a {
     margin-left: auto;
     margin-right: auto;
 }
-
-
+.about-link p{
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  float: left;
+}
 
 .poster1, .poster2, .poster3{
   position: relative;
-  padding: 0;
 }
 
 .poster1 p, .poster2 p, .poster3 p{
@@ -418,6 +424,9 @@ header #logo a {
  position: absolute;
   top: 1rem;
   left: 0.5rem;
+}
+.posters .col-6{
+  padding: 0;
 }
 
 
