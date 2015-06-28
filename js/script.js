@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   $(window).resize(function() {
 
-  console.log($(window).width());
+  console.log($(window).width() / parseFloat($("body").css("font-size")));
 
   });
 //cancel and post button hide the review box

@@ -1403,12 +1403,14 @@ width: 60%;
    CHAIR
 ================================================== */
 #post-button, #cancel-button{
-  /*float: right;*/
+  float: right;
+  margin-top: 0.5rem;
   margin-left: 1rem;
   font-size: 1.2rem;
   /*border: none;*/
   width: 7rem;
 }
+
 #cancel-button{
   /*background-color:white;
   color:#a1caca;

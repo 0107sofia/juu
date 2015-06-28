@@ -25,6 +25,7 @@ input, textarea{
   display:block;
   content:"";
   clear:both;
+  width:100%;
 }
 .marker{
 	display:none;
@@ -242,6 +243,13 @@ padding-top: 5rem;
 	.product-details .textcontainer{
 		width:20rem;
 	}
+	#post-button, #cancel-button{
+    	width:100%;
+  	}
+    #reviewbutton{
+    	/*font-size: 1rem;*/
+    	width:10rem;
+    }
 }
 
  @media (max-width: 35rem) {
