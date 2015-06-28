@@ -283,3 +283,17 @@ padding-top: 5rem;
  	}
 
  }
+
+ .product-description img{
+  display: block;
+  width: 100%;
+}
+.product-description .col-6{
+  padding: 0;
+}
+.product-description .col-3{
+  padding: 0 ;
+}
+.product-description{
+	padding: 0;
+}
