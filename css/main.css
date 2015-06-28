@@ -388,8 +388,8 @@ header #logo a {
 }
 .why-juu p{
   display: table;
-  /*padding-left: 1.5rem;
-  padding-right: 0.5rem;*/
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 0.9rem;
   line-height: 150%;
   margin-bottom: 2rem;
