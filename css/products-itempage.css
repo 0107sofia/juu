@@ -1,14 +1,25 @@
+
 input:focus, textarea:focus {
     outline: none;
     border:0.1rem solid #a1caca !important;
     background-color: #F0F5F5;
+}
 
+*{
+	/*outline:1px solid black;*/
 }
 
 input, textarea{
 	border:0.1rem solid #C9C9C9 !important;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
+}
+.review-container{
+	padding-left: 5rem;
+	margin-top:-2.3rem;
+}
+.star-container{
+	
 }
 .button-container{
   display:block;
@@ -104,8 +115,15 @@ padding-top: 5rem;
 	height:10rem;
 }
 
-.star:hover{
-	cursor:hand;
+
+.star{
+	width:1rem;
+	height: 1rem;
+}
+
+#reviewbox .col-12 .star{
+	width:2rem;
+	height:2rem;
 }
 
 .light-font{
@@ -141,7 +159,7 @@ padding-top: 5rem;
 	color: #7F8289;
 	font-weight: 300;
 	font-size: 1rem;
-	padding-left: 5rem;
+	
 }
 .name{
 	color:#878787;

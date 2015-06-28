@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-$(window).resize(function() {
+  $(window).resize(function() {
 
-console.log($(window).width());
+  console.log($(window).width());
 
-});
+  });
 //cancel and post button hide the review box
   $('#cancel-button').click(function() {
     $('#reviewbox').hide();
@@ -17,14 +17,14 @@ console.log($(window).width());
   });
 
 //rating
- $(".star").mouseover(function() {
+ $("#reviewbox .col-12 .star").mouseover(function() {
     $(this).attr('src','img/blue-star.png');
     $(this).prevAll().attr('src','img/blue-star.png');
     $(this).nextAll().attr('src','img/star-outline.png');
   });
 
 //in case the mouseover doesn't work on phone, apply click method for it
- $(".star").click(function() {
+ $("#reviewbox .col-12 .star").click(function() {
     $(this).attr('src','img/blue-star.png');
     $(this).prevAll().attr('src','img/blue-star.png');
     $(this).nextAll().attr('src','img/star-outline.png');
