@@ -383,7 +383,8 @@ header #logo a {
 }
 
 .why-juu h2{
-  display: block;
+  padding-bottom: 0;
+  font-size: 2rem;
 }
 .why-juu p{
   display: table;
@@ -402,11 +403,14 @@ header #logo a {
   display: table;
     margin-left: auto;
     margin-right: auto;
+
 }
 .about-link {
   width:100%;
 }
-
+.about-link a{
+  font-weight: 300;
+}
 .poster1, .poster2, .poster3{
   position: relative;
 }
@@ -417,18 +421,43 @@ header #logo a {
 
 .poster1 h2, .poster2 h2, .poster3 h2{
   color: white;
+  text-align: left !important;
+}
+.poster1 h2{
+
+  font-size: 3rem;
+}
+.poster1 p{
+  font-size: 1.3rem;
 }
 
 .poster-text1, .poster-text2, .poster-text3{
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  padding-top: 0.5rem;
  position: absolute;
-  top: 1rem;
-  left: 0.5rem;
+  top: 0;
+  left: 0;
 }
 .posters .col-6{
   padding: 0;
 }
 
-
+.posters a img { 
+  display: block; 
+  opacity: .9;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+.poster1:hover img{ 
+  opacity: 1;
+}
+.poster2:hover img{ 
+  opacity: 1;
+}
+.poster3:hover img{ 
+  opacity: 1;
+}
 
 .line{
   width: 100%;

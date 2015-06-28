@@ -93,7 +93,16 @@
   .col-3{
   width:50%;
   }
+  .why-juu .col-3{
+    width: 25%;
+  }
 }
+@media (max-width: 40rem) {
+  .why-juu .col-3{
+    width: 50%;
+  }
+}
+
 
 @media (max-width: 30rem) {
   .col-3{
@@ -438,21 +447,26 @@
 
 @media (max-width: 75rem) {
    figcaption h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
    }  
+   .poster1 h2{
+    font-size: 2rem;
+   }
+   .poster1 p{
+    font-size: 1rem;
+   }
 }
 @media (max-width: 60rem) {
    figcaption h2{
     font-size: 1.5rem;
    }  
+   
    figcaption p{
     font-size: 0.8rem;
    } 
-   .poster-text1, .poster-text2, .poster-text3{
-     top: 0.7rem;
+
 }
-}
-@media (max-width: 55rem) {
+@media (max-width: 47rem) {
    .poster1, .poster2, .poster3{
     width: 100%;
    }
@@ -462,9 +476,13 @@
    figcaption p{
     font-size: 1.3rem;
    } 
-   .poster-text1, .poster-text2, .poster-text3{
-     top: 2rem;
-}
+   .poster1 h2{
+    font-size: 3rem;
+   }
+   .poster1 p{
+    font-size: 1.3rem;
+   }
+
 }
 @media (max-width: 32rem) {
    figcaption h2{
@@ -473,9 +491,13 @@
    figcaption p{
     font-size: 1rem;
    } 
-   .poster-text1, .poster-text2, .poster-text3{
-     top: 1rem;
-}
+   .poster1 h2{
+    font-size: 2rem;
+   }
+   .poster1 p{
+    font-size: 1rem;
+   }
+
 }
 
 /* ==================================================
