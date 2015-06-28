@@ -2,9 +2,11 @@ $(document).ready(function() {
 
   $(window).resize(function() {
 
-  console.log($(window).width() / parseFloat($("body").css("font-size")));
-
+  // console.log($(window).width() / parseFloat($("body").css("font-size")));
+  // alert($(window).width() / parseFloat($("body").css("font-size")));
+  $('#test').text($(window).width() / parseFloat($("body").css("font-size")));
   });
+  $('#test').text($(window).width() / parseFloat($("body").css("font-size")));
 //cancel and post button hide the review box
   $('#cancel-button').click(function() {
     $('#reviewbox').hide();
