@@ -424,6 +424,7 @@ header #logo a {
 }
 
 .poster1 h2, .poster2 h2, .poster3 h2{
+  line-height: 120%;
   color: white;
   text-align: left !important;
 }
@@ -436,12 +437,14 @@ header #logo a {
 }
 
 .poster-text1, .poster-text2, .poster-text3{
-  background-color: rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to top, rgba(0, 0, 0, .2),  rgba(0, 0, 0, 0));
+  /*background-color: rgba(0, 0, 0, 0.1);*/
   padding: 1rem;
   padding-top: 0.5rem;
  position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
+  width: 100%;
 }
 .posters .col-6{
   padding: 0;
