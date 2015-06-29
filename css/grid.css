@@ -446,7 +446,7 @@
 
 
 @media (max-width: 75rem) {
-   figcaption h2{
+   .posters figcaption h2{
     font-size: 1.5rem;
    }  
    .poster1 h2{
@@ -457,11 +457,11 @@
    }
 }
 @media (max-width: 60rem) {
-   figcaption h2{
+   .posters figcaption h2{
     font-size: 1.5rem;
    }  
    
-   figcaption p{
+   .posters figcaption p{
     font-size: 0.8rem;
    } 
 
@@ -470,10 +470,10 @@
    .poster1, .poster2, .poster3{
     width: 100%;
    }
-   figcaption h2{
+   .posters figcaption h2{
     font-size: 3rem;
    }  
-   figcaption p{
+   .posters figcaption p{
     font-size: 1.3rem;
    } 
    .poster1 h2{
@@ -485,10 +485,10 @@
 
 }
 @media (max-width: 32rem) {
-   figcaption h2{
+   .posters figcaption h2{
     font-size: 2rem;
    }  
-   figcaption p{
+   .posters figcaption p{
     font-size: 1rem;
    } 
    .poster1 h2{

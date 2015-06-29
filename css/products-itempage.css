@@ -63,6 +63,10 @@ input, textarea{
 	background-repeat: no-repeat;
 	margin-bottom: 0;
 }
+
+.product-banner .textcontainer{
+	padding: 1rem;
+}
 .product-details .textcontainer{
 padding-top: 5rem;
 }
@@ -297,3 +301,110 @@ padding-top: 5rem;
 .product-description{
 	padding: 0;
 }
+.description1, .description2, .description3{
+	position: relative;
+}
+.chair-text1, .chair-text2, .chair-text3{
+	line-height: 120%;
+	padding: 1rem;
+	padding-top: 0.5rem;
+	position: absolute;
+}
+.chair-text1{
+	bottom: 2%;
+	right: 1rem;
+	text-align: right;
+}
+.chair-text1 h2{
+	padding: 0;
+}
+.chair-text2{
+	top:25%;
+	left: 40%;
+}
+.chair-text3{
+	top:25%;
+	left: 1rem;
+	width: 60%;
+}
+.mobile-description{
+	display: none;
+}
+@media (max-width: 100rem) {
+	.chair-text3{
+	top:20%;
+}
+
+	}
+
+@media (max-width: 93rem) {
+	.chair-text3, .chair-text2{
+	top:10%;
+}
+	}
+
+@media (max-width: 85rem) {
+	.product-description .col-6{
+width: 100%;
+	}
+	.chair-text1 {
+		bottom: 10%;
+	}
+	.chair-text2{
+		top:25%;
+		width: 50%;
+	}
+	.chair-text3{
+		top: 25%;
+		width: 50%;
+		left: 8%;
+	}
+
+	}
+@media (max-width: 55rem) {
+.chair-text1 {
+		bottom: 5%;
+	}
+	.chair-text2, .chair-text3{
+		top:20%;
+		width: 60%;
+	}
+	.chair-text3{
+		left: 2%;
+	}
+}
+@media (max-width: 48rem) {
+.product-description p{
+	font-size: 0.8rem;
+}
+.product-description h2{
+	font-size: 2rem;
+}
+.chair-text2, .chair-text3{
+	top: 10%;
+}
+
+}
+@media (max-width: 40rem) {
+	.description1 img{
+		opacity: 0.7;
+	}
+	.chair-text1{
+		bottom: 0;
+		right: 0;
+		padding: 1rem;
+	}
+	.description3, .description2, .description4{
+		display: none;
+	}
+	.mobile-description{
+		display: block;
+	}
+	.description1{
+		margin-bottom: 2rem;
+	}
+	.mobile-description p{
+		padding: 2rem;
+	}
+	}
+
