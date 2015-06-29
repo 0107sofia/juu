@@ -18,8 +18,9 @@ input, textarea{
 	padding-left: 5rem;
 	margin-top:-2.3rem;
 }
-.star-container{
-	
+
+.hide{
+	display:none;
 }
 .button-container{
   display:block;
@@ -27,6 +28,7 @@ input, textarea{
   clear:both;
   width:100%;
 }
+
 .marker{
 	display:none;
 }

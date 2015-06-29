@@ -1,51 +1,63 @@
 $(document).ready(function() {
 
   var hidden = false;
+  
   String.prototype.insert = function (index, string) {
-  if (index > 0)
-    return this.substring(0, index) + string + this.substring(index, this.length);
-  else
-    return string + this;
+    if (index > 0)
+      return this.substring(0, index) + string + this.substring(index, this.length);
+    else
+      return string + this;
   };
-
 
  
   //detect the screen size and return a relative value
   $(window).resize(function() {
     var windowSize = $(window).width() / parseFloat($("body").css("font-size"));
-    $('#test').text(windowSize);
-    //if current window size is mobile
-    if (windowSize<=13&hidden==false){
-      console.log("mobile size");
-      hidden=true
-      var reviewNum = $('.review .container').find('.review-content').length;
-      //console.log(reviewNum);
-      for (var i = 0; i<reviewNum; i++){
-        var content = $('.review .container').find('.review-content').eq(i).text();
-        var wordCount = 0;
-        for (var j = 0; j<content.length; j++){
-          
-          console.log(content[j]);
-          if (content[j]==" "){
-            wordCount=wordCount+1;
-           console.log("find space");
-           console.log(wordCount);
-            if (wordCount==12){
-              console.log(wordCount);
-              content = content.insert(j,"...readmore ");
-              $('.review .container').find('.review-content').eq(i).text(content);
-               break;
+    console.log("windowSize: "+windowSize);
+    //if current window size is mobile, add read more button
+    if (windowSize<=14){
+      if (hidden==false){
+        hidden=true
+        var reviewNum = $('.review .container').find('.review-content').length;
+        //console.log(reviewNum);
+        for (var i = 0; i<reviewNum; i++){
+          var content = $('.review .container').find('.review-content').eq(i).text();
+          var wordCount = 0;
+          for (var j = 0; j<content.length; j++){
+            
+            // console.log(content[j]);
+            if (content[j]==" "){
+              wordCount=wordCount+1;
+             // console.log("find space");
+             // console.log(wordCount);
+              if (wordCount==12){
+                // console.log(wordCount);
+                //insert the <span> and <button> tag
+                content = content.insert(j,"<span class='hide'>");
+                content = content.insert(content.length,"</span>");
+                content = content.insert(content.length,"<button class='more-button'>...more</button>");
+                $('.review .container').find('.review-content').eq(i).html(content).contents();
+                break;
+              }
             }
           }
         }
-        
-        
-        //push content back
-        //$('.review .container').find('.review-content').eq(i).text(content);
       }
+    //if not on mobile size, remove all
+    }else{
+      hidden=false;
+      $('.review .container').find('.hide').contents().unwrap();
+      $('.review .container').find('.more-button').remove();
+
     }
   });
   
+  $('.review .container .grid .col-12 .review-container .review-content .more-button').click(function(){
+    console.log("show");
+      
+
+
+  });
 //cancel and post button hide the review box
   $('#cancel-button').click(function() {
     $('#reviewbox').hide();
