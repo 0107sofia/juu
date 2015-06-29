@@ -177,8 +177,6 @@
   background-repeat:no-repeat;
 }*/
 
-=======
->>>>>>> 4990b34cd64db4a299abdc0d7118e48201ea571e
 .grid:after {
   content: "";
   display: block;
@@ -192,7 +190,7 @@
 .flex-container {
   padding: 0;
   margin: 0;
-  list-style: none;
+  
   
   display: -webkit-box;
   display: -moz-box;
@@ -200,14 +198,31 @@
   display: -webkit-flex;
   display: flex;
   
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  flex-flow: row wrap; 
+  justify-content: flex-start;
+  
   height: auto;
-  width: auto;
+  width: 100%;
   max-width: 100%;
 }
+.flex-container .product{
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  /*width: 200px;*/
+  height: 20rem; 
+  
+}
 
-
+.flex-container .product img { 
+  width: auto; 
+  height: 100%; 
+}
 
 @media (max-width: 40rem) {
   .col-6{
@@ -228,72 +243,7 @@
   [class^='col-'] {
     padding-right:0;
   }
-.product1 {
-  -webkit-flex-basis: 200px;
-  -ms-flex-basis: 200px;
-  flex-basis: 200px;
-  flex-grow:1;
-  /*background-color:red;*/
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 
-  margin-right: 0.5rem;
-}
-.product1 img{
-  width:auto;
-  height:auto;
-  max-height: 100%;
-}
-.product2{
-  flex-grow:3;
-  /*background-color:red;*/
-  -webkit-flex-basis: 600px;
-  -ms-flex-basis: 600px;
-  flex-basis: 600px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.product2 img{
-  width:auto;
-  height:auto;
-  max-height:100%;
-}
-
-.product3{
-  flex-grow:1;
-  /*background-color:red;*/
-  -webkit-flex-basis: 200px;
-  -ms-flex-basis: 200px;
-  flex-basis: 200px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-right: 0.5rem;
-}
-.product3 img{
-  width:auto;
-  height:auto;
-  max-height:100%;
-}
-
-.product4{
-  flex-grow:1;
-  /*background-color:red;*/
-  -webkit-flex-basis: 200px;
-  -ms-flex-basis: 200px;
-  flex-basis: 200px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-right: 0.5rem;
-}
-.product3 img{
-  width:auto;
-  height:auto;
-  max-height:100%;
-}
 
 @media (max-width: 30rem) {
     .login{
