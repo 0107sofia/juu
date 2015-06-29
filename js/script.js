@@ -1,12 +1,51 @@
 $(document).ready(function() {
 
-  $(window).resize(function() {
+  var hidden = false;
+  String.prototype.insert = function (index, string) {
+  if (index > 0)
+    return this.substring(0, index) + string + this.substring(index, this.length);
+  else
+    return string + this;
+  };
 
-  // console.log($(window).width() / parseFloat($("body").css("font-size")));
-  // alert($(window).width() / parseFloat($("body").css("font-size")));
-  $('#test').text($(window).width() / parseFloat($("body").css("font-size")));
+
+ 
+  //detect the screen size and return a relative value
+  $(window).resize(function() {
+    var windowSize = $(window).width() / parseFloat($("body").css("font-size"));
+    $('#test').text(windowSize);
+    //if current window size is mobile
+    if (windowSize<=13&hidden==false){
+      console.log("mobile size");
+      hidden=true
+      var reviewNum = $('.review .container').find('.review-content').length;
+      //console.log(reviewNum);
+      for (var i = 0; i<reviewNum; i++){
+        var content = $('.review .container').find('.review-content').eq(i).text();
+        var wordCount = 0;
+        for (var j = 0; j<content.length; j++){
+          
+          console.log(content[j]);
+          if (content[j]==" "){
+            wordCount=wordCount+1;
+           console.log("find space");
+           console.log(wordCount);
+            if (wordCount==12){
+              console.log(wordCount);
+              content = content.insert(j,"...readmore ");
+              $('.review .container').find('.review-content').eq(i).text(content);
+               break;
+            }
+          }
+        }
+        
+        
+        //push content back
+        //$('.review .container').find('.review-content').eq(i).text(content);
+      }
+    }
   });
-  $('#test').text($(window).width() / parseFloat($("body").css("font-size")));
+  
 //cancel and post button hide the review box
   $('#cancel-button').click(function() {
     $('#reviewbox').hide();
@@ -36,7 +75,7 @@ $(document).ready(function() {
 //auto loading 
   $(window).scroll(function() {
     //if user scroll to the bot
-    console.log($(".review .col-12").length);
+    //console.log($(".review .col-12").length);
     var reviewscount = $(".review .col-12").length;
     if($(window).scrollTop() == $(document).height() - $(window).height()&reviewscount<=11) {
            console.log("load more")

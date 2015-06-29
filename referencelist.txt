@@ -1,7 +1,20 @@
-click and show dropdown box with jquery : http://www.alessioatzeni.com/blog/signin-dropdown-box-like-twitter-with-jquery/
+click and show dropdown box with jquery : 
+http://www.alessioatzeni.com/blog/signin-dropdown-box-like-twitter-with-jquery/
 
-how to draw: circle in css3: http://stackoverflow.com/questions/4861224/how-to-use-css-to-surround-a-number-with-a-circle/4861306#4861306
+how to draw: circle in css3: 
+http://stackoverflow.com/questions/4861224/how-to-use-css-to-surround-a-number-with-a-circle/4861306#4861306
 
-css animation generator: http://bouncejs.com/#{s:[{T:"c",e:"b",d:1000,D:0,f:{x:0.5,y:0.5},t:{x:1,y:1},s:4,b:4}]}
+css animation generator: 
+http://bouncejs.com/#{s:[{T:"c",e:"b",d:1000,D:0,f:{x:0.5,y:0.5},t:{x:1,y:1},s:4,b:4}]}
+
+
+get the width of the window in em units:
+http://stackoverflow.com/questions/12241251/is-it-possible-to-get-the-width-of-the-window-in-em-units-using-javascript
+
+Remove a HTML tag but keep the innerHtml
+http://stackoverflow.com/questions/4232961/remove-a-html-tag-but-keep-the-innerhtml
+
+I insert a string at a specific index:
+http://stackoverflow.com/questions/4313841/javascript-how-can-i-insert-a-string-at-a-specific-index
 
 
