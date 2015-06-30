@@ -1231,7 +1231,7 @@ width: 60%;
   font-size: 0.8rem;
 }
 .confirm p{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .textbox {
   border: 0;
@@ -1242,10 +1242,11 @@ width: 60%;
   display: inline-block;
   font-size: 0.9rem;
 }
-.shipping, .billing{
-  display: inline-block;
-  float: left;
+.shipping, .billing, .payment{
+/*  display: inline-block;
+*/  float: left;
   width: 50%;
+  height: 10rem;
   margin-bottom: 2rem;
 }
 
@@ -1253,9 +1254,7 @@ width: 60%;
   width: 100%;
   margin-top: -0.5rem;
 }
-.payment{
-  width: 100%;
-}
+
 .summary .total {
   margin: 1rem;
   margin-top: 0.3rem;
