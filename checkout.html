@@ -52,11 +52,31 @@
             <h2>Checkout</h2>
             <p class="checkout-nav"><span class="checkout-current">Shipping</span> > Payment > Comfirmation</p>
             <div class="field">
-              <form><input class="field-full" type="text" placeholder="Email" name="fname"></form>
+              <form><div class="field-full"><input  type="text" placeholder="Email" name="fname"></div></form>
               <p>Have an account? <a href="#"> Log in</a></p>
               
               <h3>Shipping Address</h3>
-              <form><input type="text" placeholder="Email" name="fname"></form>
+              <form>
+                <div class="field-half"><input  type="text" placeholder="First Name" name="first name"></div>
+                <div class="field-half"><input  type="text" placeholder="Last Name" name="last name"></div>
+                <div class="field-two-thirds"><input  type="text" placeholder="Address" name="address"></div>
+                <div class="field-one-thirds"><input  type="text" placeholder="Apt/Suite" name="last name"></div>
+                <div class="field-one-thirds"><input  type="text" placeholder="City" name="city"></div>
+                <div class="field-one-thirds"><input  type="text" placeholder="Province" name="province"></div>
+                <div class="field-one-thirds"><input  type="text" placeholder="Country" name="country"></div>
+                <div class="field-one-thirds"><input  type="text" placeholder="Post Code" name="post code"></div>
+                <div class="field-two-thirds"><input  type="text" placeholder="Phone Number" name="phone number"></div>
+                </form>
+
+              <h3>Shipping Method</h3>
+              <form>
+                <div class="shipping-method">
+              <input type="radio" name="shipping method" value="Ground Shipping" checked><label>Ground Shipping</label>
+            </div>
+            <div class="shipping-method">
+              <input type="radio" name="shipping method" value="Express Shipping"><label>Express Shipping</label>
+              </form>
+            </div>
               
 
             <a class="blue-button review1" href="review.html"> review my order</a>
