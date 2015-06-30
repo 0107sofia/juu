@@ -15,17 +15,18 @@ $(document).ready(function() {
   $(window).resize(function() {
     readmore();
   });
-  $('.more-button').click(function() {
-    console.log("show");
-    if ($(this).prev('.hide').is(":hidden")){
-      $(this).prev('.hide').show();
-      $(this).text('collapse');
-    }else{
-      $(this).prev('.hide').hide();
-      //collapse
-      $(this).text('...more');
-    }
-  });
+  
+  // $('.more-button').click(function() {
+  //   console.log("show");
+  //   if ($(this).prev('.hide').is(":hidden")){
+  //     $(this).prev('.hide').show();
+  //     $(this).text('collapse');
+  //   }else{
+  //     $(this).prev('.hide').hide();
+  //     //collapse
+  //     $(this).text('...more');
+  //   }
+  // });
 
   function readmore(){
     var windowSize = $(window).width() / parseFloat($("body").css("font-size"));
@@ -58,6 +59,17 @@ $(document).ready(function() {
             }
           }
         }
+        $('.more-button').click(function() {
+          console.log("show");
+          if ($(this).prev('.hide').is(":hidden")){
+            $(this).prev('.hide').show();
+            $(this).text('collapse');
+          }else{
+            $(this).prev('.hide').hide();
+            //collapse
+            $(this).text('...more');
+          }
+        });
       }
     //if not on mobile size, remove all
     }else{
