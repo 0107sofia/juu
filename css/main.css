@@ -1133,10 +1133,29 @@ iframe{
 /* ==================================================
    CHECKOUT PAGE
 ================================================== */
+
 .checkout{
   padding-top: 6rem;
 }
-.label{
+.checkout h2{
+  padding-bottom: 0;
+  line-height: 120%;
+}
+.checkout-nav{
+  padding-bottom: 1.5rem;
+  line-height: 100%;
+}
+.checkout-current{
+  color: #a1caca;
+}
+.checkout .col-7{
+  padding-right: 5rem;
+}
+.checkout .summary{
+  background-color: #FAFAFA;
+  padding:2rem 3rem;
+}
+/*.label{
   width: 20%;
   padding:0.5rem ;
   font-size: 1.2rem;
@@ -1144,8 +1163,8 @@ iframe{
   border-right: 0 solid white;
   display: inline-block;
   float: left;
-}
-.type{
+}*/
+.field input{
   padding:0.5rem ;
   font-size: 1.2rem;
   font-family: 'Lato', sans-serif;
@@ -1154,6 +1173,9 @@ iframe{
   border-left: 0 solid white;
   display: inline-block;
   float: left;
+}
+.field-full{
+  width: 100%;
 }
 .checkout h3{
   font-size: 1.4rem;

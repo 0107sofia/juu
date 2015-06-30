@@ -66,28 +66,7 @@
   padding-right: 0;
 }
 
-<<<<<<< 4111c4e9e83220df76c65a98722b855f9735c6f3
-@media (max-width: 40rem) {
-  .col-6{
-  width:100%;
-  }
-  .jumbotron{
-    background-position:65% 0%;
-  }
-  .col-4 {
-  	width:100%;
-  }
-  .col-8 {
-  	width:100%;
-  }
-  .col-6 {
-  	width:100%;
-  }
-  [class^='col-'] {
-    padding-right:0;
-    /*background-color: red;*/
-  }
-}
+
 
 @media (max-width: 60rem) {
   .col-3{
@@ -373,26 +352,6 @@
   }
 }
 
-@media (max-width: 40rem) {
-  .col-6{
-  width:100%;
-  }
-  .jumbotron{
-    background-position:65% 0%;
-  }
-  .col-4 {
-    width:100%;
-  }
-  .col-8 {
-    width:100%;
-  }
-  .col-6 {
-    width:100%;
-  }
-  [class^='col-'] {
-    padding-right:0;
-  }
-}
 
 
 @media (max-width: 60rem) {
@@ -557,9 +516,9 @@
    CHECKOUT PAGE GRID
 ================================================== */
 
-.field input{
+/*.field input{
   width: 70%
-}
+}*/
 @media (max-width: 50rem) {
   .col-5{
     width: 100%;
