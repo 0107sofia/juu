@@ -14,11 +14,19 @@ input, textarea{
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
+
 .review-container{
 	padding-left: 5rem;
 	margin-top:-2.3rem;
 }
-
+.more-button{
+	background-color: red;
+}
+.more-button:hover{
+	background-color: orange;
+	cursor: pointer; 
+	cursor: hand;
+}
 .hide{
 	display:none;
 }

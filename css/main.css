@@ -10,7 +10,10 @@
   margin:0;
   /*border:1px solid black;*/
 }
-
+button:hover{
+  cursor: pointer; 
+  cursor: hand;
+}
 body{
   background:white;
   color:#7F8289;
@@ -160,7 +163,7 @@ header #logo img{
 }
 
 header #logo a {
-  background: url(../img/logo.png) no-repeat;
+  /*background: url(../img/logo.png) no-repeat;*/
   width: 8rem;
   height: 4rem;
   text-indent: -9999px;

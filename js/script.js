@@ -9,9 +9,25 @@ $(document).ready(function() {
       return string + this;
   };
 
+  readmore();
  
   //detect the screen size and return a relative value
   $(window).resize(function() {
+    readmore();
+  });
+  $('.more-button').click(function() {
+    console.log("show");
+    if ($(this).prev('.hide').is(":hidden")){
+      $(this).prev('.hide').show();
+      $(this).text('collapse');
+    }else{
+      $(this).prev('.hide').hide();
+      //collapse
+      $(this).text('...more');
+    }
+  });
+
+  function readmore(){
     var windowSize = $(window).width() / parseFloat($("body").css("font-size"));
     console.log("windowSize: "+windowSize);
     //if current window size is mobile, add read more button
@@ -35,9 +51,9 @@ $(document).ready(function() {
                 //insert the <span> and <button> tag
                 content = content.insert(j,"<span class='hide'>");
                 content = content.insert(content.length,"</span>");
-                content = content.insert(content.length,"<button class='more-button'>...more</button>");
+                content = content.insert(content.length,"<p class='more-button'>...more</p>");
                 $('.review .container').find('.review-content').eq(i).html(content).contents();
-                break;
+                //break;
               }
             }
           }
@@ -50,14 +66,7 @@ $(document).ready(function() {
       $('.review .container').find('.more-button').remove();
 
     }
-  });
-  
-  $('.review .container .grid .col-12 .review-container .review-content .more-button').click(function(){
-    console.log("show");
-      
-
-
-  });
+  };
 //cancel and post button hide the review box
   $('#cancel-button').click(function() {
     $('#reviewbox').hide();
