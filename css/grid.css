@@ -176,144 +176,6 @@
 }
 
 
-
-/*flexbox for productlist*/
-/*test*/
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-star;
-  height: auto;
-  width: auto;
-  max-width: 100%;
-}
-
-.product1 {
-  -webkit-flex-basis: 200px;
-  -ms-flex-basis: 200px;
-  flex-basis: 200px;
-  flex-grow:1;
-  /*background-color:red;*/
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
-  margin-right: 0.5rem;
-}
-.product1 img{
-  width:auto;
-  height:auto;
-  max-width: 100%;
-}
-
-.product2{
-  flex-grow:2;
-  /*background-color:red;*/
-  -webkit-flex-basis: 400px;
-  -ms-flex-basis: 400px;
-  flex-basis: 400px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.product2 img{
-  width:auto;
-  height:auto;
-  max-width:100%;
-}
-
-.product3{
-  flex-grow:1;
-  /*background-color:red;*/
-  -webkit-flex-basis: 300px;
-  -ms-flex-basis: 300px;
-  flex-basis: 300px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-right: 0.5rem;
-}
-.product3 img{
-  width:auto;
-  height:auto;
-  max-width:100%;
-}
-
-.product4{
-  flex-grow:1;
-  /*background-color:red;*/
-  -webkit-flex-basis: 300px;
-  -ms-flex-basis: 300px;
-  flex-basis: 300px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.product4 img{
-  width:auto;
-  height:auto;
-  max-width:100%;
-}
-
-.product5{
-  flex-grow:1;
-  /*background-color:red;*/
-  -webkit-flex-basis: 250px;
-  -ms-flex-basis: 250px;
-  flex-basis: 250px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-right: 0.5rem;
-}
-.product5 img{
-  width:auto;
-  height:auto;
-  max-width:100%;
-}
-
-.product6{
-  flex-grow:1;
-  /*background-color:red;*/
-  -webkit-flex-basis: 250px;
-  -ms-flex-basis: 250px;
-  flex-basis: 250px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-right: 0.5rem;
-}
-.product6 img{
-  width:auto;
-  height:auto;
-  max-width:100%;
-}
-
-.product7{
-  flex-grow:1;
-  /*background-color:red;*/
-  -webkit-flex-basis: 250px;
-  -ms-flex-basis: 250px;
-  flex-basis: 250px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.product7 img{
-  width:auto;
-  height:auto;
-  max-width:100%;
-}
-
 @media (max-width: 40rem) {
   .col-6{
   width:100%;
@@ -333,10 +195,62 @@
   [class^='col-'] {
     padding-right:0;
   }
-  
+}
+
+.masonry-container {
+  /*background-color: red;*/
+  /*max-width: 100%;*/
+  /* center */
+  /*margin: 0 auto;*/
 
 }
 
+/* clearfix */
+.masonry-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.masonry-section{
+  padding-left: 0.3rem;
+}
+
+
+.product {
+  width: 33.33%;
+  padding-right: 0.3rem;
+  float: left;
+  padding-bottom: 0.3rem;
+}
+.product-sizer{
+  width: 33.33% 
+}
+@media (max-width: 60rem) {
+  .product-sizer, 
+  .product {
+    width: 50%;
+  }
+}
+
+.product img{
+  display:block;
+  max-width: 100%;
+}
+
+.relative-container{
+  position: relative;
+  max-width: 100%;
+}
+.product-text{
+  position: absolute;
+  font-weight: 700;
+  font-size: 2.5rem;
+  /*line-height: 2.5rem; */
+  color: #a1caca;
+  padding-bottom: 1.5rem;
+  font-family: 'Titillium Web', sans-serif;
+}
 @media (max-width: 30rem) {
     .login{
     width:100%;
@@ -347,9 +261,6 @@
     .textbox{
       width:100%;
     }
-    [class^='product']{
-    margin-right:0;
-  }
 }
 
 
@@ -464,7 +375,7 @@
 ================================================== */
 .selector-grid:after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 .selector1of3{
@@ -668,10 +579,11 @@ font-size: 1.2rem;
 ================================================== */
 
 @media (max-width: 40rem) {
-#post-button{
-  width: 100%;
+  #post-button{
+    width: 100%;
+  }
 }
-}
+
 /* ==================================================
    END OF CHAIR
 ================================================== */
