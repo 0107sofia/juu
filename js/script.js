@@ -32,13 +32,13 @@ $(document).ready(function() {
     var windowSize = $(window).width() / parseFloat($("body").css("font-size"));
     console.log("windowSize: "+windowSize);
     //if current window size is mobile, add read more button
-    if (windowSize<=14){
+    if (windowSize<=30){
       if (hidden==false){
         hidden=true
-        var reviewNum = $('.review .container').find('.review-content').length;
+        var reviewNum = $('body').find('.review-content').length;
         //console.log(reviewNum);
         for (var i = 0; i<reviewNum; i++){
-          var content = $('.review .container').find('.review-content').eq(i).text();
+          var content = $('body').find('.review-content').eq(i).text();
           var wordCount = 0;
           for (var j = 0; j<content.length; j++){
             
@@ -52,22 +52,32 @@ $(document).ready(function() {
                 //insert the <span> and <button> tag
                 content = content.insert(j,"<span class='hide'>");
                 content = content.insert(content.length,"</span>");
-                content = content.insert(content.length,"<p class='more-button'>...more</p>");
-                $('.review .container').find('.review-content').eq(i).html(content).contents();
+                content = content.insert(content.length,"<p class='more-button'> ...more</p>");
+                $('body').find('.review-content').eq(i).html(content).contents();
                 //break;
               }
             }
           }
         }
+        //read more button listener give the hidden text fade in, fade out effect.
         $('.more-button').click(function() {
           console.log("show");
-          if ($(this).prev('.hide').is(":hidden")){
-            $(this).prev('.hide').show();
-            $(this).text('collapse');
+          var hidden_text = $(this).prev('.hide');
+          if (hidden_text.is(":hidden")){
+            hidden_text.show();
+            hidden_text.addClass('fadein-animation');
+            $(this).text(' collapse');
+            setTimeout(function() {
+              hidden_text.removeClass("fadein-animation");
+              console.log('removeclass')
+            }, 500);
           }else{
-            $(this).prev('.hide').hide();
-            //collapse
-            $(this).text('...more');
+            hidden_text.addClass('fadeout-animation');
+            setTimeout(function() {
+              hidden_text.removeClass('fadeout-animation');
+              hidden_text.hide();
+              $(this).text(' ...more');
+            }, 500);
           }
         });
       }
@@ -108,7 +118,6 @@ $(document).ready(function() {
 //auto loading 
   $(window).scroll(function() {
     //if user scroll to the bot
-    //console.log($(".review .col-12").length);
     var reviewscount = $(".review .col-12").length;
     if($(window).scrollTop() == $(document).height() - $(window).height()&reviewscount<=11) {
            console.log("load more")
@@ -119,11 +128,16 @@ $(document).ready(function() {
            setTimeout(function() {
               $('.loading').removeClass('loading-animation');
               $('.loading').css('visibility', 'hidden');
-              $('.clone').clone().insertBefore($('.marker')).removeClass('clone').addClass('new');
+              $('.clone').clone(true,true).insertBefore($('.marker')).removeClass('clone').addClass('new');
+
             }, 1000);
            //insert some reviews
+
     }
+
 });
+
+
 
   $('.add-to-car').click(function() {
     //if no item is in cart show red circle

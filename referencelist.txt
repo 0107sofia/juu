@@ -14,7 +14,9 @@ http://stackoverflow.com/questions/12241251/is-it-possible-to-get-the-width-of-t
 Remove a HTML tag but keep the innerHtml
 http://stackoverflow.com/questions/4232961/remove-a-html-tag-but-keep-the-innerhtml
 
-I insert a string at a specific index:
+insert a string at a specific index:
 http://stackoverflow.com/questions/4313841/javascript-how-can-i-insert-a-string-at-a-specific-index
 
+.Clone() loses click event:
+http://stackoverflow.com/questions/11753579/jquery-clone-loses-click-event
 

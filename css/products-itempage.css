@@ -17,19 +17,22 @@ input, textarea{
 
 .review-container{
 	padding-left: 5rem;
-	margin-top:-2.3rem;
+	margin-top:-1.3rem;
 }
 .more-button{
-	background-color: red;
+  color: #a1caca;
+  font-weight: 500;
 }
 .more-button:hover{
-	background-color: orange;
+	color:#7F8289;
 	cursor: pointer; 
 	cursor: hand;
 }
 .hide{
 	display:none;
+	/*visibility: hidden;*/
 }
+
 .button-container{
   display:block;
   content:"";
@@ -55,14 +58,26 @@ input, textarea{
 100% {opacity:100;}
 }
 .fadein-animation {
-	-webkit-animation: fadein 1s ease-in-out ;
-	transition:fadein 1s ease-in-out ;
+	-webkit-animation: fadein 0.5s ease-in-out ;
+	transition:fadein 0.5s ease-in-out ;
 }
 @-webkit-keyframes fadein
 {
 0%   {opacity:0;}
 100% {opacity:100;}
 }
+
+.fadeout-animation {
+	-webkit-animation: fadeout 0.5s ease-in-out ;
+	transition:fadeout 0.5s ease-in-out ;
+}
+@-webkit-keyframes fadeout
+{
+0%   {opacity:100;}
+100% {opacity:0;}
+}
+
+
 .product-banner {
 	padding:0;
 	position: relative;
@@ -106,7 +121,7 @@ padding-top: 5rem;
 }
 
 .filter{
-	margin-top: 5rem;
+	margin-top: 4.5rem;
 }
 
 .product-banner .textcontainer{
@@ -161,6 +176,7 @@ padding-top: 5rem;
 
 .review .grid .col-12 {
 	border-bottom: 1px solid #A3A3A3;
+	padding-top:0.75rem;
 }
 
 .review .grid .first-review{
@@ -180,10 +196,11 @@ padding-top: 5rem;
 	color:#878787;
 	font-weight: 700;
 	margin-right: 0.5rem;
+	margin-top:0.75rem;
 }
 .time{
 	float:right;
-	margin-top: 0.75rem;
+	/*margin-top: 0.75rem;*/
 	font-size: 0.8rem;
 	/*margin-right:2rem;*/
 }
@@ -226,7 +243,7 @@ padding-top: 5rem;
  		background-position: 50% 80%;
  	}
  	.filter{
-    margin-top:7rem;
+    margin-top:6rem;
 	}
   	.filter ul{
 	float:none;
