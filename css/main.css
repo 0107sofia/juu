@@ -1155,6 +1155,10 @@ iframe{
   background-color: #FAFAFA;
   padding:2rem 3rem;
 }
+.checkout-section{
+  padding-top: 1rem;
+}
+
 /*.label{
   width: 20%;
   padding:0.5rem ;
@@ -1174,14 +1178,36 @@ iframe{
   display: inline-block;
   float: left;
 }
+.field-left{
+  padding: 0.5rem 0.3rem 0.5rem 0rem;
+}
+.field-right{
+  padding: 0.5rem 0rem 0.5rem 0.3rem;
+}
+.field-middle{
+  padding: 0.5rem 0.3rem;
+}
    .shipping-method label{
     padding-left: 1rem;
+    display: inline-block;
    }
    .shipping-method input{
     width: auto;
    }
-.shipping-method{
-  
+.shipping-method {
+  display: inline-block;
+    width: 100%;
+    padding:0.8rem;
+    border:0.1rem solid #C9C9C9;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.shipping-price{
+  padding-right: 2rem;
+  display: inline-block;
+  float: right;
+  font-weight: 400;
+  color: #a1caca;
 }
 .checkout h3{
   font-size: 1.4rem;
@@ -1190,24 +1216,32 @@ iframe{
 
 .checkout .blue-button{
   margin-top: 2rem;
-width: 60%;
 }
 .checkout .white-button{
   width: 30%;
 }
 
-.review1{
+.checkout-button{
   display: inline-block;
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 15rem;
+  float: right;
 }
-.review2{
+.checkout-back{
+  display: inline-block;
+  float: left;
+  width: 10rem;
+}
+/*.review2{
   display: none;
-}
-.cancel1{
+}*/
+/*.cancel1{
   display: inline-block;
 }
 .cancel2{
   display: none;
-}
+}*/
 
 .fake-form{
   width: 90%;

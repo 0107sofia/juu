@@ -520,23 +520,19 @@
   width: 70%
 }*/
 .field-full{
-  padding: 0.3rem;
   width: 100%;
 }
 .field-half{
-  padding: 0.3rem;
   width: 50%;
   display: inline-block;
   float: left;
 }
 .field-two-thirds{
-padding:  0.3rem;
   width: 66.67%;
   display: inline-block;
   float: left;
 }
 .field-one-thirds{
-  padding: 0.3rem;
   width: 33.33%;
   display: inline-block;
   float: left;
