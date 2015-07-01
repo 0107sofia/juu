@@ -1140,6 +1140,7 @@ iframe{
 .checkout h2{
   padding-bottom: 0;
   line-height: 120%;
+  display: inline-block;
 }
 .checkout-nav{
   padding-bottom: 1.5rem;
@@ -1154,9 +1155,18 @@ iframe{
 .checkout .summary{
   background-color: #FAFAFA;
   padding:2rem 3rem;
+  padding-right: 0;
+}
+.checkout .summary h2{
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 1rem;
 }
 .checkout-section{
   padding-top: 1rem;
+}
+.checkout-back{
+  margin-top: 3rem;
 }
 
 /*.label{
@@ -1262,9 +1272,9 @@ iframe{
   float: left;
   width: 100%;
 }
-.summary .cart-item{
-  padding-top: 0;
-}
+/*.summary .cart-item{
+  padding-bottom: 1rem;
+}*/
 .
 .login label{
   font-size: 0.8rem;
@@ -1329,7 +1339,7 @@ iframe{
 }
 
 .list-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .cart-item{
@@ -1342,7 +1352,29 @@ iframe{
   margin-top: 0.5rem;
 }
 
-
+.mobile-summary p{
+  color: #a1caca;
+  font-weight: 400;
+  display: inline-block;
+  float: left;
+}
+.mobile-summary h3{
+  color: #7F8289;
+  font-weight: 400;
+  display: inline-block;
+  float: right;
+  padding-top: 0;
+}
+.mobile-summary{
+  display: block;
+  background-color: #FAFAFA;
+  padding: 1rem 1rem;
+}
+.mobile-summary:after{
+  display:block;
+  content:"";
+  clear:both;
+}
 /* ==================================================
    END OF CHECKOUT PAGE
 ================================================== */
@@ -1432,7 +1464,7 @@ iframe{
 }
 
 .list-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .cart-item{

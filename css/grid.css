@@ -448,7 +448,79 @@
   display: inline-block;
   float: left;
 }
-@media (max-width: 50rem) {
+@media (max-width: 68rem) {
+  .checkout .col-7{
+    padding-right: 2rem;
+  }
+  .checkout .summary{
+    padding-left: 2rem !important;
+  }
+}
+@media (max-width: 60rem) {
+.checkout{
+  padding-top: 7rem;
+}
+.summary{
+  top:8rem;
+}
+}
+@media (max-width: 58rem) {
+  .field-half, .field-one-thirds, .field-two-thirds{
+    width: 100%;
+  padding-left:0;
+  padding-right: 0;
+  }
+}
+@media (max-width: 51rem) {
+  .field-half{
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+.field-two-thirds{
+  width: 66.67%;
+  display: inline-block;
+  float: left;
+}
+.field-one-thirds{
+  width: 33.33%;
+  display: inline-block;
+  float: left;
+}
+.checkout .col-7{
+  width: 100%;
+  padding-right: 0;
+}
+.field-left{
+  padding: 0.5rem 0.3rem 0.5rem 0rem;
+}
+.field-right{
+  padding: 0.5rem 0rem 0.5rem 0.3rem;
+}
+.field-middle{
+  padding: 0.5rem 0.3rem;
+}
+.summary{
+  display: none;
+}
+}
+@media (max-width: 40rem) {
+  .field-half, .field-one-thirds, .field-two-thirds{
+    width: 100%;
+  padding-left:0;
+  padding-right: 0;
+  }
+}
+@media (max-width: 30rem) {
+  .checkout-back{
+    margin-top: 1rem;
+  }
+  .checkout .blue-button{
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+/*@media (max-width: 50rem) {
   .col-5{
     width: 100%;
   }
@@ -494,7 +566,7 @@
   width: 100%;
   margin-bottom: 1rem;
 }
-  }
+  }*/
 
 /* ==================================================
    END OF CHECKOUT PAGE GRID
