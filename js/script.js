@@ -8,26 +8,20 @@ $(document).ready(function() {
     else
       return string + this;
   };
-
+  
+  //initial some elements
   readmore();
- 
-  //detect the screen size and return a relative value
+  var reviewbox_height=$('.review .container #reviewbox .col-12').height()+15;
+  $('.review .container #reviewbox .col-12').css('margin-top','-'+reviewbox_height+'px');
+  
+  //when screen size has changed, apply readmore effect
   $(window).resize(function() {
     readmore();
   });
   
-  // $('.more-button').click(function() {
-  //   console.log("show");
-  //   if ($(this).prev('.hide').is(":hidden")){
-  //     $(this).prev('.hide').show();
-  //     $(this).text('collapse');
-  //   }else{
-  //     $(this).prev('.hide').hide();
-  //     //collapse
-  //     $(this).text('...more');
-  //   }
-  // });
-
+  
+//this method first detect the screen size in a relative value, and hide some text (after 12 word), a read more 
+//button is used to show the hidden text
   function readmore(){
     var windowSize = $(window).width() / parseFloat($("body").css("font-size"));
     console.log("windowSize: "+windowSize);
@@ -91,13 +85,29 @@ $(document).ready(function() {
   };
 //cancel and post button hide the review box
   $('#cancel-button').click(function() {
-    $('#reviewbox').hide();
-    $('#reviewbutton').show();
+   var get_reviewbox = $('.review .container #reviewbox .col-12');
+    if (get_reviewbox.hasClass('show')){
+      get_reviewbox.css('margin-top','-'+reviewbox_height+'px');
+      get_reviewbox.removeClass('show');
+      $('#reviewbutton').css('opacity', '1');
+    }else{
+      get_reviewbox.css('margin-top', '0rem');
+      get_reviewbox.addClass('show');
+      $('#reviewbutton').css('opacity', '0');
+    }
   });
 
   $('#post-button').click(function() {
-    $('#reviewbox').hide();
-    $('#reviewbutton').show();
+    var get_reviewbox = $('.review .container #reviewbox .col-12');
+    if (get_reviewbox.hasClass('show')){
+      get_reviewbox.css('margin-top', '-'+reviewbox_height+'px');
+      get_reviewbox.removeClass('show');
+      $('#reviewbutton').css('opacity', '1');
+    }else{
+      get_reviewbox.css('margin-top', '0px');
+      get_reviewbox.addClass('show');
+      $('#reviewbutton').css('opacity', '0');
+    }
   });
 
 //rating
@@ -170,11 +180,15 @@ $(document).ready(function() {
   });
 
   $('#reviewbutton').click(function() {
-    if ($('#reviewbox').is(":visible")) {
-      $('#reviewbox').hide();
-    } else {
-      $('#reviewbox').show();
-      $(this).hide();
+    var get_reviewbox = $('.review .container #reviewbox .col-12');
+    if (get_reviewbox.hasClass('show')){
+      get_reviewbox.css('margin-top','-'+reviewbox_height+'px');
+      get_reviewbox.removeClass('show');
+      $('#reviewbutton').css('opacity', '1');
+    }else{
+      get_reviewbox.css('margin-top', '0rem');
+      get_reviewbox.addClass('show');
+      $('#reviewbutton').css('opacity', '0');
     }
   });
   $('.account').click(function() {

@@ -14,6 +14,10 @@ input, textarea{
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
+.review .container{
+	overflow-y: hidden;
+	position: relative;;
+}
 
 .review-container{
 	padding-left: 5rem;
@@ -102,12 +106,23 @@ padding-top: 5rem;
 	padding-bottom: 0;
 }
 .review .container #reviewbox{
-	display:none;
-
+position: relative;;
+/*background-color: yellow;*/
+height:auto;
+overflow-y:hidden;
+	
 }
 .review .container #reviewbox .col-12{
 	border-bottom: none;
+	
+	/*background-color: green;*/
+	/*margin-top:-22.5rem;*/
+	padding-top: 0rem;
+	-webkit-transition: margin 0.2s ease-in-out 0s;
 }
+
+
+
 .product-details{
 	padding:0;
 	position: relative;
@@ -169,6 +184,8 @@ padding-top: 5rem;
 .review .container h4{
 	padding:1rem 0 1rem 0;
 	/*border-bottom: 1px solid #A3A3A3;*/
+	/*background-color: red;*/
+	/*z-index: 10;*/
 }
 .review .grid .col-12 p{
 	display:inline;
@@ -210,6 +227,7 @@ padding-top: 5rem;
   font-size: 1.2rem;
   border: none;
   margin:0;
+  -webkit-transition: opacity 0.2s ease-in-out 0s;
 }
 @media (max-width: 70rem) {
 	.product-banner .textcontainer{

@@ -24,9 +24,9 @@
 }
 
 .filter .menu-nav li a {
-  color: #a1caca;
-  font-size: 0.9rem;
   text-transform: none;
+  color: #7F8289;
+  font-size: 0.8rem;
 }
 
 .clear-right {
