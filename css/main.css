@@ -1573,14 +1573,22 @@ iframe{
 /* ==================================================
    CONFIRMATION
 ================================================== */
-.confirm-section{
+/*.confirm-section{
   width: 50%;
   display: inline-block;
   float: left;
   margin-bottom: 2rem;
-}
+}*/
 .cvv{
   padding-left: 1rem;
+}
+.confirm-container{
+  background-color: #FAFAFA;
+  padding-left: 2rem;
+}
+.confirm-heading{
+  padding-left: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* ==================================================
