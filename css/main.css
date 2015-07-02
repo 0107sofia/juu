@@ -756,7 +756,7 @@ a img {
   background-color:#a1caca;
   width: 100%;
   text-align: left;
-  font: normal 16px sans-serif;
+  font-size: 1rem;
   padding: 3rem 4rem;
   margin-top: 0rem;
 }
@@ -773,10 +773,18 @@ a img {
 .footer a{
   color:rgba(255, 255, 255, 0.8);
 }
+.footer a:hover{
+  color:rgba(255, 255, 255, 1);
+}
 
 .footer{
   display: inline-block;
 
+}
+.footer-name{
+  font-size: 0.8rem;
+  color:rgba(255, 255, 255, 1);
+  padding-top: 0.8rem;
 }
 
 .loading{
