@@ -20,3 +20,8 @@ http://stackoverflow.com/questions/4313841/javascript-how-can-i-insert-a-string-
 .Clone() loses click event:
 http://stackoverflow.com/questions/11753579/jquery-clone-loses-click-event
 
+masonry css:
+http://masonry.desandro.com/
+
+
+

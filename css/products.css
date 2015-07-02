@@ -9,7 +9,9 @@
 .productlist {
   margin-top: 5rem;
 }
-
+.productlist{
+  margin-bottom: 0rem;
+}
 .filter {
   display: block;
   margin-top: 4rem;
