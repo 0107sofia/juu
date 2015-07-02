@@ -1611,7 +1611,12 @@ margin-left: 0;
 .mobile-receipt-payment{
   display: none;
 }
-
+.confirm-container{
+  margin-bottom: 1rem;
+}
+.back-to-home {
+  padding-left: 2rem;
+}
 
 /* ==================================================
    end of order-placed
