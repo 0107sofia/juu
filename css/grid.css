@@ -503,6 +503,12 @@
 .summary{
   display: none;
 }
+.mobile-summary{
+  display: block;
+}
+.email-input{
+  margin-top: 1.5rem;
+}
 }
 @media (max-width: 40rem) {
   .field-half, .field-one-thirds, .field-two-thirds{

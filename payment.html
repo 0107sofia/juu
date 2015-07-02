@@ -50,7 +50,7 @@
       <div class="grid">
         <div class="col-7">
             <h2>Checkout</h2>
-            <p class="checkout-nav"><span class="checkout-current">Shipping</span> > Payment > Comfirmation</p>
+            <p class="checkout-nav"><a href="checkout.html">Shipping</a> > <span class="checkout-current">Payment </span>> Comfirmation</p>
 
             <div class="mobile-summary">
             <p>Show Order Summary</P>
@@ -77,10 +77,13 @@
           </div>
 
             <div class="field">
-              <form><div class="field-full email-input"><input  type="text" placeholder="Email" name="fname"></div></form>
-              <p>Have an account? <a href="#"> Log in</a></p>
-              <div class="checkout-section">
-              <h3>Shipping Address</h3>
+              
+              <div class="payment-section">
+              <h3 >Billing Address</h3>
+              <div class="same-address">
+              <input  type="checkbox" name="same-address" value="yes">
+              <p>Same as shipping address</p>
+            </div>
               <form>
                 <div class="field-left field-half"><input  type="text" placeholder="First Name" name="first name"></div>
                 <div class="field-right field-half"><input  type="text" placeholder="Last Name" name="last name"></div>
@@ -95,21 +98,19 @@
               </div><!-- end of checkout-section -->
 
               <div class="checkout-section">
-              <h3>Shipping Method</h3>
+              <h3 class="payment-title">Payment</h3>
               <form>
-                <div class="shipping-method">
-              <input class="radio"type="radio" name="shipping method" value="Ground Shipping" checked><label>Ground Shipping (5-7 days)</label>
-              <p class="shipping-price">free</p>
-            </div>
-            <div class="shipping-method">
-              <input class="radio" type="radio" name="shipping method" value="Express Shipping"><label>Express Shipping (2-3 days)</label>
-              <p class="shipping-price">$10</p>
-              </form>
-            </div>
+                <div class="field-full"><input  type="text" placeholder="Card Number" name="card number"></div>
+                <div class="field-left field-one-thirds"><input  type="text" placeholder="Name" name="name"></div>
+                <div class="field-one-thirds field-middle"><input  type="text" placeholder="MM/YY" name="expiry"></div>
+                <div class="field-one-thirds field-right"><input  type="text" placeholder="CVV" name="CVV"></div>
+                </form>
               </div><!-- end of checkout-section -->
 
-            <a class="checkout-back" href="products.html"> &lt; Continue shopping</a>
-            <a class="blue-button checkout-button" href="payment.html">Continue to payment</a>
+            <a class="checkout-back" href="checkout.html"> &lt; Back to Shipping</a>
+            <div class="payment-button">
+            <a class="blue-button checkout-button" href="confirmation.html">Continue to Confirmation</a>
+          </div>
             </div><!-- end of field -->
         </div><!-- end of col-7 -->
 

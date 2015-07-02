@@ -1142,8 +1142,9 @@ iframe{
   line-height: 120%;
   display: inline-block;
 }
+
 .checkout-nav{
-  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
   line-height: 100%;
 }
 .checkout-current{
@@ -1157,11 +1158,7 @@ iframe{
   padding:2rem 3rem;
   padding-right: 0;
 }
-.checkout .summary h2{
-  font-weight: 400;
-  font-size: 2rem;
-  margin-top: 1rem;
-}
+
 .checkout-section{
   padding-top: 1rem;
 }
@@ -1203,6 +1200,7 @@ iframe{
    }
    .shipping-method input{
     width: auto;
+    margin-top: 0.2rem;
    }
 .shipping-method {
   display: inline-block;
@@ -1272,9 +1270,12 @@ iframe{
   float: left;
   width: 100%;
 }
-/*.summary .cart-item{
-  padding-bottom: 1rem;
-}*/
+.summary .cart-item{
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .
 .login label{
   font-size: 0.8rem;
@@ -1366,18 +1367,70 @@ iframe{
   padding-top: 0;
 }
 .mobile-summary{
-  display: block;
   background-color: #FAFAFA;
-  padding: 1rem 1rem;
+  padding: 1rem ;
+  display: none;
+  border-top:0.1rem solid #C9C9C9;
+  border-bottom:0.1rem solid #C9C9C9;
 }
 .mobile-summary:after{
   display:block;
   content:"";
   clear:both;
 }
+.mobile-summary-detail:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+.mobile-summary-detail{
+  display: none;
+  background-color: #FAFAFA;
+  margin-bottom: 1rem;
+   border-bottom:0.1rem solid #C9C9C9;
+}
+.mobile-summary-detail input{
+  width: 2rem;
+}
+.mobile-summary-detail .cart-item{
+  padding-top: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
 /* ==================================================
    END OF CHECKOUT PAGE
 ================================================== */
+
+
+
+
+/* ==================================================
+   PAYMENT
+================================================== */
+.payment-section{
+  padding-top: 0;
+}
+.same-address p{
+  display: inline-block;
+  float: left;
+  padding-left: 0.5rem;
+}
+.same-address input{
+  display: inline-block;
+  float: left;
+  width: auto;
+  margin-top: 0.3rem;
+}
+.payment-button .blue-button{
+  width: 15.5rem;
+}
+.payment-title{
+  padding-bottom: 0.5rem;
+}
+/* ==================================================
+   END OF PAYMENT
+================================================== */
+
 
 /* ==================================================
    SHOPPING CART
