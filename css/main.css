@@ -644,7 +644,7 @@ a img {
 
 #signin-dropdown {
     background-color: white;
-    min-height: 200px;
+    /*min-height: 200px;*/
     min-width: 100%;
     right: 0;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -1499,7 +1499,7 @@ iframe{
 }
 .close{
   float:right;
-  margin-right:2rem;
+  margin-right:0.5rem;
 }
 #signin-dropdown .close{
   margin-right:0rem;
@@ -1531,6 +1531,9 @@ iframe{
 
 .cart-item{
   padding-top: 1rem;
+}
+#cart-dropdown .first{
+  padding-top:0rem;
 }
 .cart input{
   width: 1.5rem;

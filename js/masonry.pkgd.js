@@ -1436,7 +1436,7 @@ utils.htmlInit = function( WidgetClass, namespace ) {
     var dashedNamespace = utils.toDashed( namespace );
     var elems = document.querySelectorAll( '.js-' + dashedNamespace );
     var dataAttr = 'data-' + dashedNamespace + '-options';
-
+    //$('.la-ball-clip-rotate').remove('.la-ball-clip-rotate');
     for ( var i=0, len = elems.length; i < len; i++ ) {
       var elem = elems[i];
       var attr = elem.getAttribute( dataAttr );
@@ -1629,6 +1629,7 @@ Item.prototype.css = function( style ) {
 
  // measure position, and sets it
 Item.prototype.getPosition = function() {
+  
   var style = getStyle( this.element );
   var layoutOptions = this.layout.options;
   var isOriginLeft = layoutOptions.isOriginLeft;

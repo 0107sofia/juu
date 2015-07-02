@@ -23,5 +23,7 @@ http://stackoverflow.com/questions/11753579/jquery-clone-loses-click-event
 masonry css:
 http://masonry.desandro.com/
 
+imagesloaded library, it is used to let the image load first and then implement the masonry 
+http://imagesloaded.desandro.com/
 
-
+loading animation:

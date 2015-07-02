@@ -28,26 +28,36 @@ var $grid = $('.masonry-container').masonry({
 
 var imagecounter=20;
 $(window).scroll(function() {
-  //if user scroll to the bot
+  //if the current window is close to the buttom
   var productscount = $(".masonry-container .product").length;
-  
   var $sample = $('.sample .product').clone();
-
-  $grid.masonry();
-  if($(window).scrollTop() == $(document).height() - $(window).height()&imagecounter<38) {
+  
+  var windowPosition = $(document).height() - $(window).height()-300;
+ 
+  if($(window).scrollTop() > windowPosition & imagecounter<38) {
 
       $sample.find('img').attr('src','img/productlist/all/product'+imagecounter+'.jpg');
-
-      var y = $(window).scrollTop();  //your current y position on the page
+      // $('.la-ball-clip-rotate').removeClass('la-ball-clip-rotate');
+      //force the window scroll up 1 px 
+      var y = $(window).scrollTop();  
       $(window).scrollTop(y-1);
 
-      // $grid.append( $elems ).masonry( 'appended', $elems );
+
       $grid.append( $sample ).masonry('appended',$sample);
-      // $grid.masonry();
+      
+      $grid.imagesLoaded().progress( function() {
+        //$('.la-ball-clip-rotate').remove();
+        $grid.masonry();
+      }); 
+
+      $grid.imagesLoaded().done( function() {
+        $('.la-ball-clip-rotate').remove();
+      });
       imagecounter++;
 
+
   }
-  // $grid.masonry();
+
 });
 
 

@@ -1,0 +1,90 @@
+.animation-container{
+    position:absolute;
+    left:45%;
+    top:45%;
+    z-index: 10;
+}
+.la-ball-clip-rotate {
+    position: relative;
+}
+.la-ball-clip-rotate > div {
+    position: relative;
+    box-sizing: content-box;
+    color: #a1caca;
+    background: #a1caca;
+    border-color: #a1caca;
+    border-style: solid;
+    border-width: 0;
+}
+.la-ball-clip-rotate:after {
+    display: table;
+    line-height: 0;
+    clear: both;
+    content: "";
+}
+.la-ball-clip-rotate.la-dark > div {
+    color: #a1caca;;
+    background: #a1caca;
+    border-color: #a1caca;
+}
+/*
+ * Animation
+ */
+@keyframes ball-clip-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.la-ball-clip-rotate {
+    width: 32px;
+    height: 32px;
+}
+.la-ball-clip-rotate > div {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    float: left;
+    background: transparent !important;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-color: transparent !important;
+    border-radius: 100%;
+    animation: ball-clip-rotate .75s linear infinite;
+}
+.la-ball-clip-rotate.la-sm {
+    width: 16px;
+    height: 16px;
+}
+.la-ball-clip-rotate.la-sm > div {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    border-width: 1px;
+}
+.la-ball-clip-rotate.la-lg {
+    width: 48px;
+    height: 48px;
+}
+.la-ball-clip-rotate.la-lg > div {
+    width: 42px;
+    height: 42px;
+    margin: 0;
+    border-width: 3px;
+}
+.la-ball-clip-rotate.la-2x {
+    width: 64px;
+    height: 64px;
+}
+.la-ball-clip-rotate.la-2x > div {
+    width: 56px;
+    height: 56px;
+    margin: 0;
+    border-width: 4px;
+}
