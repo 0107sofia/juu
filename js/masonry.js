@@ -37,6 +37,7 @@ $(window).scroll(function() {
   if($(window).scrollTop() > windowPosition & imagecounter<38) {
 
       $sample.find('img').attr('src','img/productlist/all/product'+imagecounter+'.jpg');
+      $('.la-dark').addClass('la-ball-clip-rotate');
       // $('.la-ball-clip-rotate').removeClass('la-ball-clip-rotate');
       //force the window scroll up 1 px 
       var y = $(window).scrollTop();  
@@ -47,7 +48,7 @@ $(window).scroll(function() {
       
       $grid.imagesLoaded().progress( function() {
         
-        $('.la-dark').addClass('la-ball-clip-rotate');
+        
         $grid.masonry();
 
       }); 
