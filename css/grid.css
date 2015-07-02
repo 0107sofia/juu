@@ -10,6 +10,12 @@
   padding: 0; 
   /*background-color: yellow;*/
 }
+
+.col-5:after{
+  display:block;
+  content:"";
+  clear:both;
+}
 .col-1 {
   width: 8.33%;
 }
@@ -532,6 +538,9 @@
 .email-input{
   margin-top: 1.5rem;
 }
+.confirmation-footer{
+  position: relative;
+}
 }
 @media (max-width: 40rem) {
   .field-half, .field-one-thirds, .field-two-thirds{
@@ -710,6 +719,9 @@ font-size: 1.2rem;
   }
   .checkout .col-4{
     width: 50%;
+  }
+  .receipt-footer{
+    position: relative;
   }
 }
 

@@ -1596,7 +1596,10 @@ iframe{
   padding-left: 2rem;
   padding-bottom: 2rem;
 }
-
+.confirmation-footer{
+  position: fixed;
+  bottom: 0;
+}
 /* ==================================================
    CONFIRMATION
 ================================================== */
@@ -1621,7 +1624,10 @@ margin-left: 0;
   margin-bottom: 1rem;
 }
 
-
+.receipt-footer{
+  position: fixed;
+  bottom: 0;
+}
 /* ==================================================
    end of order-placed
 ================================================== */
