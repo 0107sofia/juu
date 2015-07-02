@@ -20,10 +20,10 @@ var $grid = $('.masonry-container').masonry({
   columnWidth: '.product'
 });
 
-  // $grid.imagesLoaded().progress( function() {
-  //   $grid.masonry();
-  // });  
+  $grid.imagesLoaded().progress( function() {
     $grid.masonry();
+  });  
+    // $grid.masonry();
   
 
 var imagecounter=20;
