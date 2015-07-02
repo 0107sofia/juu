@@ -109,6 +109,7 @@ $(document).ready(function() {
     if (get_reviewbox.hasClass('show')){
       get_reviewbox.css('margin-top', '-50rem');
       get_reviewbox.removeClass('show');
+      $('#reviewbutton').show();
       $('#reviewbutton').css('opacity', '1');
     }else{
       get_reviewbox.css('margin-top', '0px');

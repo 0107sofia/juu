@@ -20,7 +20,9 @@ var $grid = $('.masonry-container').masonry({
   columnWidth: '.product'
 });
 
-
+  // $grid.imagesLoaded().progress( function() {
+  //   $grid.masonry();
+  // });  
     $grid.masonry();
   
 
@@ -31,16 +33,21 @@ $(window).scroll(function() {
   
   var $sample = $('.sample .product').clone();
 
-  
+  $grid.masonry();
   if($(window).scrollTop() == $(document).height() - $(window).height()&imagecounter<38) {
 
       $sample.find('img').attr('src','img/productlist/all/product'+imagecounter+'.jpg');
+
+      var y = $(window).scrollTop();  //your current y position on the page
+      $(window).scrollTop(y-1);
+
+      // $grid.append( $elems ).masonry( 'appended', $elems );
       $grid.append( $sample ).masonry('appended',$sample);
-      $grid.masonry();
+      // $grid.masonry();
       imagecounter++;
 
   }
-  $grid.masonry();
+  // $grid.masonry();
 });
 
 
