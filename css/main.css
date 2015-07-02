@@ -1259,7 +1259,7 @@ iframe{
 
 .summary{
   position: fixed;
-  top:6rem;  
+  top:20%;  
   background-color: white;
   display: inline-block;
   float: left;
@@ -1372,6 +1372,8 @@ iframe{
   display: none;
   border-top:0.1rem solid #C9C9C9;
   border-bottom:0.1rem solid #C9C9C9;
+  margin-left: -1.3rem;
+  margin-right: -1.3rem;
 }
 .mobile-summary:after{
   display:block;
@@ -1427,6 +1429,7 @@ iframe{
 .payment-title{
   padding-bottom: 0.5rem;
 }
+
 /* ==================================================
    END OF PAYMENT
 ================================================== */
@@ -1567,7 +1570,22 @@ iframe{
 /* ==================================================
    END OF SHOPPING CART
 ================================================== */
+/* ==================================================
+   CONFIRMATION
+================================================== */
+.confirm-section{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-bottom: 2rem;
+}
+.cvv{
+  padding-left: 1rem;
+}
 
+/* ==================================================
+   CONFIRMATION
+================================================== */
 /* ==================================================
    CHAIR
 ================================================== */
