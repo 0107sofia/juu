@@ -17,7 +17,8 @@ $(document).ready(function() {
   //when screen size has changed, apply readmore effect
   $(window).resize(function() {
     readmore();
-    $('.review .container #reviewbox .col-12').css('margin-top','-50rem');
+    var reviewbox_height=$('.review .container #reviewbox .col-12').height()+15;
+    $('.review .container #reviewbox .col-12').css('margin-top','-'+reviewbox_height+'px');
   });
   
   
@@ -88,11 +89,13 @@ $(document).ready(function() {
   $('#cancel-button').click(function() {
    var get_reviewbox = $('.review .container #reviewbox .col-12');
     if (get_reviewbox.hasClass('show')){
-      get_reviewbox.css('margin-top','-50rem');
+      var reviewbox_height=$('.review .container #reviewbox .col-12').height()+15;
+      get_reviewbox.css('margin-top','-'+reviewbox_height+'px');
       get_reviewbox.removeClass('show');
       $('#reviewbutton').css('opacity', '1');
     }else{
-      get_reviewbox.css('margin-top', '0rem');
+      var reviewbox_height=$('.review .container #reviewbox .col-12').height()+15;
+      get_reviewbox.css('margin-top','-'+reviewbox_height+'px');
       get_reviewbox.addClass('show');
       $('#reviewbutton').css('opacity', '0');
     }
@@ -100,6 +103,7 @@ $(document).ready(function() {
 
   $('#post-button').click(function() {
     var get_reviewbox = $('.review .container #reviewbox .col-12');
+    var reviewbox_height=$('.review .container #reviewbox .col-12').height()+15;
     if (get_reviewbox.hasClass('show')){
       get_reviewbox.css('margin-top', '-50rem');
       get_reviewbox.removeClass('show');
@@ -184,7 +188,8 @@ $(document).ready(function() {
   $('#reviewbutton').click(function() {
     var get_reviewbox = $('.review .container #reviewbox .col-12');
     if (get_reviewbox.hasClass('show')){
-      get_reviewbox.css('margin-top','-50rem');
+
+      get_reviewbox.css('margin-top','-'+reviewbox_height+'px');
       get_reviewbox.removeClass('show');
       $('#reviewbutton').css('opacity', '1');
     }else{
