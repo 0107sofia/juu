@@ -1399,6 +1399,12 @@ iframe{
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+.checkout-past a{
+  color:#A8A8A8 ;
+}
+.checkout-past a:hover{
+  color:#a1caca;
+}
 /* ==================================================
    END OF CHECKOUT PAGE
 ================================================== */
@@ -1614,9 +1620,7 @@ margin-left: 0;
 .confirm-container{
   margin-bottom: 1rem;
 }
-.back-to-home {
-  padding-left: 2rem;
-}
+
 
 /* ==================================================
    end of order-placed
