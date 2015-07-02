@@ -46,12 +46,14 @@ $(window).scroll(function() {
       $grid.append( $sample ).masonry('appended',$sample);
       
       $grid.imagesLoaded().progress( function() {
-        //$('.la-ball-clip-rotate').remove();
+        
+        $('.la-dark').addClass('la-ball-clip-rotate');
         $grid.masonry();
+
       }); 
 
       $grid.imagesLoaded().done( function() {
-        $('.la-ball-clip-rotate').remove();
+        $('.la-dark').removeClass('la-ball-clip-rotate');
       });
       imagecounter++;
 
