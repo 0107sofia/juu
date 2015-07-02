@@ -5,7 +5,12 @@
 .second-nav .menu-nav .activated {
   border-bottom: 2px solid #a1caca;
 }
-
+.sample{
+  display:none;
+}
+.hide{
+  display:none;
+}
 .productlist {
   margin-top: 5rem;
 }

@@ -215,6 +215,9 @@
   padding-right: 0.3rem;
   float: left;
   padding-bottom: 0.3rem;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+
 }
 .product-sizer{
   width: 33.33% 
@@ -237,7 +240,7 @@
 }
 
 .masonry-container .product .relative-container a img { 
-  opacity: 0.7;
+  opacity: 0.8;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }

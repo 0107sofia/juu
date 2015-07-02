@@ -19,9 +19,19 @@ $(document).ready( function() {
     percentPosition: true,
     columnWidth: '.product-sizer'
   });
-  // layout Isotope after each image loads
-  $grid.imagesLoaded().progress( function() {
-    $grid.masonry();
-  });  
+
+  $(window).scroll(function() {
+    //if user scroll to the bot
+    var productscount = $(".masonry-container .product").length;
+    var simple = 0;
+    simple = $('.simple .product').clone();
+    if($(window).scrollTop() == $(document).height() - $(window).height()) {
+           console.log(productscount);
+           console.log(simple);
+           
+           $grid.append( simple ).masonry( 'appended', simple );
+    }
+  });
+
 
 });
