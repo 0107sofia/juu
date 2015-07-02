@@ -219,17 +219,17 @@
   transition: opacity 0.3s;
 
 }
-.product-sizer{
+/*.product-sizer{
   width: 33.33% 
-}
+}*/
 @media (max-width: 60rem) {
-  .product-sizer, 
+  /*.product-sizer, */
   .product {
     width: 50%;
   }
 }
 @media (max-width: 30rem) {
-  .product-sizer, 
+  /*.product-sizer, */
   .product {
     width: 100%;
   }
