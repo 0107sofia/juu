@@ -1573,12 +1573,12 @@ iframe{
 /* ==================================================
    CONFIRMATION
 ================================================== */
-/*.confirm-section{
+.confirm-section{
   width: 50%;
   display: inline-block;
   float: left;
   margin-bottom: 2rem;
-}*/
+}
 .cvv{
   padding-left: 1rem;
 }
