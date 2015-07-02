@@ -696,3 +696,41 @@ font-size: 1.2rem;
 /* ==================================================
    END OF CHAIR
 ================================================== */
+
+/* ==================================================
+   END OF CHAIR
+================================================== */
+@media (max-width: 56rem) {
+  .mobile-receipt-payment{
+    display: block;
+  }
+  .receipt-payment{
+    display: none;
+    padding: 0;
+  }
+  .checkout .col-4{
+    width: 50%;
+  }
+}
+
+@media (max-width: 38rem) {
+  .mobile-receipt-payment{
+    display: none;
+  }
+  .receipt-payment{
+    display: block;
+  }
+  .checkout .receipt-summary{
+    width: 100%;
+  }
+}
+
+@media (max-width: 35rem) {
+  .checkout .col-4{
+    width: 100%;
+  }
+}
+
+/* ==================================================
+   END OF CHAIR
+================================================== */
