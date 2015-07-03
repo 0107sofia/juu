@@ -92,8 +92,9 @@ $(document).ready(function() {
       var reviewbox_height=$('.review .container #reviewbox .col-12').height()+15;
       get_reviewbox.css('margin-top','-'+reviewbox_height+'px');
       get_reviewbox.removeClass('show');
-      $('#reviewbutton').css('opacity', '1');
+      
       $('#reviewbutton').show();
+      $('#reviewbutton').css('opacity', '1');
     }else{
       var reviewbox_height=$('.review .container #reviewbox .col-12').height()+15;
       get_reviewbox.css('margin-top','-'+reviewbox_height+'px');
@@ -180,7 +181,7 @@ $(document).ready(function() {
       get_reviewbox.css('margin-top', '0rem');
       get_reviewbox.addClass('show');
       $('#reviewbutton').css('opacity', '0');
-      $('#reviewbutton').hide();
+      //$('#reviewbutton').hide();
     }
   });
   $('.account').click(function() {

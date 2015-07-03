@@ -787,12 +787,17 @@ a img {
 }
 
 .loading{
-  visibility: hidden;
+  /*visibility: hidden;*/
   padding-top: 1rem;
   text-align: center;
   font-size: 1.3rem;
-}
+  color:#a1caca;
 
+}
+.loading:hover{
+  cursor: pointer; 
+  cursor: hand;
+}
 /* ==================================================
    ABOUT US PAGE
 ================================================== */

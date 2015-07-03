@@ -49,18 +49,19 @@ input, textarea{
 }
 .clone{
 	display: none;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-in-out 0s;
+	transition:opacity 0.5s ease-in-out 0s;
 }
-.loading-animation {
-	-webkit-animation: loading 1s ease-in-out infinite;
-	transition:loading 1s ease-in-out infinite;
-}
+/*.review .container .new{
+	
+	display:block;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-in-out 0s;
+	transition:opacity 0.5s ease-in-out 0s;
+}*/
 
-@-webkit-keyframes loading
-{
-0%   {opacity:100;}
-50% {opacity:0;}
-100% {opacity:100;}
-}
+
 .fadein-animation {
 	-webkit-animation: fadein 0.5s ease-in-out ;
 	transition:fadein 0.5s ease-in-out ;
@@ -228,7 +229,7 @@ overflow-y:hidden;
   font-size: 1.2rem;
   border: none;
   margin:0;
-  -webkit-transition: opacity 0.2s ease-in-out 0s;
+  -webkit-transition: opacity 0.5s ease-in-out 0s;
 }
 @media (max-width: 70rem) {
 	.product-banner .textcontainer{
