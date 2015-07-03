@@ -179,6 +179,12 @@ header #logo a {
   width:1.1rem;
   height:1rem;
 }
+#account:hover{
+  cursor: pointer;
+}
+#car:hover{
+  cursor: pointer;
+}
 
 .menu-nav .activated{
   border-bottom:0.2rem solid #a1caca;
