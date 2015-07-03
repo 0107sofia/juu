@@ -627,6 +627,7 @@ a img {
   right: 0;
   background-color: white;
   display: inline-block;
+  width: 20rem;
 
 }
 
@@ -654,8 +655,8 @@ a img {
 }
 
 #signin-dropdown form {
-    cursor: pointer;
-    padding: 10px;
+
+    padding: 1.5rem;
     text-align: left;
     border: 
 }
@@ -665,28 +666,26 @@ a img {
 }
 
 #signin-dropdown .textbox input {
-    width: 100%;
+    width: 100%;/*
     padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding-bottom: 0.2rem;*/
     border-style: solid;
     border-width: 0.07rem;
     border-color: #7F8289;
 }
 
-#signin-dropdown button {
-    font-size: 1rem;
-    /*width: 6rem;*/
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    border: 0;
-    margin-top: 1rem;
-}
+
 
 .login-button,
 .register{
   width:50%;
   display:inline-block;
   float:left;
+}
+.login-button{
+  padding-top: 0.6rem;
+  padding-bottom: 0.8rem;
+  font-size: 1.2rem;
 }
 .register{
   margin-top: 1rem;
@@ -1071,7 +1070,7 @@ input, textarea{
   transition: background-color 0.5s;
 }
 
-.selector:hover{
+/*.selector:hover{
   background-color: #a1caca;
 }
 
@@ -1081,8 +1080,15 @@ input, textarea{
 .selector:hover h3{
   color:white;
 }
-
-
+*/
+.selector:hover{
+  cursor: pointer; 
+  cursor: hand;
+}
+.active-selector:hover{
+  cursor: pointer; 
+  cursor: hand;
+}
 .active-selector, .active-selector:visited{
   border: 0.1rem solid #a1caca;
   margin-top:0.5rem;
@@ -1103,17 +1109,17 @@ input, textarea{
 .active-selector h3{
   color: white;
 }
-.active-selector:hover{
+/*.active-selector:hover{
   background-color: white;
-}
+}*/
 
-.active-selector:hover p{
+/*.active-selector:hover p{
   color:#7F8289;
 }
 .active-selector:hover h3{
   color:#a1caca;
 }
-
+*/
 .selector-title, .selector-detail{
   display: inline-block;
   float: left;
@@ -1455,15 +1461,32 @@ iframe{
 .cart{
   z-index: 1000;
   position: fixed;
-  top:3rem;
+  top:4rem;
   right: 0;
   background-color: white;
   display: inline-block;
-  width: 18rem;
+  width: 20rem;
 }
+
 #cart-dropdown .list-title{
   font-size: 1rem;
 }
+#cart-dropdown .cart-item{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#cart-dropdown .grid .col-6 h3{
+  padding-left: 0.5rem;
+  padding-top: 0;
+}
+#cart-dropdown .grid .col-12 .blue-button{
+  margin-left: 0.5rem;
+  width: 17rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
 #quantity{
   font-size: 0.8rem;
 }
@@ -1472,11 +1495,20 @@ iframe{
   float: left;
   width: 100%;
 }
+.signin {
+  padding: 2rem;
+}
 #signin-dropdown label, #signin-dropdown img{
   display:inline;
 }
 .login label{
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+#username, #password{
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.5rem;
 }
 
 .textbox {
@@ -1492,10 +1524,10 @@ iframe{
   display: inline-block;
   float: left;
 }
-.order-button a{
+/*.order-button a{
   display: inline-block;
   float: left;
-}
+}*/
 #cart-dropdown {
     background-color: white;
     min-height: 17.5rem;
@@ -1505,13 +1537,20 @@ iframe{
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);*/
 }
-.close{
+/*.close{
   float:right;
-  margin-right:0.5rem;
+  margin-right:1.5rem;
+  margin-top: 0.5rem;
+}*/
+.signin-dropdown{
+  position: relative;
 }
-#signin-dropdown .close{
-  margin-right:0rem;
+.close{
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
 }
+
 .cart{
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -1521,7 +1560,7 @@ iframe{
 .cart-img{
   display: inline-block;
   float: left;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   width: 5rem;
   height: 5rem;
 }
@@ -1577,8 +1616,8 @@ iframe{
   z-index: 1000;
 }
 .order .grid .col-6{
-  padding:0.5rem;
-  margin-top: 1rem;
+  padding:0.5rem;/*
+  margin-top: 1rem;*/
 }
 .order{
   margin-top: 2rem;
