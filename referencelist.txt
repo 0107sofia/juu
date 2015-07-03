@@ -27,3 +27,4 @@ imagesloaded library, it is used to let the image load first and then implement 
 http://imagesloaded.desandro.com/
 
 loading animation:
+http://github.danielcardoso.net/load-awesome/la-ball-clip-rotate.html

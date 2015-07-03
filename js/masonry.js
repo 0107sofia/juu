@@ -1,16 +1,4 @@
-// $(document).ready( function() {
 
-//   $('.masonry-container').masonry({
-//     itemSelector: '.product'
-//    // "gutter": 5
-
-  
-//   });
-
-// });
-
-
-// external js: masonry.pkgd.js, imagesloaded.pkgd.js
 
 $(document).ready( function() {
 // init Masonry
@@ -24,9 +12,11 @@ var $grid = $('.masonry-container').masonry({
     $grid.masonry();
   });  
     // $grid.masonry();
-  
 
 var imagecounter=20;
+var titlecount=0;
+var productTitle=["ODENSVIK","GODMORGON","TYNGEN","ALDERN","MOLGER","ALGOT","MULIG","TIVED","TORNA","FOTO","CALYPSO","MALM","HURDAL","ASKVOLL","NORDLI","CENTIGRAD","HEKTAR","HYBY","HUSINGE","SKUBB"];
+var productType=["storage","table","seating","seating","seating","table","storage","table","table","table","storage","seating","storage","storage","storage","storage","seating","seating","table"];
 $(window).scroll(function() {
   //if the current window is close to the buttom
   var productscount = $(".masonry-container .product").length;
@@ -36,6 +26,8 @@ $(window).scroll(function() {
  
   if($(window).scrollTop() > windowPosition & imagecounter<38) {
 
+      $sample.find('p').eq(1).text(productType[titlecount]);
+      $sample.find('.product-title').text(productTitle[titlecount]);
       $sample.find('img').attr('src','img/productlist/all/product'+imagecounter+'.jpg');
       $('.la-dark').addClass('la-ball-clip-rotate');
       // $('.la-ball-clip-rotate').removeClass('la-ball-clip-rotate');
@@ -45,19 +37,16 @@ $(window).scroll(function() {
 
 
       $grid.append( $sample ).masonry('appended',$sample);
-      
+      //fix the image position while loading 
       $grid.imagesLoaded().progress( function() {
-        
-        
         $grid.masonry();
-
       }); 
-
+      //remove the animation after loading
       $grid.imagesLoaded().done( function() {
         $('.la-dark').removeClass('la-ball-clip-rotate');
       });
       imagecounter++;
-
+      titlecount++;
 
   }
 
