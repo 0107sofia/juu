@@ -348,11 +348,12 @@ header #logo a {
 .jumbotron{
   margin-top: 4rem;
   background-image: url(../img/newbanner.jpg);
-  background-size:cover;
-  min-height:30rem;
+  /*background-size:cover;*/
+  /*width: 100%;*/
+  min-height:40rem;
   margin-bottom:4rem;
   position: relative;
-  /*background-position: 0%, 50%;*/
+  background-position: 0 -5rem;
 }
 
 .section{
@@ -818,10 +819,10 @@ a img {
   background-image: url(../img/aboutus1.jpg);
   background-size:cover;
   max-width: 100%;
-  min-height:35rem;
+  min-height:40rem;
   margin-bottom:4rem;
   position: relative;
-  /*background-position: 0%, 50%;*/
+  background-position: 0  -10rem;
 }
 
 .banner-title{

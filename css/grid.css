@@ -135,6 +135,13 @@
     }    
 
 }
+
+@media (max-width: 90rem) {
+.jumbotron{
+  min-height:35rem;
+}
+
+  }
 @media (max-width: 50rem) {
    .jumbotron-title{
       left:40%;
