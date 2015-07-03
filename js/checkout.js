@@ -34,7 +34,22 @@ $(document).ready(function() {
 			$('.billingForm').show();
 		}
 	});
+//let the label display inside the input
+	$("div[class^='field-'] input").keyup(function() {
+		console.log($(this).val().length);
+
+		if( $(this).val().length === 0 ) {
+			$(this).css('padding-bottom','0.8rem');
+			$(this).css('padding-top','0.8rem');
+			$(this).parent().find('label').css('opacity','0');
+		}else{
+			$(this).css('padding-bottom','0.3rem');
+			$(this).css('padding-top','1.3rem');
+			$(this).parent().find('label').css('opacity','1');
+		}
+		
+	});
+
 
 	
-
 });

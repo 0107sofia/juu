@@ -462,6 +462,12 @@
 .field-full{
   width: 100%;
 }
+.email-input:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+
 .field-half{
   width: 50%;
   display: inline-block;
