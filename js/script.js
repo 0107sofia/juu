@@ -205,6 +205,9 @@ $(document).ready(function() {
   $('.close').click(function() {
     $('#cart-dropdown').hide();
     $('#signin-dropdown').hide();
+    $('#account img').attr('src', 'img/account-gray.png');
+    $('#car img').attr('src', 'img/cart-gray.png');
+
   });
   $('.car').click(function() {
     //Conditional states allow the dropdown box appear and disappear 
