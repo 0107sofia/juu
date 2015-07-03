@@ -532,7 +532,7 @@
 .summary{
   display: none;
 }
-.mobile-summary{
+.mobile-summary, .mobile-summary-detail{
   display: block;
 }
 .email-input{
