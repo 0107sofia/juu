@@ -1372,6 +1372,7 @@ iframe{
   font-weight: 400;
   display: inline-block;
   float: left;
+  line-height: 2rem;
 }
 .mobile-summary h3{
   color: #7F8289;
@@ -1379,6 +1380,7 @@ iframe{
   display: inline-block;
   float: right;
   padding-top: 0;
+  line-height: 2rem;
 }
 .mobile-summary{
   background-color: #FAFAFA;

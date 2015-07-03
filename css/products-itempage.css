@@ -84,6 +84,7 @@ input, textarea{
 
 .product-banner {
 	padding:0;
+	top:4rem;
 	position: relative;
 	background-image:url(../img/chair-banner.jpg);
 	background-size: cover;
