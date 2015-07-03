@@ -27,32 +27,90 @@
 
       <div class="menu menu-icon">
         <ul class="menu-nav">
-          <li class="icon account" id="account"><img src='img/account-gray.png' width='17.6' height='16' /></li>
-          <li class="icon car" id="car"><img src='img/cart-gray.png' width='18.6' height='16' /></li>
-          <li class="circle-li">
-            <div class="circle">1</div>
-          </li>
+          <li class="icon account" id="account"><img src='img/account-gray.png' alt="account"></li>
+          <li class="icon car" id="car"><img src='img/cart-gray.png' alt="cart"></li>
         </ul>
       </div>
 
       <div class="menu menu-firstrow">
         <ul class="menu-nav">
-          <li ><a href="products.html">Products</a></li>
+          <li><a href="products.html">Products</a></li>
           <li><a href="stores.html">Stores</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </div>
+    
+    </div> <!-- end of first nav bar -->
 
+
+  <div class="login">
+        <div id="signin-dropdown">
+        <!-- <img class="close" src="img/close.png" alt="close" height="15" width="15"> -->
+        <img class="close" src="img/close.png" alt="close" height="15" width="15">
+        <form method="post" class="signin" action="#">
+        <div class="textbox">
+        <div class="username">
+        <label>Username</label>
+
+        <input id="username" name="username" value="" type="text" autocomplete="on">
+        </div>
+        
+        <div class="password">
+        <label>Password</label>
+        <input id="password" name="password" value="" type="password">
+        </div>
+        </div>
+        
+        <div class="login_register">
+        <button class="blue-button login-button" type="button">log in</button>
+        <a class="register" href="#">register</a>
+        </div>
+
+        </form>
     </div>
+  </div>
+
+  <div class="cart">
+    <div id="cart-dropdown">
+      <img class="close" src="img/close.png" alt="close" height="15" width="15">
+      <div class="cart-item first">
+        <img class="cart-img" src="img/buy1.jpg" alt="list1">
+        <div class="cart-description">
+        <p class="list-title">Copenhague Chair</p>
+        <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <img class="cart-img" src="img/buy2.jpg" alt="list2">
+        <div class="cart-description">
+        <p class="list-title">Tray Table</p>
+        <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
+        </div>
+      </div>
+      <div class="order">
+        <div class="grid">
+          <div class="col-6">
+            <h3>Total: $348</h3>
+          </div>
+          <div class="col-12">
+            <a class="blue-button" href="checkout.html">Order</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
 
 
     <div class="second-nav">
-      <ul class="menu-nav">
-        <li><a href="products.html">Products</a></li>
-        <li><a href="stores.html">Stores</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </div>
+       <ul class="menu-nav">
+          <li><a href="products.html">Products</a></li>
+          <li><a href="stores.html">Stores</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      
+    </div> <!-- end of second nav bar -->
   </header>
 
 
@@ -196,8 +254,7 @@
           <p>CSS animation generator</p>
         </div>
         <div class="col-6">
-          <a href="http://bouncejs.com/#{s:[{T:"c",e:"b",d:1000,D:0,f:{x:0.5,y:0.5},t:{x:1,y:1},s:4,b:4}]}">
-          <p class="reference-link">http://bouncejs.com/#{s:[{T:"c",e:"b",d:1000,D:0,f:{x:0.5,y:0.5},t:{x:1,y:1},s:4,b:4}]}</p></a>
+          <p class="reference-link">http://bouncejs.com/#{s:[{T:&quot;c&quot;,e:&quot;b&quot;,d:1000,D:0,f:{x:0.5,y:0.5},t:{x:1,y:1},s:4,b:4}]}</p>
         </div>
 
         <div class="col-6">
