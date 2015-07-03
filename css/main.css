@@ -1467,6 +1467,7 @@ iframe{
   overflow-y: hidden;
    margin-left: -1.3rem;
   margin-right: -1.3rem;
+  overflow-x: hidden;
 }
 .mobile-summary-detail{
   margin-top:0rem;
