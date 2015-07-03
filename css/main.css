@@ -171,6 +171,14 @@ header #logo a {
   opacity: 1;
 }
 
+#account img{
+  width:1.1rem;
+  height:1rem;
+}
+#car img{
+  width:1.1rem;
+  height:1rem;
+}
 
 .menu-nav .activated{
   border-bottom:0.2rem solid #a1caca;
@@ -1519,7 +1527,7 @@ iframe{
   font-size: 1.2rem;
 }
 
-#quantity{
+.quantity{
   font-size: 0.8rem;
 }
 .cart-item{
