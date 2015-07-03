@@ -236,7 +236,7 @@ header #logo a {
     position: fixed;
     top:0.8rem;
     right:2rem;
-    display:none;
+    /*display:none;*/
 }
 
 
@@ -272,8 +272,6 @@ header #logo a {
   83.28% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
 }
-
-
 
 
 .menu .menu-nav li a {
