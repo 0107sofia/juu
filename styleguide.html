@@ -27,85 +27,32 @@
 
       <div class="menu menu-icon">
         <ul class="menu-nav">
-          <li class="icon account"><img src='img/account-gray.png' width='17.6' height='16'onmouseover="this.src='img/account-blue.png';" onmouseout="this.src='img/account-gray.png';" /></li>
-          <li class="icon car"><img src='img/cart-gray.png' width='18.6' height='16' onmouseover="this.src='img/cart-blue.png';" onmouseout="this.src='img/cart-gray.png';" /></li>
+          <li class="icon account" id="account"><img src='img/account-gray.png' width='17.6' height='16' /></li>
+          <li class="icon car" id="car"><img src='img/cart-gray.png' width='18.6' height='16' /></li>
+          <li class="circle-li">
+            <div class="circle">1</div>
+          </li>
         </ul>
       </div>
 
       <div class="menu menu-firstrow">
         <ul class="menu-nav">
-          <li><a href="products.html">Products</a></li>
+          <li ><a href="products.html">Products</a></li>
           <li><a href="stores.html">Stores</a></li>
-          <li class="activated"><a href="about.html">About</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </div>
-    
-    </div> <!-- end of first nav bar -->
 
-
-  <div class="login">
-        <div id="signin-dropdown">
-    
-        <form method="post" class="signin" action="#">
-        <div class="textbox">
-        <label class="username">
-        <span>Username</span>
-        <input id="username" name="username" value="" type="text" autocomplete="on">
-        </label>
-        
-        <label class="password">
-        <span>Password</span>
-        <input id="password" name="password" value="" type="password">
-        </label>
-        </div>
-        
-        <div class="login_register">
-        <button class="blue-button login-button" type="button">log in</button>
-        <a class="register" href="#">register</a>
-        </div>
-
-        </form>
     </div>
-  </div>
-  <div class="cart">
-        <div id="cart-dropdown">
-    <div class="cart-item">
-        <img class="cart-img" src="img/buy1.jpg" alt="list1" height="100" width="100">
-        <div class="cart-description">
-        <p class="list-title">Copenhague Chair</p>
-        <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
-        </div>
-      </div>
 
-      <div class="cart-item">
-        <img class="cart-img"src="img/buy2.jpg" alt="list2" height="100" width="100">
-        <div class="cart-description">
-        <p class="list-title">Tray Table</p>
-        <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
-        </div>
-      </div>
-      <div class="order">
-        <div class="grid">
-          <div class="col-6">
-            <h3>Total: $348</h3>
-          </div>
-          <div class="col-6">
-            <a class="blue-button" href="checkout.html">Order</a>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
 
     <div class="second-nav">
-      
-       <ul class="menu-nav">
-          <li><a href="products.html">Products</a></li>
-          <li><a href="stores.html">Stores</a></li>
-          <li class="activated"><a href="about.html">About</a></li>
-        </ul>
-      
-    </div> <!-- end of second nav bar -->
+      <ul class="menu-nav">
+        <li><a href="products.html">Products</a></li>
+        <li><a href="stores.html">Stores</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
   </header>
 
 
@@ -169,7 +116,7 @@
 </div>
 
 <div class="col-6">
-  <p class="code">&lt;form method="post" action="#"&gt;<br />
+  <p class="code">&lt;form &gt;<br />
     &lt;label for="form-name"&gt;Name:&lt;/label&gt;<br />
     &lt;input type="text" id="form-name"&gt;<br />
     &lt;/form&gt;</p>
@@ -212,17 +159,19 @@
         <div class="style-guide-section">
           <h3>Paragraph</h3>
           <div class="col-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. Curabitur a enim nibh. Etiam ornare, tellus nec congue fermentum, tortor est posuere nulla, vitae iaculis dui sem et ante. Maecenas varius ultricies dolor, eget congue nisi imperdiet quis. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. </p>
         </div>
 
         <div class="col-6">
-          <p class="code">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. Curabitur a enim nibh. Etiam ornare, tellus nec congue fermentum, tortor est posuere nulla, vitae iaculis dui sem et ante. Maecenas varius ultricies dolor, eget congue nisi imperdiet quis. &lt;/p&gt;</p>
+          <p class="code">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat.&lt;/p&gt;</p>
         </div>
+      </div>
 
 
-      <div class="col-12">
+      <div class="style-guide-section">
         <h3>Bulletted List</h3>
-        <ul class="example">
+        <div class="col-6">
+        <ul>
           <li>Lorem ipsum dolor sit amet</li>
           <li>Duis eu dolor a nibh</li>
           <li>Ut eu tortor et nisl</li>
@@ -230,35 +179,17 @@
       </div>
 
       <div class="col-6">
-        <h3 class="small-font">html code</h3>
-        <p>&lt;ul&gt;<br />
+        <p class="code">&lt;ul&gt;<br />
           &lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;<br />
           &lt;li&gt;Duis eu dolor a nibh&lt;/li&gt;<br />
           &lt;li&gt;Ut eu tortor et nisl&lt;/li&gt;<br />
           &lt;/ul&gt;</p>
         </div>
+      </div>
 
-        <div class="col-6">
-          <h3 class="small-font">css code</h3>
-          <p>ul{<br />
-            font-family: 'Lato', sans-serif;<br />
-            font-size: 1rem;<br />
-            font-weight: 300;<br />
-            color:#7F8289;<br />
-            line-height:1.5rem;<br />
-            list-style-type: none;<br />
-            padding-left: 1rem;<br />
-          }<br />
-          <br />
-          li:before {<br />
-          content: "• ";<br />
-          color: #a1caca; <br />
-        }
-      </p>
-    </div>
-
-    <div class="col-12">
+    <div class="style-guide-section">
       <h3>Numbered List</h3>
+      <div class="col-6">
       <ol>
         <li>Vestibulum id condimentum mi</li>
         <li>Quisque tempus interdum massa</li>
@@ -267,165 +198,68 @@
     </div>
 
     <div class="col-6">
-      <h3 class="small-font">html code</h3>
-      <p>&lt;ol&gt;<br />
+      <p class="code">&lt;ol&gt;<br />
         &lt;li&gt;Vestibulum id condimentum mi&lt;/li&gt;<br />
         &lt;li&gt;Quisque tempus interdum massa&lt;/li&gt;<br />
         &lt;li&gt;Phasellus accumsan interdum dui&lt;/li&gt;<br />
         &lt;/ol&gt;</p>
       </div>
-
-      <div class="col-6">
-        <h3 class="small-font">css code</h3>
-        <p>ol { <br />
-          counter-reset: item;<br />
-          font-family: 'Lato', sans-serif;<br />
-          font-size: 1rem;<br />
-          font-weight: 300;<br />
-          color:#7F8289;<br />
-          line-height:1.5rem;<br />
-          list-style-type: none;<br />
-          padding-left: 1rem; <br />
-        }<br />
-        ol li:before { <br />
-        content: counter(item) ". "; <br />
-        counter-increment: item; <br />
-        color: #a1caca; <br />
-      }</p>
     </div>
+
   </div>
 </div> <!-- end of container -->
 </div>
 
-<div class"section">
+<div class"section style-guide-part">
   <div class="container">
     <div class="grid">
       <div class="col-12 align-mid">
-        <h2>Combined Elements</h2>
+        <h2 class="align-mid">Combined Elements</h2>
         <h4>main navigation and product listing</h4>
       </div>
 
-      <div class="col-12">
+      <div class="style-guide-section">
         <h3>main navigation</h3>
+        <div class="col-6">
         <p>Example: navigation bar at the top of this page</p>
       </div>
 
       <div class="col-6">
-        <h3 class="small-font">html code</h3>
-          <p>&lt;header&gt;<br />&lt;div class="nav-bar"&gt;<br />
-          &lt;a class="menu-nav" &gt;&lt;/a&gt;<br />
-          <br />
-          &lt;div id="logo"&gt;<br />
-          &lt;img src="img/logo-blue.png" alt="logo"&gt;<br />
-          &lt;/div&gt;<br />
-          <br />
-          &lt;nav id="menu"&gt;<br />
-          &lt;ul id="menu-nav"&gt;<br />
-          &lt;li&gt;&lt;a href="#top"&gt;Home&lt;/a&gt;&lt;/li&gt;<br />
-          &lt;li&gt;&lt;a href="#interactive"&gt;Interactive Elements&lt;/a&gt;&lt;/li&gt;<br />
-          &lt;li&gt;&lt;a href="#text"&gt;Text Styling&lt;/a&gt;&lt;/li&gt;<br />
-          &lt;li&gt;&lt;a href="#combined"&gt;Combined Elements&lt;/a&gt;&lt;/li&gt;<br />
-          &lt;/ul&gt;<br />
-          &lt;/nav&gt;<br />
-          <br />
-          &lt;/div&gt;<br />
-          &lt;/header&gt;</p>
+           <p class="code long-code">&lt;div class=&quot;nav-bar&quot;&gt;<br>&lt;div id=&quot;logo&quot;&gt;<br>&lt;a href=&quot;index.html&quot;&gt;&lt;img src=&quot;img/logo-blue.png&quot; alt=&quot;logo&quot;&gt;&lt;/a&gt;<br>&lt;/div&gt;<br>&lt;div class=&quot;menu menu-icon&quot;&gt;<br>&lt;ul class=&quot;menu-nav&quot;&gt;<br>&lt;li class=&quot;icon account&quot; id=&quot;account&quot;&gt;&lt;img src='img/account-gray.png' &lt;/li&gt;<br>&lt;li class=&quot;icon car&quot; id=&quot;car&quot;&gt;&lt;img src='img/cart-gray.png' &lt;/li&gt;<br>&lt;li class=&quot;circle-li&quot;&gt;<br>&lt;div class=&quot;circle&quot;&gt;1&lt;/div&gt;<br>&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;/div&gt;<br> &lt;div class=&quot;menu menu-firstrow&quot;&gt;<br>&lt;ul class=&quot;menu-nav&quot;&gt;<br>&lt;li &gt;&lt;a href=&quot;products.html&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a href=&quot;stores.html&quot;&gt;Stores&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;/div&gt;<br>&lt;/div&gt;<br>&lt;div class=&quot;second-nav&quot;&gt;<br>&lt;ul class=&quot;menu-nav&quot;&gt;<br> &lt;li&gt;&lt;a href=&quot;products.html&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a href=&quot;stores.html&quot;&gt;Stores&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;/div&gt; </p>
         </div>
-
-      <div class="col-6">
-        <h3 class="small-font">csss code</h3>
-        <p>header {<br />
-      width: 100%;<br />
-      }<br />
-      <br />
-      header .nav-bar {<br />
-      position: fixed;<br />
-      top: 0;<br />
-      left: 0;<br />
-      width: 100%;<br />
-      height: 4rem;<br />
-      background: #ffffff;<br />
-      <br />
-      -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);<br />
-      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);<br />
-      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);<br />
-      }<br />
-      <br />
-      header #logo {<br />
-      color: #FFFFFF;<br />
-      float: left;<br />
-      padding: 1rem 0;<br />
-      margin-left: 3rem;<br />
-      }<br />
-      <br />
-      header #logo img{<br />
-      width:8rem;<br />
-      height:4rem;<br />
-      position: fixed;<br />
-      top:0;<br />
-      left:0;<br />
-      }<br />
-      <br />
-      header #logo a {<br />
-      background: url(.../img/logo.png) no-repeat;<br />
-      width: 8rem;<br />
-      height: 4rem;<br />
-      text-indent: -9999px;<br />
-      display: block;<br />
-      opacity: 1;<br />
-      <br />
-      -webkit-transition: opacity 0.25s ease-in-out 0s; <br />
-     -moz-transition: opacity 0.25s ease-in-out 0s;<br />
-     -o-transition: opacity 0.25s ease-in-out 0s;<br />
-      transition: opacity 0.25s ease-in-out 0s; <br />
-      }<br />
-      <br />
-      header #logo a:hover {<br />
-      opacity: 0.65;<br />
-      filter: alpha(opacity=65);  <br />
-      }<br />
-      <br />
-      nav#menu {<br />
-      float: right;<br />
-      margin-right: 2rem;<br />
-      }<br />
-      <br />
-      nav#menu #menu-nav {<br />
-      margin: 0;<br />
-      padding: 0; <br />
-      }<br />
-      <br />
-      nav#menu #menu-nav li {<br />
-      list-style: none;<br />
-      display: inline-block;<br />
-      margin-left: 3rem;  <br />
-      }<br />
-      <br />
-      nav#menu #menu-nav li:first-child {<br />
-      margin-left: 0; <br />
-      }<br />
-      <br />
-      nav#menu #menu-nav li a {<br />
-      color: #7F8289;<br />
-      font-size: 0.8rem;<br />
-      font-weight: 300;<br />
-      line-height: 4rem;<br />
-      display: block;<br />
-      text-transform: uppercase;<br />
-      }<br />
-      <br />
-      nav#menu #menu-nav li.current a,<br />
-      nav#menu #menu-nav li a:hover {<br />
-      color: #a1caca;<br />
-      }</p>
-      </div>   
+      </div>
+  
     </div> <!-- end of grid -->
   </div> <!-- end of container -->
 </div> <!-- end of section -->
 
  
 
+<footer class="footer">
 
+      
+
+
+        <p class="footer-links">
+          <a href="index.html">Home</a>
+          ·
+          <a href="products.html">Products</a>
+          ·
+          <a href="stores.html">Stores</a>
+          ·
+          <a href="about.html">About</a>
+          ·
+          <a href="references.html">References</a>
+          ·
+          <a href="styleguide.html">Style Guide</a>
+          ·
+          <a href="https://github.com/0107sofia/juu.git">GitHub Repository</a>
+        </p>
+<!-- 
+        <p>&copy; JUU 2015</p> -->
+        <p class="footer-name">Sofia Tang + Marcus Su&nbsp; | &nbsp;IAT 339 &nbsp;| &nbsp;Summer 2015</p>
+
+    </footer>
 
 </body>
 </html>

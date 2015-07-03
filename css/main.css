@@ -1758,8 +1758,7 @@ margin-left: 0;
 ================================================== */
 .code{
   width: 100%;
-    height: 100px;
-    overflow: scroll;
+  /*  overflow: scroll;*/
      background-color: #FAFAFA;
      padding: 1rem;
      font-size: 0.8rem;
@@ -1767,6 +1766,8 @@ margin-left: 0;
 .style-guide-section{
   margin-top: 2rem;
   margin-bottom: 2rem;
+   border-bottom:0.1rem solid #D8D8D8 ;
+   padding-bottom: 2rem;
 }
 .style-guide-section:after{
   display:block;
@@ -1777,11 +1778,15 @@ margin-left: 0;
   padding-bottom: 0rem;
 }
 .style-guide-part{
-  margin: 4rem;
+  margin-bottom: 8rem;
 }
 .heading-sample h2{
   padding-bottom: 0;
   line-height: 100%;
+}
+.long-code{
+  height: 10rem;
+  overflow: scroll;
 }
 /* ==================================================
    END OF STYLE GUIDE
