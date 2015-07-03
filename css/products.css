@@ -30,7 +30,7 @@
   border-bottom: 0.025rem solid gray;
 }
 
-.second-nav .menu-nav .activated {
+.filter .menu-nav .activated {
   border-bottom: 0.1rem solid #a1caca;
 }
 .filter .menu-nav li a {

@@ -4,7 +4,7 @@ $(document).ready( function() {
 // init Masonry
 var $grid = $('.masonry-container').masonry({
   itemSelector: '.product',
-  percentPosition: true,
+  // percentPosition: true,
   columnWidth: '.product'
 });
 
@@ -14,7 +14,7 @@ var $grid = $('.masonry-container').masonry({
     // $grid.masonry();
 
 var imagecounter=20;
-var titlecount=0;
+var titlecount=0;file:///Users/marcussu/Desktop/juu/kaustby.html
 var productTitle=["ODENSVIK","GODMORGON","TYNGEN","ALDERN","MOLGER","ALGOT","MULIG","TIVED","TORNA","FOTO","CALYPSO","MALM","HURDAL","ASKVOLL","NORDLI","CENTIGRAD","HEKTAR","HYBY","HUSINGE","SKUBB"];
 var productType=["storage","table","seating","seating","seating","table","storage","table","table","table","storage","seating","storage","storage","storage","storage","seating","seating","table"];
 $(window).scroll(function() {
