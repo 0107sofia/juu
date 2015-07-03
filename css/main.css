@@ -1405,7 +1405,7 @@ iframe{
 .mobile-summary:hover{
   cursor: pointer; 
   cursor: hand;
-  background-color: #FCFCFC;
+  background-color: #E6F2F2;
 
 }
 .mobile-summary:after{
