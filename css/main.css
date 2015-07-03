@@ -4,6 +4,7 @@
 }
 * a img{
   display:block;
+  border-style: none;
 }
 *{
   padding: 0;
@@ -819,7 +820,7 @@ a img {
   background-image: url(../img/aboutus1.jpg);
   background-size:cover;
   max-width: 100%;
-  min-height:48rem;
+  min-height:45rem;
   margin-bottom:4rem;
   position: relative;
   /*background-position: 0  -10rem;*/
@@ -829,7 +830,7 @@ a img {
   left:5%;
   top:5%;
   position: absolute;
-  width: 60%;
+  width: 70%;
 }
 .banner-title h2{
   color:white;
