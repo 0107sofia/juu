@@ -16,7 +16,7 @@ var $grid = $('.masonry-container').masonry({
 var imagecounter=20;
 var titlecount=0;file:///Users/marcussu/Desktop/juu/kaustby.html
 var productTitle=["ODENSVIK","GODMORGON","TYNGEN","ALDERN","MOLGER","ALGOT","MULIG","TIVED","TORNA","FOTO","CALYPSO","MALM","HURDAL","ASKVOLL","NORDLI","CENTIGRAD","HEKTAR","HYBY","HUSINGE","SKUBB"];
-var productType=["storage","table","seating","seating","seating","table","storage","table","table","table","storage","seating","storage","storage","storage","storage","seating","seating","table"];
+var productType=["storage","table","seating","seating","seating","table","storage","table","table","table","storage","seating","storage","storage","storage","storage","seating","storage","table"];
 $(window).scroll(function() {
   //if the current window is close to the buttom
   var productscount = $(".masonry-container .product").length;

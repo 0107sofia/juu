@@ -1846,6 +1846,10 @@ margin-left: 0;
   height: 10rem;
   overflow: scroll;
 }
+.listing-code{
+  height: 20rem;
+  overflow: scroll;
+}
 .jumbotron .jumbotron-title .guide-title h3{
   text-align: right;
   padding-right: 1rem;
