@@ -45,18 +45,20 @@
 
   <div class="login">
         <div id="signin-dropdown">
-    
+        <!-- <img class="close" src="img/close.png" alt="close" height="15" width="15"> -->
+        <img class="close" src="img/close.png" alt="close" height="15" width="15">
         <form method="post" class="signin" action="#">
         <div class="textbox">
-        <label class="username">
-        <span>Username</span>
+        <div class="username">
+        <label>Username</label>
+
         <input id="username" name="username" value="" type="text" autocomplete="on">
-        </label>
+        </div>
         
-        <label class="password">
-        <span>Password</span>
+        <div class="password">
+        <label>Password</label>
         <input id="password" name="password" value="" type="password">
-        </label>
+        </div>
         </div>
         
         <div class="login_register">
@@ -67,10 +69,12 @@
         </form>
     </div>
   </div>
+
   <div class="cart">
-        <div id="cart-dropdown">
-    <div class="cart-item">
-        <img class="cart-img" src="img/buy1.jpg" alt="list1" height="100" width="100">
+    <div id="cart-dropdown">
+      <img class="close" src="img/close.png" alt="close" height="15" width="15">
+      <div class="cart-item first">
+        <img class="cart-img" src="img/buy1.jpg" alt="list1">
         <div class="cart-description">
         <p class="list-title">Copenhague Chair</p>
         <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
@@ -78,7 +82,7 @@
       </div>
 
       <div class="cart-item">
-        <img class="cart-img"src="img/buy2.jpg" alt="list2" height="100" width="100">
+        <img class="cart-img"src="img/buy2.jpg" alt="list2">
         <div class="cart-description">
         <p class="list-title">Tray Table</p>
         <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
@@ -89,7 +93,7 @@
           <div class="col-6">
             <h3>Total: $348</h3>
           </div>
-          <div class="col-6">
+          <div class="col-12">
             <a class="blue-button" href="checkout.html">Order</a>
           </div>
         </div>
