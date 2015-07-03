@@ -27,8 +27,8 @@
 
       <div class="menu menu-icon">
         <ul class="menu-nav">
-          <li class="icon account"><img src='img/account-gray.png' width='17.6' height='16'onmouseover="this.src='img/account-blue.png';" onmouseout="this.src='img/account-gray.png';" /></li>
-          <li class="icon car"><img src='img/cart-gray.png' width='18.6' height='16' onmouseover="this.src='img/cart-blue.png';" onmouseout="this.src='img/cart-gray.png';" /></li>
+          <li class="icon account" id="account"><img src='img/account-gray.png' alt="account"></li>
+          <li class="icon car" id="car"><img src='img/cart-gray.png' alt="cart"></li>
         </ul>
       </div>
 
@@ -41,6 +41,7 @@
       </div>
     
     </div> <!-- end of first nav bar -->
+
 
   <div class="login">
         <div id="signin-dropdown">
@@ -76,15 +77,15 @@
         <img class="cart-img" src="img/buy1.jpg" alt="list1">
         <div class="cart-description">
         <p class="list-title">Copenhague Chair</p>
-        <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
+        <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
         </div>
       </div>
 
       <div class="cart-item">
-        <img class="cart-img"src="img/buy2.jpg" alt="list2">
+        <img class="cart-img" src="img/buy2.jpg" alt="list2">
         <div class="cart-description">
         <p class="list-title">Tray Table</p>
-        <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
+        <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
         </div>
       </div>
       <div class="order">
@@ -99,9 +100,10 @@
       </div>
       </div>
     </div>
-    
+
+
+
     <div class="second-nav">
-      
        <ul class="menu-nav">
           <li><a href="products.html">Products</a></li>
           <li class="activated"><a href="stores.html">Stores</a></li>
@@ -114,13 +116,13 @@
 <div class="store-selector">
       <div class="selector-grid">
         <div class="selector1of3">
-          <div id="mapbutton1" class="selector active-selector selector1"><h3 class="selector-title">Vancouver</h3><p class="selector-detail">701 W Georgia St, Vancouver, BC</br>(604) 688-7235</p></div>
+          <div id="mapbutton1" class="selector active-selector selector1"><h3 class="selector-title">Vancouver</h3><p class="selector-detail">701 W Georgia St, Vancouver, BC<br>(604) 688-7235</p></div>
         </div>
         <div class="selector1of3">
-          <div id="mapbutton2" class="selector selector2"><h3 class="selector-title">Burnaby</h3><p class="selector-detail"> 4700 Kingsway, Burnaby, BC</br>(604) 438-4715</p></div>
+          <div id="mapbutton2" class="selector selector2"><h3 class="selector-title">Burnaby</h3><p class="selector-detail"> 4700 Kingsway, Burnaby, BC<br>(604) 438-4715</p></div>
         </div>
         <div class="selector1of3">
-          <div id="mapbutton3" class="selector selector3"><h3 class="selector-title">Richmond</h3><p class="selector-detail">4151 Hazelbridge Way, Richmond, BC</br>(604) 270-1234</p></div>
+          <div id="mapbutton3" class="selector selector3"><h3 class="selector-title">Richmond</h3><p class="selector-detail">4151 Hazelbridge Way, Richmond, BC<br>(604) 270-1234</p></div>
       </div>
     </div>
   </div><!--  end of section -->

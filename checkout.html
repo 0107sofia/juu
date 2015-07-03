@@ -20,7 +20,7 @@
 
 <body>
   <header>
-    <div class="nav-bar">
+<div class="nav-bar">
       <div id="logo">
         <a href="index.html"><img src="img/logo-blue.png" alt="logo"></a>
       </div>
@@ -28,7 +28,7 @@
       <div class="menu menu-icon">
         <ul class="menu-nav">
           <li class="icon account" id="account"><img src='img/account-gray.png' alt="account"></li>
-          <li class="icon car"><img src='img/cart-gray.png'  onmouseover="this.src='img/cart-blue.png';" onmouseout="this.src='img/cart-gray.png';" alt="cart"></li>
+          <li class="icon car" id="car"><img src='img/cart-gray.png' alt="cart"></li>
         </ul>
       </div>
 
@@ -41,10 +41,6 @@
       </div>
     
     </div> <!-- end of first nav bar -->
-
-
-
-
 
 
   <div class="login">
@@ -105,8 +101,9 @@
       </div>
     </div>
 
+
+
     <div class="second-nav">
-      
        <ul class="menu-nav">
           <li><a href="products.html">Products</a></li>
           <li><a href="stores.html">Stores</a></li>
@@ -131,7 +128,7 @@
             <p class="checkout-nav"><span class="checkout-current">Shipping</span> > Payment > Comfirmation</p>
 
             <div class="mobile-summary">
-            <p>Show Order Summary <span><img src="img/down.png" width="12" height="8"></span></P>
+            <p>Show Order Summary <span><img class="up-down-icon" src="img/down.png" alt="down"></span></P>
               <h3>$348</h3>
             </div>
 
@@ -141,16 +138,16 @@
               <img class="cart-img" src="img/buy1.jpg" alt="list1" height="100" width="100">
               <div class="cart-description">
               <p class="list-title">Copenhague Chair</p>
-              <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
+              <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
               </div><!-- end of cart-description -->
             </div><!-- end of cart-item-->
 
 
             <div class="cart-item">
-              <img class="cart-img"src="img/buy2.jpg" alt="list2" height="100" width="100">
+              <img class="cart-img" src="img/buy2.jpg" alt="list2" height="100" width="100">
               <div class="cart-description">
               <p class="list-title">Tray Table</p>
-              <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
+              <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
               </div>
             </div><!-- end of cart-item-->
           </div>
@@ -210,14 +207,15 @@
               <h3>Shipping Method</h3>
               <form>
                 <div class="shipping-method">
-              <input class="radio"type="radio" name="shipping method" value="Ground Shipping" checked><label>Ground Shipping (5-7 days)</label>
+              <input class="radio" type="radio" name="shipping method" value="Ground Shipping" checked><label>Ground Shipping (5-7 days)</label>
               <p class="shipping-price">free</p>
             </div>
             <div class="shipping-method">
               <input class="radio" type="radio" name="shipping method" value="Express Shipping"><label>Express Shipping (2-3 days)</label>
               <p class="shipping-price">$10</p>
+              </div>
               </form>
-            </div>
+            
               </div><!-- end of checkout-section -->
 
             <a class="checkout-back" href="products.html"> &lt; Continue Shopping</a>
@@ -234,16 +232,16 @@
         <img class="cart-img" src="img/buy1.jpg" alt="list1" height="100" width="100">
         <div class="cart-description">
         <p class="list-title">Copenhague Chair</p>
-        <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
+        <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $199</p>
         </div><!-- end of cart-description -->
       </div><!-- end of cart-item-->
 
 
       <div class="cart-item">
-        <img class="cart-img"src="img/buy2.jpg" alt="list2" height="100" width="100">
+        <img class="cart-img" src="img/buy2.jpg" alt="list2" height="100" width="100">
         <div class="cart-description">
         <p class="list-title">Tray Table</p>
-        <p><input id="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
+        <p><input class="quantity" name="quantity" value="1" type="text" autocomplete="on"> X $149</p>
         </div>
       </div><!-- end of cart-item-->
 

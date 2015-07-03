@@ -13,7 +13,6 @@
 }
 button:hover{
   cursor: pointer; 
-  cursor: hand;
 }
 body{
   background:white;
@@ -167,7 +166,6 @@ header #logo a {
   /*background: url(../img/logo.png) no-repeat;*/
   width: 8rem;
   height: 4rem;
-  text-indent: -9999px;
   display: block;
   opacity: 1;
 }
@@ -226,7 +224,7 @@ header #logo a {
 }
 .circle {
     border-radius: 50%;
-    behavior: url(PIE.htc); 
+    /*behavior: url(PIE.htc); */
     width: 1rem;
     height: 1rem;
     padding-top: 0.01rem;
@@ -249,7 +247,7 @@ header #logo a {
 
 /* Generated with Bounce.js. Edit at http://goo.gl/glQihH */
 
-@-webkit-keyframes animation { 
+/*@-webkit-keyframes animation { 
   0% { -webkit-transform: matrix3d(0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   4.2% { -webkit-transform: matrix3d(0.775, 0, 0, 0, 0, 0.775, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.775, 0, 0, 0, 0, 0.775, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   8.31% { -webkit-transform: matrix3d(0.942, 0, 0, 0, 0, 0.942, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.942, 0, 0, 0, 0, 0.942, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
@@ -261,7 +259,7 @@ header #logo a {
   83.28% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
 }
-
+*/
 @keyframes animation { 
   0% { -webkit-transform: matrix3d(0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   4.2% { -webkit-transform: matrix3d(0.775, 0, 0, 0, 0, 0.775, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.775, 0, 0, 0, 0, 0.775, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
@@ -467,7 +465,7 @@ header #logo a {
 
 .posters a img { 
   display: block; 
-  opacity: .9;
+  opacity: .7;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
@@ -555,7 +553,7 @@ header #logo a {
   font-weight: 300;
   font-size: 1rem;
   display: inline-block;
-  background-color: none;
+  background-color: rgba(0, 0, 0, 0);
   border:0.1rem solid white;
   color: white;
   width: 9rem;
@@ -668,10 +666,9 @@ a img {
 }
 
 #signin-dropdown form {
-
     padding: 1.5rem;
     text-align: left;
-    border: 
+    /*border: */
 }
 
 #signin-dropdown .textbox span {
@@ -809,7 +806,6 @@ a img {
 }
 .loading:hover{
   cursor: pointer; 
-  cursor: hand;
 }
 /* ==================================================
    ABOUT US PAGE
@@ -1101,11 +1097,9 @@ input, textarea{
 */
 .selector:hover{
   cursor: pointer; 
-  cursor: hand;
 }
 .active-selector:hover{
   cursor: pointer; 
-  cursor: hand;
 }
 .active-selector, .active-selector:visited{
   border: 0.1rem solid #a1caca;
@@ -1233,10 +1227,11 @@ iframe{
   -webkit-transition: padding 0.5s;
   transition: padding 0.5s;
 }
+
 [class^='field-'] label {
   position: absolute;
   line-height: 1rem;
-  padding:auto;
+  /*padding:auto;*/
   top: 0.8rem;
   font-size: 0.7rem;
   left: 0.9rem;
@@ -1342,7 +1337,7 @@ iframe{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.
+
 .login label{
   font-size: 0.8rem;
 }
@@ -1366,6 +1361,10 @@ iframe{
   margin-bottom: 2rem;
 }
 
+.up-down-icon{
+  width: 0.75rem;
+  height: 0.5rem;
+}
 .order{
   width: 100%;
   margin-top: -0.5rem;
@@ -1449,7 +1448,6 @@ iframe{
 }
 .mobile-summary:hover{
   cursor: pointer; 
-  cursor: hand;
   background-color: #E6F2F2;
 
 }
