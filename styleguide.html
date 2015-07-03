@@ -111,233 +111,114 @@
 
   
   <div class="jumbotron">
-    <h1>JUU</h1>
   </div>
 
-  <div class="section">
+  <div class="section style-guide-part">
     <div class="container">
       <div class="grid">
         <div class="col-12">
-          <h2 class="align-mid">hello Interactive Elements</h2>
+          <h2 class="align-mid">Interactive Elements</h2>
           <h4 class="align-mid">links, buttons, labels, and text input fields</h4>
         </div>
-        <div class="col-12">
+        
+        <div class="style-guide-section">
           <h3>In-text Link</h3>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.Sed at sem convallis, porttitor justo eget, eleifend nulla. Duis ultrices libero quis lectus vehicula iaculis. Vivamus tortor ligula, gravida eget facilisis a urus. Aenean pulvinar a erat ut varius. <a href="#" > read more </a></p>
+          <div class="col-6">
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Aenean pulvinar a erat ut varius. <a href="#" > read more </a></p>
         </div>
-
         <div class="col-6">
-          <h3 class="small-font">html code</h3>
-          <p>&lt;a href="#" &gt; read more &lt;/a&gt;</p>
+          <p class="code"> &lt;a href=&quot;#&quot; &gt; read more &lt;/a&gt;&lt;/p&gt;
         </div>
+      </div>
 
-        <div class="col-6">
-          <h3 class="small-font">css code</h3>
-          <p>a{<br />
-            color:#a1caca;<br />
-            text-decoration: none;<br />
-            font-weight: 500;<br />
-          }<br />
-          <br />
-          a:hover, a:active, a:focus{<br />
-          color:#7F8289;<br />
-          text-decoration:none;<br />
-        }
-      </p>
-    </div>
-    
-    <div class="col-12">
+    <div class="style-guide-section">
+
       <h3>Navigation Buttons</h3>
+    <div class="col-6">
       <a href="#" class="blue-button">&lt; Previous</a>
       <a href="#" class="blue-button">Next &gt;</a>
     </div>
 
     <div class="col-6">
-      <h3 class="small-font">html code</h3>
-      <p>&lt;a href="#" class="blue-button"&gt;&amp;lt; Previous&lt;/a&gt;<br />
+      <p  class="code">&lt;a href="#" class="blue-button"&gt;&amp;lt; Previous&lt;/a&gt;<br />
         &lt;a href="#" class="blue-button"&gt;Next &amp;gt;&lt;/a&gt;</p>
       </div>
+    </div>
 
-      <div class="col-6">
-        <h3 class="small-font">css code</h3>
-        <p>.blue-button, .blue-button:visited {<br />
-          font-family: 'Lato', sans-serif;<br />
-          font-weight: 300;<br />
-          font-size: 1.5rem;<br />
-          display: inline-block;<br />
-          background-color: #a1caca;<br />
-          color: white;<br />
-          width: 9rem;<br />
-          padding: 0.75rem 0;<br />
-          text-align: center;<br />
-          text-decoration: none;<br />
-          border-bottom: 0.2rem solid #a2a4a9;<br />
-          -webkit-transition: background-color 0.5s;<br />
-          transition: background-color 0.5s;<br />
-        }<br />
-        <br />
-        .blue-button:hover{<br />
-        background-color: #7dbdbd;<br />
-        border-bottom: 0.2rem solid #7F8289;<br />
-        font-weight: 400;<br />
-      }
-    </p>
-  </div>
-
-  <div class="col-12">
+  <div class="style-guide-section">
     <h3>Submit and Reset Button</h3>
+    <div class="col-6">
     <a href="#" class="blue-button">Submit</a>
     <a href="#" class="white-button">Reset</a>
   </div>
 
   <div class="col-6">
-    <h3 class="small-font">html code</h3>
-    <p>&lt;a href="#" class="blue-button"&gt;&amp;lt; Previous&lt;/a&gt;<br />
-      &lt;a href="#" class="blue-button"&gt;Next &amp;gt;&lt;/a&gt;</p>
+    <p class="code">&lt;a href=&quot;#&quot; class=&quot;blue-button&quot;&gt;Submit&lt;/a&gt; </br>&lt;a href=&quot;#&quot; class=&quot;white-button&quot;&gt;Reset&lt;/a&gt;</p>
     </div>
+  </div>
 
-    <div class="col-6">
-      <h3 class="small-font">css code</h3>
-      <p>.blue-button, .blue-button:visited {<br />
-        font-family: 'Lato', sans-serif;<br />
-        font-weight: 300;<br />
-        font-size: 1.5rem;<br />
-        display: inline-block;<br />
-        background-color: #a1caca;<br />
-        color: white;<br />
-        width: 9rem;<br />
-        padding: 0.75rem 0;<br />
-        text-align: center;<br />
-        text-decoration: none;<br />
-        border-bottom: 0.2rem solid #a2a4a9;<br />
-        -webkit-transition: background-color 0.5s;<br />
-        transition: background-color 0.5s;<br />
-      }<br />
-      <br />
-      .blue-button:hover{<br />
-      background-color: #7dbdbd;<br />
-      border-bottom: 0.2rem solid #7F8289;<br />
-      font-weight: 400;<br />
-    }
-  </p>
-</div>
 
-<div class="col-12">
+
+<div class="style-guide-section">
   <h3>Text Input Field with a Label</h3>
-  <form method="post" action="#">
+  <div class="col-6">
+  <form >
     <label for="form-name">Name:</label>
     <input type="text" id="form-name">
   </form>
 </div>
 
 <div class="col-6">
-  <h3 class="small-font">html code</h3>
-  <p>&lt;form method="post" action="#"&gt;<br />
+  <p class="code">&lt;form method="post" action="#"&gt;<br />
     &lt;label for="form-name"&gt;Name:&lt;/label&gt;<br />
     &lt;input type="text" id="form-name"&gt;<br />
     &lt;/form&gt;</p>
   </div>
-
-  <div class="col-6">
-    <h3 class="small-font">css code</h3>
-    <p>form{<br />
-      display: inline-block;<br />
-      padding: 1rem;<br />
-      width:100%;<br />
-      font-size: 1.5rem;<br />
-    }<br />
-    <br />
-    label{<br />
-    display: block;<br />
-  }<br />
-  <br />
-  input{<br />
-  width: 100%;<br />
-  padding:0.5rem ;<br />
-  font-size: 1.2rem;<br />
-}
-</p>
 </div>
+
 
 </div>
 </div> <!-- end of container -->
 </div> <!-- end of section -->
 
-<div class="section">
+
+
+
+
+<div class="section style-guide-part">
   <div class="container">
     <div class="grid">
       <div class="col-12">
         <h2 class="align-mid">Text Styling</h2>
         <h4 class="align-mid">headings, paragraphs, and lists</h4>
       </div>
-      <div class="col-12">
+
+      <div class="style-guide-section">
         <h3>3 levels of headings</h3>
-          <p>h2</p>
+        <div class="col-6 heading-sample">
           <h2>heading</h>
-          <p>h3</p>
           <h3>heading</h>
-          <p>h4</p>
           <h4>heading</4>
         </div>
 
         <div class="col-6">
-          <h3>html code</h3>
-          <p>&lt;p&gt;h2&lt;/p&gt;<br />
+          <p class="code">
             &lt;h2&gt;heading&lt;/h2&gt;<br />
-            &lt;p&gt;h3&lt;/p&gt;<br />
             &lt;h3&gt;heading&lt;/h3&gt;<br />
-            &lt;p&gt;h4&lt;/p&gt;<br />
             &lt;h4&gt;heading&lt;/h4&gt;</p>
           </div>
-
-              <div class="col-6">
-                <h3 class="small-font">css code</h3>
-                <p>h2{<br />
-                  font-family: 'Titillium Web', sans-serif;<br />
-                  font-weight: 700;<br />
-                  font-size: 2.5rem;<br />
-                  margin: 0;<br />
-                  color:#a1caca;<br />
-                }<br />
-                <br />
-                h3{<br />
-                font-family: 'Titillium Web', sans-serif;<br />
-                font-weight: 400;<br />
-                font-size:1.5rem;<br />
-                color:#a1caca;<br />
-                margin: 0;<br />
-              }<br />
-              <br />
-              h4{<br />
-              font-family: 'Lato', sans-serif;<br />
-              font-weight: 100;<br />
-              font-size: 1.3rem;<br />
-              margin: 0;<br />
-            }
-          </p>
         </div>
 
-        <div class="col-12">
+        <div class="style-guide-section">
           <h3>Paragraph</h3>
+          <div class="col-6">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. Curabitur a enim nibh. Etiam ornare, tellus nec congue fermentum, tortor est posuere nulla, vitae iaculis dui sem et ante. Maecenas varius ultricies dolor, eget congue nisi imperdiet quis. </p>
         </div>
 
         <div class="col-6">
-          <h3 class="small-font">html code</h3>
-          <p>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. Curabitur a enim nibh. Etiam ornare, tellus nec congue fermentum, tortor est posuere nulla, vitae iaculis dui sem et ante. Maecenas varius ultricies dolor, eget congue nisi imperdiet quis. &lt;/p&gt;</p>
+          <p class="code">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut sem eu justo consequat porttitor in non tellus. Etiam a blandit elit. Mauris sit amet metus in felis accumsan consequat. Curabitur a enim nibh. Etiam ornare, tellus nec congue fermentum, tortor est posuere nulla, vitae iaculis dui sem et ante. Maecenas varius ultricies dolor, eget congue nisi imperdiet quis. &lt;/p&gt;</p>
         </div>
 
-        <div class="col-6">
-          <h3 class="small-font">css code</h3>
-          <p>p{<br />
-            font-family: 'Lato', sans-serif;<br />
-            font-size: 1rem;<br />
-            font-weight: 300;<br />
-            color:#7F8289;<br />
-            line-height:1.5rem;<br />
-          }
-        </p>
-      </div>
 
       <div class="col-12">
         <h3>Bulletted List</h3>
@@ -542,35 +423,7 @@
   </div> <!-- end of container -->
 </div> <!-- end of section -->
 
-  <div class="section productlist">
-    <div class="flex-container">
-      <div class="product1">
-        <img src="img/product1.jpg" alt="product1">
-      </div>
-      <div class="product2">
-        <img src="img/product2.jpg" alt="product2">
-      </div>
-    </div>
-    <div class="flex-container">
-      <div class="product3">
-        <img src="img/product3.jpg" alt="product3">
-      </div>
-      <div class="product4">
-        <img src="img/product4.jpg" alt="product4">
-      </div>
-    </div>
-    <div class="flex-container">
-      <div class="product5">
-        <img src="img/product5.jpg" alt="product5">
-      </div>
-      <div class="product6">
-        <img src="img/product6.jpg" alt="product6">
-      </div>
-      <div class="product7">
-        <img src="img/product7.jpg" alt="product7">
-      </div>
-    </div>
-  </div> <!-- end of product list -->
+ 
 
 
 

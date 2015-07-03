@@ -1753,3 +1753,37 @@ margin-left: 0;
    END OF CHAIR
 ================================================== */
 
+/* ==================================================
+   STYLE GUIDE
+================================================== */
+.code{
+  width: 100%;
+    height: 100px;
+    overflow: scroll;
+     background-color: #FAFAFA;
+     padding: 1rem;
+     font-size: 0.8rem;
+}
+.style-guide-section{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.style-guide-section:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+.align-mid{
+  padding-bottom: 0rem;
+}
+.style-guide-part{
+  margin: 4rem;
+}
+.heading-sample h2{
+  padding-bottom: 0;
+  line-height: 100%;
+}
+/* ==================================================
+   END OF STYLE GUIDE
+================================================== */
+
