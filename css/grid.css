@@ -140,8 +140,15 @@
 .jumbotron{
   min-height:35rem;
 }
-
   }
+
+  @media (max-width: 85rem) {
+.about-banner{
+  min-height: 35rem;
+}
+  }
+
+
 @media (max-width: 50rem) {
    .jumbotron-title{
       left:40%;
@@ -293,6 +300,9 @@
     }
     .cart{
       width:100%;
+    }
+    #cart-dropdown .grid .col-12 .blue-button{
+      width: 90%;
     }
     .textbox{
       width:100%;
@@ -643,10 +653,10 @@
   width: 90%;
 }
   .banner-title h2{
-  line-height: 120%;
+    margin-top: 1rem;
+  line-height: 170%;
+  font-size: 4rem;
 }
-  }
-@media (max-width: 53rem) {
 .visitus h2{
   font-size: 4rem;
 }
@@ -659,6 +669,9 @@
 .bamboo p{
   font-size: 1rem;
 }
+  }
+@media (max-width: 53rem) {
+
 .banner-title{
   width:90%;
 }
@@ -673,14 +686,13 @@ font-size: 1.2rem;
   font-size: 4rem;
   line-height: 150%;
 }
-.banner-title{
-  top:10%;
-}
+
   }
 
 @media (max-width: 30rem) {
   .banner-title h2{
     font-size: 3rem;
+    line-height: 170%;
   }
   .banner-title p{
     font-size: 1rem;
