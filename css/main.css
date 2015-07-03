@@ -514,6 +514,7 @@ header #logo a {
   font-weight: 300;
   color:white;
   -webkit-transition: background-color 0.5s;
+  transition:background-color 0.5s ease-in-out 0s;
 }
 
 .white-button, .white-button:visited {
@@ -562,6 +563,7 @@ header #logo a {
   font-weight: 300;
   color:#a1caca;
   -webkit-transition: background-color 0.5s;
+  transition:background-color 0.5s ease-in-out 0s;
 }
 form{
   display: inline-block;
@@ -1395,6 +1397,16 @@ iframe{
   border-bottom:0.1rem solid #C9C9C9;
   margin-left: -1.3rem;
   margin-right: -1.3rem;
+  -webkit-transition: background-color 0.5s ease-in-out 0s;
+}
+.mobile-summary img{
+  margin-left: 0.3rem;
+}
+.mobile-summary:hover{
+  cursor: pointer; 
+  cursor: hand;
+  background-color: #FCFCFC;
+
 }
 .mobile-summary:after{
   display:block;
@@ -1416,10 +1428,12 @@ iframe{
 .mobile-summary-detail{
   margin-top:0rem;
   display: none;
-
   background-color: #FAFAFA;
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
   border-bottom:0.1rem solid #C9C9C9;
+  -webkit-transition: margin 0.7s ease-in-out 0s;
+  transition:margin 0.7s ease-in-out 0s;
+
 }
 .mobile-summary-detail input{
   width: 2rem;

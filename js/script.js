@@ -11,8 +11,12 @@ $(document).ready(function() {
   
   //initial some elements
   readmore();
+  $('.review .container #reviewbox .col-12').css('display','none');
   var reviewbox_height=$('.review .container #reviewbox .col-12').height()+15;
   $('.review .container #reviewbox .col-12').css('margin-top','-'+reviewbox_height+'px');
+  setTimeout(function() {
+    $('.review .container #reviewbox .col-12').css('display','block');
+}, 500);
   
   //when screen size has changed, apply readmore effect
   $(window).resize(function() {

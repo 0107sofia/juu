@@ -2,9 +2,7 @@
   font-weight: 400;
 }
 
-.second-nav .menu-nav .activated {
-  border-bottom: 2px solid #a1caca;
-}
+
 .sample{
   display:none;
 }
@@ -26,9 +24,15 @@
 
 .filter ul {
   float: right;
-  margin-right: -1.5rem;
+  /*margin-right: -1.5rem;*/
+}
+.filter ul li{
+  border-bottom: 0.025rem solid gray;
 }
 
+.second-nav .menu-nav .activated {
+  border-bottom: 0.1rem solid #a1caca;
+}
 .filter .menu-nav li a {
   text-transform: none;
   color: #7F8289;

@@ -121,6 +121,7 @@ overflow-y:hidden;
 	/*margin-top:-22.5rem;*/
 	padding-top: 0rem;
 	-webkit-transition: margin 0.7s ease-in-out 0s;
+	transition:margin 0.7s ease-in-out 0s;
 }
 
 
